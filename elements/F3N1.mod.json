@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 1",
+    "texture": "fnaf3cassette",
+    "description": "voicemail 12",
+    "creativeTab": {
+      "value": "CUSTOM:CassetteTapes"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:f3n1"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

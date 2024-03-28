@@ -1,0 +1,67 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unwitheredchica",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-5, 25.5, 1],
+					"cubes": [
+						{"origin": [-7.93388, 17.11732, -1], "size": [4, 6, 4], "uv": [35, 53]},
+						{"origin": [-7.42388, 17.61732, -0.5], "size": [3, 7, 3], "uv": [37, 63]},
+						{"origin": [-6.42388, 17.61732, 0.5], "size": [1, 7, 1], "uv": [0, 0]},
+						{"origin": [-6.92388, 15.61732, 0], "size": [2, 2, 2], "uv": [79, 29]}
+					]
+				},
+				{
+					"name": "RightLowerArm",
+					"parent": "RightArm",
+					"pivot": [-5, 17.2, 1],
+					"cubes": [
+						{"origin": [-6.92388, 11.11732, 0], "size": [2, 4, 2], "uv": [77, 50]},
+						{"origin": [-6.42388, 10.61732, 0.5], "size": [1, 6, 1], "uv": [0, 15]},
+						{"origin": [-7.41388, 11.61732, -1], "size": [3, 5, 4], "uv": [23, 59]}
+					]
+				},
+				{
+					"name": "RightHand",
+					"parent": "RightLowerArm",
+					"pivot": [-5.09, 11.7, 0],
+					"cubes": [
+						{"origin": [-6.92388, 9.11732, -1], "size": [2, 2, 4], "uv": [30, 73]},
+						{"origin": [-6.42388, 8.61732, -0.5], "size": [1, 2, 3], "uv": [77, 76]},
+						{"origin": [-6.42388, 8.61732, -0.5], "size": [1, 2, 0], "uv": [4, 17]}
+					]
+				},
+				{
+					"name": "ThumbRight",
+					"parent": "RightHand",
+					"pivot": [-4, 11, -0.5],
+					"rotation": [-82.5, 0, -95],
+					"cubes": [
+						{"origin": [-4.60071, 9.42449, -2.24556], "size": [1, 2, 1], "inflate": 0.2, "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "FingersRight",
+					"parent": "RightHand",
+					"pivot": [-4.775, 8.85, 0.9],
+					"rotation": [0, 0, 60],
+					"cubes": [
+						{"origin": [-5.88094, 7.32267, -0.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [23, 20]},
+						{"origin": [-5.88094, 7.32267, 0.5], "size": [2, 1, 1], "inflate": 0.2, "uv": [24, 4]},
+						{"origin": [-5.88094, 7.32267, 1.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [23, 20]}
+					]
+				}
+			]
+		}
+	]
+}

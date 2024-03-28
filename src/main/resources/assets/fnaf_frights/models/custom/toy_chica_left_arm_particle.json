@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/freddyarm.item.geo",
+  "textures": {
+    "particle": "fnaf_frights:blocks/toy_chica"
+  }
+}

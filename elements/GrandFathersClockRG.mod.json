@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Grand Fathers Clock-Red Grammer",
+    "texture": "disc",
+    "description": "Grand Fathers Clock-Red Grammer",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:grandfathersclockredgrammer"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.freddyfazbear",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftArm",
+					"pivot": [6, 26, 1],
+					"cubes": [
+						{"origin": [4.15, 18, -1], "size": [4, 6, 4], "uv": [36, 50]},
+						{"origin": [5.2, 16.5, 0], "size": [2, 2, 2], "uv": [42, 80]},
+						{"origin": [5.65, 17.4, 0.5], "size": [1, 7, 1], "uv": [78, 79]}
+					]
+				},
+				{
+					"name": "LeftLowerArm",
+					"parent": "LeftArm",
+					"pivot": [6, 17.7, 1],
+					"cubes": [
+						{"origin": [4.51, 12.5, -1], "size": [3, 5, 4], "uv": [0, 59]},
+						{"origin": [5.7, 11.5, 0.5], "size": [1, 6, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "LeftHand",
+					"parent": "LeftLowerArm",
+					"pivot": [6.31, 12.2, 1],
+					"rotation": [180, 0, -180],
+					"cubes": [
+						{"origin": [5.61, 8.8, -0.9], "size": [2, 1, 1], "inflate": 0.2, "pivot": [6.31, 9, 1], "rotation": [0, 0, 40], "uv": [40, 36]},
+						{"origin": [5.41, 10, -1], "size": [2, 2, 4], "uv": [22, 67]},
+						{"origin": [5.61, 8.8, 0.5], "size": [2, 1, 1], "inflate": 0.2, "pivot": [6.31, 9, 1], "rotation": [0, 0, 40], "uv": [41, 20]},
+						{"origin": [5.61, 8.8, 1.9], "size": [2, 1, 1], "inflate": 0.2, "pivot": [6.31, 9, 1], "rotation": [0, 0, 40], "uv": [26, 55]},
+						{"origin": [7.61, 9.8, 1.8], "size": [1, 2, 1], "inflate": 0.2, "uv": [0, 31]},
+						{"origin": [5.92, 9.5, -0.5], "size": [1, 2, 3], "uv": [60, 79]}
+					]
+				}
+			]
+		}
+	]
+}

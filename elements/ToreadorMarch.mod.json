@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Toreador March",
+    "texture": "disc",
+    "description": "Toreador March",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:toreadormarch"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

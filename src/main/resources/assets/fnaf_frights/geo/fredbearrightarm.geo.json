@@ -1,0 +1,57 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fredbear",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-6, 26.3, 1],
+					"cubes": [
+						{"origin": [-8.51, 18.8, -1.5], "size": [5, 6, 5], "uv": [20, 54]},
+						{"origin": [-7.5, 18.8, -0.5], "size": [3, 5, 3], "uv": [14, 79]},
+						{"origin": [-6.5, 17.8, 0.5], "size": [1, 7, 1], "uv": [26, 26]},
+						{"origin": [-7, 16.8, 0], "size": [2, 2, 2], "uv": [84, 76]}
+					]
+				},
+				{
+					"name": "RightLowerArm",
+					"parent": "RightArm",
+					"pivot": [-6, 18, 1],
+					"cubes": [
+						{"origin": [-6.5, 11.8, 0.5], "size": [1, 6, 1], "uv": [52, 31]},
+						{"origin": [-7, 12.8, 0], "size": [2, 4, 2], "uv": [0, 26]},
+						{"origin": [-8.01, 12.3, -1], "size": [4, 6, 4], "uv": [69, 68]}
+					]
+				},
+				{
+					"name": "RightHand",
+					"parent": "RightLowerArm",
+					"pivot": [-6.09, 12.5, 1],
+					"cubes": [
+						{"origin": [-6.99, 10, -1], "size": [2, 2, 4], "uv": [83, 82]},
+						{"origin": [-5.9, 9.4, -2.6], "size": [1, 1, 6], "inflate": 0.1, "uv": [106, 94]},
+						{"origin": [-6.8, 8.5, -3.7], "size": [3, 3, 0], "uv": [122, 94]},
+						{"origin": [-6.3, 9, -4.7], "size": [2, 2, 2], "uv": [120, 97]},
+						{"origin": [-6.49, 9.8, -0.5], "size": [1, 2, 3], "uv": [35, 54]},
+						{"origin": [-4.99, 9.3, -0.5], "size": [2, 2, 1], "uv": [62, 48]},
+						{"origin": [-6.99, 8.3, -1], "size": [3, 2, 4], "uv": [39, 78]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "RightHand",
+					"pivot": [-4.97236, 11.36815, 1],
+					"rotation": [0, 0, 170]
+				}
+			]
+		}
+	]
+}

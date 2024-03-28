@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Withered And UnWithered Pieces",
+    "icon": {
+      "value": "CUSTOM:FoxyHead"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/foxy_torso.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/toy_chica"
+  }
+}

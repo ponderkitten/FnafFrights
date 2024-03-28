@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toychica",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftArm",
+					"pivot": [5, 25, 1],
+					"cubes": [
+						{"origin": [3.5, 18.5, -0.5], "size": [3, 5, 3], "uv": [0, 53], "mirror": true},
+						{"origin": [4.5, 18.5, 0.5], "size": [1, 7, 1], "uv": [28, 66], "mirror": true},
+						{"origin": [4, 16.5, 0], "size": [2, 2, 2], "uv": [41, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "LeftLowerArm",
+					"parent": "LeftArm",
+					"pivot": [5, 17.7, 1],
+					"cubes": [
+						{"origin": [4.5, 11.5, 0.5], "size": [1, 6, 1], "uv": [0, 17], "mirror": true},
+						{"origin": [3.5, 12.5, -0.5], "size": [3, 5, 3], "uv": [0, 53], "mirror": true},
+						{"origin": [4, 12.5, 0], "size": [2, 4, 2], "uv": [12, 63], "mirror": true}
+					]
+				},
+				{
+					"name": "LeftHand",
+					"parent": "LeftLowerArm",
+					"pivot": [5.09, 13.2, 1],
+					"cubes": [
+						{"origin": [4, 9.5, -0.5], "size": [2, 3, 3], "uv": [51, 61], "mirror": true},
+						{"origin": [3, 8.5, -0.5], "size": [3, 2, 3], "uv": [57, 35], "mirror": true},
+						{"origin": [2, 9.5, 0.5], "size": [2, 2, 1], "uv": [0, 31], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

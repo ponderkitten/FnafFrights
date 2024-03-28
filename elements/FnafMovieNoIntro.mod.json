@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Fnaf Movie",
+    "texture": "disc",
+    "description": "Fnaf Movie",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnafmovienointro"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod_bits_and_pieces:chica_block"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod_bits_and_pieces:chica_showtime",
+    "count": 1
+  }
+}

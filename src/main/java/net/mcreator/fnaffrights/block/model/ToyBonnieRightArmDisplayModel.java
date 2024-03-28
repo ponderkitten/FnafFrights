@@ -1,0 +1,24 @@
+package net.mcreator.fnaffrights.block.model;
+
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.fnaffrights.block.display.ToyBonnieRightArmDisplayItem;
+
+public class ToyBonnieRightArmDisplayModel extends AnimatedGeoModel<ToyBonnieRightArmDisplayItem> {
+	@Override
+	public ResourceLocation getAnimationResource(ToyBonnieRightArmDisplayItem animatable) {
+		return new ResourceLocation("fnaf_frights", "animations/toybonnierightarm.animation.json");
+	}
+
+	@Override
+	public ResourceLocation getModelResource(ToyBonnieRightArmDisplayItem animatable) {
+		return new ResourceLocation("fnaf_frights", "geo/toybonnierightarm.geo.json");
+	}
+
+	@Override
+	public ResourceLocation getTextureResource(ToyBonnieRightArmDisplayItem entity) {
+		return new ResourceLocation("fnaf_frights", "textures/blocks/toy_bonnie.png");
+	}
+}

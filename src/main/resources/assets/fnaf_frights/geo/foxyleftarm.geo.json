@@ -1,0 +1,54 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.witheredfoxy",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftArm",
+					"pivot": [6.75, 26.1, 1],
+					"rotation": [0, 0, 0],
+					"cubes": [
+						{"origin": [4.9, 19, -1], "size": [4, 7, 4], "pivot": [6.9, 22.5, 1], "rotation": [0, -90, 0], "uv": [46, 9]},
+						{"origin": [6.4, 17.5, 0.5], "size": [1, 7, 1], "uv": [12, 60]},
+						{"origin": [5.4, 18.5, -0.5], "size": [3, 7, 3], "uv": [0, 60]},
+						{"origin": [5.95, 16.6, 0], "size": [2, 2, 2], "uv": [76, 41]}
+					]
+				},
+				{
+					"name": "LeftLowerArm",
+					"parent": "LeftArm",
+					"pivot": [6.75, 17.8, 1],
+					"cubes": [
+						{"origin": [5.26, 12.6, -1], "size": [3, 5, 4], "uv": [57, 20]},
+						{"origin": [6.45, 11.6, 0.5], "size": [1, 6, 1], "uv": [28, 75]},
+						{"origin": [5.95, 12.1, 0], "size": [2, 4, 2], "uv": [74, 46]}
+					]
+				},
+				{
+					"name": "LeftHand",
+					"parent": "LeftLowerArm",
+					"pivot": [7.06, 12.3, 1],
+					"rotation": [180, 0, -180],
+					"cubes": [
+						{"origin": [6.67, 9.6, -0.5], "size": [1, 2, 3], "uv": [75, 32]},
+						{"origin": [7.17, 10.6, 1.5], "size": [2, 1, 1], "uv": [0, 23]},
+						{"origin": [6.47, 9.1, -0.5], "size": [2, 1, 3], "uv": [73, 64]},
+						{"origin": [6.36, 8.9, 0.5], "size": [2, 1, 1], "inflate": 0.2, "uv": [34, 39]},
+						{"origin": [6.36, 8.9, -0.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [23, 7]},
+						{"origin": [6.36, 8.9, 1.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [23, 7]},
+						{"origin": [6.16, 10.1, -1], "size": [2, 2, 4], "uv": [67, 35]},
+						{"origin": [8.36, 9.9, 1.8], "size": [1, 2, 1], "inflate": 0.2, "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

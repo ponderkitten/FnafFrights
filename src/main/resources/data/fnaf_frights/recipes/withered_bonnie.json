@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "34 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "fnaf_mod_bits_and_pieces:withered_bonnie_head"
+    },
+    "3": {
+      "item": "fnaf_mod_bits_and_pieces:withered_bonnie_right_arm"
+    },
+    "4": {
+      "item": "fnaf_mod_bits_and_pieces:withered_bonnie_torso"
+    },
+    "6": {
+      "item": "fnaf_mod_bits_and_pieces:withered_bonnie_right_leg"
+    },
+    "8": {
+      "item": "fnaf_mod_bits_and_pieces:withered_bonnie_left_leg"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod_bits_and_pieces:withered_bonnie_block",
+    "count": 1
+  }
+}

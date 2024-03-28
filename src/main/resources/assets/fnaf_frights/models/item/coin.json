@@ -1,0 +1,7 @@
+{
+  "parent": "fnaf_frights:custom/coin",
+  "textures": {
+    "0": "fnaf_frights:blocks/coin",
+    "particle": "fnaf_frights:items/coin"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "nightmarescream": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:animatronicscream",
+        "stream": false
+      }
+    ]
+  },
+  "musicbox": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:music_box",
+        "stream": false
+      }
+    ]
+  },
+  "musicboxday": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:musicboxday",
+        "stream": false
+      }
+    ]
+  },
+  "toreadormarch": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:1905_regina_music_box__classical_overture_-_music_box",
+        "stream": true
+      }
+    ]
+  },
+  "lullabywaltz": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:1905_metal_disc_music_box__lullaby_waltz_-_music_box",
+        "stream": true
+      }
+    ]
+  },
+  "parlormusic": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:1870-swiss-music-box-with-bells_-parlor-music-music-box",
+        "stream": false
+      }
+    ]
+  },
+  "deposit": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:deposit",
+        "stream": false
+      }
+    ]
+  },
+  "coin": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:coins",
+        "stream": false
+      }
+    ]
+  },
+  "freddymusicbox": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:freddy-music-box",
+        "stream": false
+      }
+    ]
+  },
+  "printing": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:printing_sound",
+        "stream": false
+      }
+    ]
+  },
+  "fnafallcall": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnafcallchaos",
+        "stream": false
+      }
+    ]
+  },
+  "f1n1": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf1-night1",
+        "stream": false
+      }
+    ]
+  },
+  "f1n2": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf1-night2",
+        "stream": false
+      }
+    ]
+  },
+  "f1n3": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf1-night3",
+        "stream": false
+      }
+    ]
+  },
+  "f1n4": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf1-night4",
+        "stream": false
+      }
+    ]
+  },
+  "f1n5": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf1-night5",
+        "stream": false
+      }
+    ]
+  },
+  "f2n1": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night1",
+        "stream": false
+      }
+    ]
+  },
+  "f2n2": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night2",
+        "stream": false
+      }
+    ]
+  },
+  "f2n3": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night3",
+        "stream": false
+      }
+    ]
+  },
+  "f2n4": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night4",
+        "stream": false
+      }
+    ]
+  },
+  "f2n5": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night5",
+        "stream": false
+      }
+    ]
+  },
+  "f2n6": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf2-night6",
+        "stream": false
+      }
+    ]
+  },
+  "f3n1": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night1",
+        "stream": false
+      }
+    ]
+  },
+  "f3n2": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night2",
+        "stream": false
+      }
+    ]
+  },
+  "f3n3": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night3",
+        "stream": false
+      }
+    ]
+  },
+  "f3n4": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night4",
+        "stream": false
+      }
+    ]
+  },
+  "f3n5": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night5",
+        "stream": false
+      }
+    ]
+  },
+  "f3n6": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnaf3-night6",
+        "stream": false
+      }
+    ]
+  },
+  "laugh": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:laugh",
+        "stream": false
+      }
+    ]
+  },
+  "motor": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:balloonbotmotor",
+        "stream": false
+      }
+    ]
+  },
+  "grandfathersclockmusicbox": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:grandfatherss_clock_-_the_music_box",
+        "stream": false
+      }
+    ]
+  },
+  "grandfathersclockredgrammer": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:grandfathers_clock_-_red_grammer",
+        "stream": false
+      }
+    ]
+  },
+  "fnafmovienointro": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:fnafmovienoteblocks",
+        "stream": false
+      }
+    ]
+  },
+  "fnafmovieextended": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:wintrofnafmovienoteblocks",
+        "stream": false
+      }
+    ]
+  },
+  "youruglymug": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:its_fun_for_the_whole_family",
+        "stream": false
+      },
+      {
+        "name": "fnaf_frights:your_ugly_mug",
+        "stream": false
+      }
+    ]
+  },
+  "funforfamily": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:its_fun_for_the_whole_family",
+        "stream": false
+      }
+    ]
+  },
+  "steprightup": {
+    "sounds": [
+      {
+        "name": "fnaf_frights:step_right_up",
+        "stream": false
+      }
+    ]
+  }
+}

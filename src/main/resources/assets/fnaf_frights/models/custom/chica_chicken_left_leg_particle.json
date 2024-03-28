@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/foxy_leg.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/chica"
+  }
+}

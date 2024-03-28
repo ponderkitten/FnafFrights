@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toychica",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 1.8, 2],
+					"cubes": [
+						{"origin": [-7, 9, 1.2], "size": [6, 4, 0], "pivot": [-1, 9, 1.2], "rotation": [0, -65, 0], "uv": [62, 8]},
+						{"origin": [-7, 9, 1.2], "size": [6, 4, 0], "pivot": [-1, 9, 1.2], "rotation": [0, 175, 0], "uv": [62, 4]},
+						{"origin": [-7, 9, 1.2], "size": [6, 4, 0], "pivot": [-1, 9, 1.2], "rotation": [0, 55, 0], "uv": [58, 0]},
+						{"origin": [-4.5, 0, -2.8], "size": [9, 9, 8], "uv": [0, 0]},
+						{"origin": [-3, 0.1, -2.3], "size": [6, 3, 4], "uv": [41, 36]},
+						{"origin": [-3, 1.5, 2], "size": [6, 3, 0], "uv": [64, 24]},
+						{"origin": [-3, 4.5, 1.5], "size": [6, 4, 1], "uv": [57, 30]},
+						{"origin": [0, 4, -2], "size": [0, 4, 4], "uv": [36, 32]},
+						{"origin": [-2, 3, -2.5], "size": [4, 1, 4], "uv": [42, 51]},
+						{"origin": [-2.5, 5.3, 0], "size": [1, 1, 2], "uv": [20, 34]},
+						{"origin": [1.2, 5.3, 0], "size": [1, 1, 2], "uv": [20, 34]},
+						{"origin": [-1.5, 2.5, -2], "size": [3, 1, 2], "uv": [0, 66]},
+						{"origin": [-3, 4, -1.5], "size": [2, 2, 2], "uv": [67, 12]},
+						{"origin": [1, 4, -1.5], "size": [2, 2, 2], "uv": [67, 12]}
+					]
+				},
+				{
+					"name": "beak",
+					"parent": "Head",
+					"pivot": [0, 2.75, -4.05],
+					"cubes": [
+						{"origin": [-1.5, 2, -5.8], "size": [3, 2, 3], "uv": [0, 61]},
+						{"origin": [-2.5, 2, -4.8], "size": [5, 1, 2], "uv": [34, 8]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "beak",
+					"pivot": [0, 0.5, -2.8],
+					"cubes": [
+						{"origin": [-2, 0, -4.8], "size": [4, 1, 2], "uv": [40, 65]},
+						{"origin": [-2, 1, -4.8], "size": [4, 1, 2], "uv": [64, 53]}
+					]
+				},
+				{
+					"name": "RightEyelid",
+					"parent": "Head",
+					"pivot": [-2, 5, -0.5],
+					"cubes": [
+						{"origin": [-3.5, 3.5, -2], "size": [3, 3, 3], "uv": [59, 40]}
+					]
+				},
+				{
+					"name": "LeftEyelid",
+					"parent": "Head",
+					"pivot": [2, 5, -0.5],
+					"cubes": [
+						{"origin": [0.5, 3.5, -2], "size": [3, 3, 3], "uv": [59, 40]}
+					]
+				},
+				{
+					"name": "LeftEye",
+					"parent": "Head",
+					"pivot": [1.9, 4.7, -1.6],
+					"cubes": [
+						{"origin": [1.4, 4.2, -1.6], "size": [1, 1, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "RightEye",
+					"parent": "Head",
+					"pivot": [-1.9, 4.7, -1.6],
+					"cubes": [
+						{"origin": [-2.4, 4.2, -1.6], "size": [1, 1, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Eyebrows",
+					"parent": "Head",
+					"pivot": [0, 7.20726, -3.30228],
+					"cubes": [
+						{"origin": [-4, 7.13117, -3.01134], "size": [8, 1, 0], "pivot": [1, 7.73117, -3.61134], "rotation": [-50, 0, 0], "uv": [54, 52]}
+					]
+				},
+				{
+					"name": "EndoJaw",
+					"parent": "Head",
+					"pivot": [0, 1.4395, -0.25359],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0.60617, -2.42025], "size": [4, 1, 3], "uv": [56, 48]},
+						{"origin": [-1, 1.60617, 0.57975], "size": [2, 0, 1], "uv": [2, 17]},
+						{"origin": [-1.5, 1.10617, -1.92025], "size": [3, 1, 2], "uv": [0, 66]}
+					]
+				}
+			]
+		}
+	]
+}

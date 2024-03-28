@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_wool"
+    },
+    "2": {
+      "item": "minecraft:purple_wool"
+    },
+    "3": {
+      "item": "minecraft:purple_wool"
+    },
+    "4": {
+      "item": "minecraft:purple_wool"
+    },
+    "5": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "fnaf_frights:hand_crank",
+    "count": 1
+  }
+}

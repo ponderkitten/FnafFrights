@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.witheredbonnie",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftLeg",
+					"pivot": [3.6, 14.5, 1],
+					"cubes": [
+						{"origin": [1.63415, 8.97011, -1.67191], "size": [4, 6, 5], "uv": [18, 41]},
+						{"origin": [2.59057, 6.97011, -0.17001], "size": [2, 8, 2], "uv": [0, 118]},
+						{"origin": [2.09057, 7.47011, -2.17001], "size": [3, 2, 2], "uv": [106, 0]}
+					]
+				},
+				{
+					"name": "LeftLowerLeg",
+					"parent": "LeftLeg",
+					"pivot": [3.6, 7.5, 1],
+					"cubes": [
+						{"origin": [2.59057, 0.9945, 0.56627], "size": [2, 6, 2], "uv": [116, 59]},
+						{"origin": [1.59057, 2.4955, -0.93373], "size": [4, 5, 4], "uv": [48, 17]}
+					]
+				},
+				{
+					"name": "LeftFoot",
+					"parent": "LeftLowerLeg",
+					"pivot": [3.5, 0.5, 1.7],
+					"cubes": [
+						{"origin": [2.0993, 0.099, -0.99831], "size": [3, 1, 4], "uv": [60, 13]},
+						{"origin": [3.38582, 0.098, -4.92143], "size": [2, 0, 4], "pivot": [3.68582, 0.498, -0.42326], "rotation": [0, -22.5, 0], "uv": [-4, 107]},
+						{"origin": [2.5993, 0.198, -4.99831], "size": [2, 0, 4], "uv": [0, 102]},
+						{"origin": [1.82811, 0.098, -4.84543], "size": [2, 0, 4], "pivot": [3.3294, 0.498, -0.34672], "rotation": [0, 22.5, 0], "uv": [-4, 97]}
+					]
+				}
+			]
+		}
+	]
+}

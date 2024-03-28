@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toychica",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftLeg",
+					"pivot": [2.6, 15, 1],
+					"cubes": [
+						{"origin": [1.5, 7, 0], "size": [2, 8, 2], "uv": [20, 58]},
+						{"origin": [0, 8.5, -1.5], "size": [5, 7, 5], "uv": [0, 41]}
+					]
+				},
+				{
+					"name": "LeftLowerLeg",
+					"parent": "LeftLeg",
+					"pivot": [2.6, 8, 1],
+					"cubes": [
+						{"origin": [1.5, 0.999, 0.5], "size": [2, 6, 2], "uv": [28, 58]},
+						{"origin": [0.5, 2.5, -1], "size": [4, 6, 4], "uv": [20, 48]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "LeftLowerLeg",
+					"pivot": [2.1, 1, -0.5]
+				},
+				{
+					"name": "LeftFoot",
+					"parent": "LeftLowerLeg",
+					"pivot": [2.5, 1.5, 1.5],
+					"rotation": [0, -5, 0],
+					"cubes": [
+						{"origin": [1, 0.099, -1], "size": [3, 1, 4], "uv": [52, 10]},
+						{"origin": [0, 0, -5.5], "size": [5, 2, 4], "uv": [50, 24]},
+						{"origin": [0, 0, -1.5], "size": [5, 3, 5], "uv": [26, 0]}
+					]
+				},
+				{
+					"name": "bone9",
+					"parent": "LeftLowerLeg",
+					"pivot": [2.5, 1, 1.7],
+					"rotation": [0, -7.5, 0]
+				}
+			]
+		}
+	]
+}

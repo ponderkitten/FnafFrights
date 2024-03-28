@@ -1,0 +1,107 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"EarR": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"Top": {
+					"rotation": {
+						"vector": [35, 0, 0]
+					}
+				},
+				"EarL": {
+					"rotation": {
+						"vector": [2.5, 0, 0]
+					}
+				},
+				"Top2": {
+					"rotation": {
+						"vector": [32.5, 0, 0]
+					}
+				},
+				"Eyelids": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -0.05, 0]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [12.5, 0, 0]
+					}
+				},
+				"ArmL": {
+					"rotation": {
+						"vector": [-31.28685, 22.98993, -27.112]
+					}
+				},
+				"LarmL": {
+					"rotation": {
+						"vector": [-42.5, 0, 0]
+					}
+				},
+				"ArmR": {
+					"rotation": {
+						"vector": [-7.6734, -26.48829, 26.80857]
+					}
+				},
+				"LarmR": {
+					"rotation": {
+						"vector": [-40.14168, -7.15102, 2.26708]
+					}
+				},
+				"Guitar": {
+					"rotation": {
+						"vector": [5, 0, -17.5]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LegL": {
+					"rotation": {
+						"vector": [0.55404, -12.48791, -2.56062]
+					}
+				},
+				"LowL": {
+					"rotation": {
+						"vector": [0, 0, 2.5]
+					}
+				},
+				"LegR": {
+					"rotation": {
+						"vector": [0.44067, 9.99038, 2.53852]
+					}
+				},
+				"LfootR": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"HandL": {
+					"rotation": {
+						"vector": [-75.65143, -110.59067, -76.53361]
+					}
+				},
+				"HandR": {
+					"rotation": {
+						"vector": [2.71994, -19.82169, -7.97532]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [0, 0, 5]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

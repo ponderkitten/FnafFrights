@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Fnaf Movie (Extended)",
+    "texture": "disc",
+    "description": "Fnaf Movie (Extended)",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:fnafmovieextended"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

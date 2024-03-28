@@ -1,0 +1,17 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    128,
+    128
+  ],
+  "display": {
+    "gui": {
+      "translation": [
+        -2,
+        -17.25,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/fazbearlogoblock.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/vasstronic_normal"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/generator.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/genhighfuel"
+  }
+}

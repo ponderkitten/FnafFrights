@@ -1,0 +1,169 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Torso": {
+					"rotation": {
+						"vector": [0, 11, 0]
+					}
+				},
+				"Neck": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [0, -15, 0]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Eyes": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"ArmL": {
+					"rotation": {
+						"vector": [0, 7.5, -22.5]
+					}
+				},
+				"LowAL": {
+					"rotation": {
+						"vector": [-89.51995, 11.86554, -19.25656]
+					}
+				},
+				"HandL": {
+					"rotation": {
+						"vector": [0, -12.5, 0]
+					}
+				},
+				"ArmR": {
+					"rotation": {
+						"vector": [0, 0, 27.5]
+					}
+				},
+				"LowAR": {
+					"rotation": {
+						"vector": [-90, 0, -15]
+					}
+				},
+				"HandR": {
+					"rotation": {
+						"vector": [29.13367, 81.31604, 31.54495]
+					}
+				},
+				"Cupcake2": {
+					"position": {
+						"vector": [0, 0, -0.25]
+					}
+				}
+			}
+		},
+		"1": {
+			"loop": true,
+			"bones": {
+				"MainCharacter": {
+					"rotation": {
+						"vector": [0, -5, 0]
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Neck": {
+					"rotation": {
+						"vector": [30, 0, -10]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-22.93103, 6.21759, 3.59874]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [20, 0, 0]
+					}
+				},
+				"Eyelids": {
+					"rotation": {
+						"vector": [-7.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Eyes": {
+					"position": {
+						"vector": [-0.05, 0, 0]
+					}
+				},
+				"ArmL": {
+					"rotation": {
+						"vector": [-3.46396, 29.13245, -23.85355]
+					}
+				},
+				"LowAL": {
+					"rotation": {
+						"vector": [-27.5, 0, 0]
+					}
+				},
+				"HandL": {
+					"rotation": {
+						"vector": [0, 37.5, 0]
+					}
+				},
+				"ArmR": {
+					"rotation": {
+						"vector": [-21.91928, -16.23705, 12.13448]
+					}
+				},
+				"LowAR": {
+					"rotation": {
+						"vector": [-77.20638, 12.19908, 2.74715]
+					}
+				},
+				"LegL": {
+					"rotation": {
+						"vector": [0, -10, 0]
+					}
+				},
+				"FootL": {
+					"rotation": {
+						"vector": [0, -7.5, 0]
+					}
+				},
+				"LegR": {
+					"rotation": {
+						"vector": [0, 10, 0]
+					}
+				},
+				"FootR": {
+					"rotation": {
+						"vector": [0, 5, 0]
+					}
+				},
+				"Cupcake2": {
+					"position": {
+						"vector": [0, 0, -0.25]
+					}
+				},
+				"HandR": {
+					"rotation": {
+						"vector": [0, 95, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

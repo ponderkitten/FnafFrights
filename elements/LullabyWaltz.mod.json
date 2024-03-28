@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Lullaby Waltz",
+    "texture": "disc",
+    "description": "Lullaby Waltz",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:lullabywaltz"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

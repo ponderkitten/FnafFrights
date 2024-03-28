@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/present.item",
+  "textures": {
+    "layer0": "fnaf_frights:items/present"
+  }
+}

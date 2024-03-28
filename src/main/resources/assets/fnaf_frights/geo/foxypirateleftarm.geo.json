@@ -1,0 +1,54 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fixedfoxypirate",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftArm",
+					"pivot": [6.75, 25.6, 1],
+					"cubes": [
+						{"origin": [5.25, 20.1, -0.5], "size": [3, 5, 3], "uv": [28, 48]},
+						{"origin": [5.79, 18.71, 0.01], "size": [2, 2, 2], "uv": [0, 71]},
+						{"origin": [6.24, 19.61, 0.51], "size": [1, 5, 1], "uv": [0, 29]}
+					]
+				},
+				{
+					"name": "LeftLowerArm",
+					"parent": "LeftArm",
+					"pivot": [6.75, 19.55, 1],
+					"cubes": [
+						{"origin": [5.26, 14.6, -0.5], "size": [3, 5, 3], "uv": [41, 49]},
+						{"origin": [6.29, 13.71, 0.51], "size": [1, 6, 1], "uv": [73, 27]}
+					]
+				},
+				{
+					"name": "LeftHand",
+					"parent": "LeftLowerArm",
+					"pivot": [6.75, 13.6, 1],
+					"cubes": [
+						{"origin": [4.55, 11.9, -0.8], "size": [1, 2, 1], "inflate": 0.2, "uv": [102, 119]},
+						{"origin": [5.01, 12.71, -0.49], "size": [2, 1, 1], "uv": [36, 5]},
+						{"origin": [6.51, 11.71, -0.49], "size": [1, 2, 3], "uv": [66, 21]},
+						{"origin": [5.75, 12.1, -1], "size": [2, 2, 4], "uv": [98, 122]},
+						{"origin": [5.45, 10.9, 1.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [110, 104]},
+						{"origin": [5.45, 10.9, 0.5], "size": [2, 1, 1], "inflate": 0.2, "uv": [122, 104]},
+						{"origin": [5.45, 10.9, -0.9], "size": [2, 1, 1], "inflate": 0.2, "uv": [116, 104]}
+					]
+				},
+				{
+					"name": "Fingers",
+					"parent": "LeftHand",
+					"pivot": [6.25, 11.6, 1]
+				}
+			]
+		}
+	]
+}

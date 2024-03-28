@@ -1,0 +1,68 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.springbonnie",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-5.175, 26.05, 1.0025],
+					"cubes": [
+						{"origin": [-7.1825, 18.925, -0.9975], "size": [4, 6, 4], "uv": [54, 22]},
+						{"origin": [-6.6725, 19.425, -0.4975], "size": [3, 5, 3], "uv": [64, 32]},
+						{"origin": [-5.6725, 18.425, 0.5025], "size": [1, 7, 1], "uv": [18, 73]},
+						{"origin": [-6.1725, 17.425, 0.0025], "size": [2, 2, 2], "uv": [58, 73]}
+					]
+				},
+				{
+					"name": "RightLowerArm",
+					"parent": "RightArm",
+					"pivot": [-5.1725, 17.925, 1.0025],
+					"cubes": [
+						{"origin": [-5.6725, 12.425, 0.5025], "size": [1, 6, 1], "uv": [45, 73]},
+						{"origin": [-6.1725, 13.425, 0.0025], "size": [2, 4, 2], "uv": [0, 0]},
+						{"origin": [-6.6725, 13.025, -0.4975], "size": [3, 5, 3], "uv": [38, 65]}
+					]
+				},
+				{
+					"name": "RightHand",
+					"parent": "RightLowerArm",
+					"pivot": [-5.2625, 17.425, 1.0025],
+					"cubes": [
+						{"origin": [-6.1625, 10.625, -0.9975], "size": [2, 2, 4], "uv": [69, 8]},
+						{"origin": [-5.6625, 10.425, -0.4975], "size": [1, 2, 3], "uv": [48, 29]}
+					]
+				},
+				{
+					"name": "RightThumb",
+					"parent": "RightHand",
+					"pivot": [-5.1625, 15.225, 0.0025],
+					"cubes": [
+						{"origin": [-4.1625, 9.925, -0.4975], "size": [2, 2, 1], "uv": [44, 40]}
+					]
+				},
+				{
+					"name": "RightFingers",
+					"parent": "RightHand",
+					"pivot": [-5.6625, 14.225, 1.0025],
+					"cubes": [
+						{"origin": [-6.1625, 8.925, -0.9975], "size": [3, 2, 4], "uv": [24, 63]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "RightHand",
+					"pivot": [-4.14486, 16.29315, 1.0025],
+					"rotation": [0, 0, 170]
+				}
+			]
+		}
+	]
+}

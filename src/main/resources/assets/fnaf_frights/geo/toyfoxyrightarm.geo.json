@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toyfoxy",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-5, 26, 1],
+					"cubes": [
+						{"origin": [-6.5, 18.5, -0.5], "size": [3, 5, 3], "uv": [54, 56]},
+						{"origin": [-5.5, 17.5, 0.5], "size": [1, 7, 1], "uv": [8, 69]},
+						{"origin": [-6, 16.5, 0], "size": [2, 2, 2], "uv": [67, 42]}
+					]
+				},
+				{
+					"name": "RightLowerArm",
+					"parent": "RightArm",
+					"pivot": [-5, 17.7, 1],
+					"cubes": [
+						{"origin": [-5.5, 11.5, 0.5], "size": [1, 6, 1], "uv": [31, 61]},
+						{"origin": [-6.5, 12.5, -0.5], "size": [3, 5, 3], "uv": [54, 56]}
+					]
+				},
+				{
+					"name": "HooK",
+					"parent": "RightLowerArm",
+					"pivot": [-5.09, 12.2, 1],
+					"cubes": [
+						{"origin": [-6.5, 9.5, -0.5], "size": [3, 3, 3], "inflate": 0.001, "uv": [61, 16]},
+						{"origin": [-8.5, 3.5, 1], "size": [6, 6, 0], "uv": [60, 24]}
+					]
+				}
+			]
+		}
+	]
+}

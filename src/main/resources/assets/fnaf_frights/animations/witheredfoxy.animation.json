@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true
+		},
+		"1": {
+			"loop": true,
+			"bones": {
+				"Pelvis": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -6]
+					}
+				}
+			}
+		},
+		"2": {
+			"loop": true,
+			"bones": {
+				"Pelvis": {
+					"rotation": {
+						"vector": [0, 0, -77.5]
+					},
+					"position": {
+						"vector": [6, 3, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

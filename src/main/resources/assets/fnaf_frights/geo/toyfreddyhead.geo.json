@@ -1,0 +1,142 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toyfreddy",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 1.8, 3],
+					"cubes": [
+						{"origin": [-5, 0, -0.3], "size": [10, 5, 6], "uv": [0, 26]},
+						{"origin": [-4.5, 5, -0.3], "size": [9, 5, 6], "uv": [30, 20]},
+						{"origin": [-3, 10, 0], "size": [6, 1, 6], "uv": [34, 12]},
+						{"origin": [-2, 11, 1], "size": [4, 4, 4], "uv": [54, 18]},
+						{"origin": [-2.5, 5.5, 2.2], "size": [1, 3, 0], "uv": [26, 28]},
+						{"origin": [1.5, 5.5, 2.2], "size": [1, 3, 0], "uv": [26, 28]},
+						{"origin": [-3, 3, -2.3], "size": [6, 2, 2], "uv": [58, 43]},
+						{"origin": [-2, 2.5, -2.2], "size": [4, 1, 2], "uv": [67, 0]},
+						{"origin": [-1, 4.5, -2.8], "size": [2, 1, 1], "uv": [15, 40]},
+						{"origin": [-3, 2.5, 3.7], "size": [6, 3, 0], "uv": [28, 15]},
+						{"origin": [-3, 5.5, 3.2], "size": [6, 4, 1], "uv": [60, 5]},
+						{"origin": [0, 5, -0.3], "size": [0, 4, 4], "uv": [28, 15]},
+						{"origin": [-2, 6.3, 1.7], "size": [1, 1, 2], "uv": [26, 29]},
+						{"origin": [0.7, 6.3, 1.7], "size": [1, 1, 2], "uv": [26, 29]},
+						{"origin": [-2.5, 5.30428, 0.63474], "size": [2, 2, 2], "uv": [68, 33]},
+						{"origin": [0.5, 5.30428, 0.63474], "size": [2, 2, 2], "uv": [68, 33]}
+					]
+				},
+				{
+					"name": "LeftEar",
+					"parent": "Head",
+					"pivot": [2.4, 8.3, 3.2],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [1.35686, 11.29812, 2.6569], "size": [3, 3, 1], "uv": [70, 14]},
+						{"origin": [1.35686, 7.29812, 3.1569], "size": [5, 7, 0], "uv": [57, 65]}
+					]
+				},
+				{
+					"name": "LeftTop",
+					"parent": "LeftEar",
+					"pivot": [2.4, 17, 3.2]
+				},
+				{
+					"name": "RightEar",
+					"parent": "Head",
+					"pivot": [-2.5, 7.8, 1.3],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-4.35872, 10.74505, 2.70178], "size": [3, 3, 1], "uv": [70, 22]},
+						{"origin": [-4.29251, 7.75745, 3.20178], "size": [3, 6, 0], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "LeftEyelid",
+					"parent": "Head",
+					"pivot": [1.5, 6.00428, 1.73474],
+					"cubes": [
+						{"origin": [0, 4.50428, 0.23474], "size": [3, 3, 3], "uv": [33, 63]}
+					]
+				},
+				{
+					"name": "RightEyelid",
+					"parent": "Head",
+					"pivot": [-1.5, 6.00428, 1.63474],
+					"cubes": [
+						{"origin": [-3, 4.50428, 0.13474], "size": [3, 3, 3], "uv": [33, 63]}
+					]
+				},
+				{
+					"name": "LeftEyelidBottom",
+					"parent": "Head",
+					"pivot": [1.499, 5.11078, 1.87607],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-0.001, 4.61078, 0.37607], "size": [3, 1, 3], "inflate": 0.01, "uv": [66, 18]}
+					]
+				},
+				{
+					"name": "RightEyelidBottom",
+					"parent": "Head",
+					"pivot": [-1.501, 5.11078, 1.87607],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.001, 4.61078, 0.37607], "size": [3, 1, 3], "inflate": 0.01, "uv": [66, 18]}
+					]
+				},
+				{
+					"name": "LeftEye",
+					"parent": "Head",
+					"pivot": [1.4, 6.00428, 0.53474],
+					"cubes": [
+						{"origin": [0.9, 5.50428, 0.53474], "size": [1, 1, 0], "uv": [0, 1]}
+					]
+				},
+				{
+					"name": "RightEye",
+					"parent": "Head",
+					"pivot": [-1.4, 6.00428, 0.53474],
+					"cubes": [
+						{"origin": [-1.9, 5.50428, 0.53474], "size": [1, 1, 0], "uv": [0, 1]}
+					]
+				},
+				{
+					"name": "Eyebrows",
+					"parent": "Head",
+					"pivot": [1, 8.73117, -1.11134],
+					"cubes": [
+						{"origin": [-3.5, 8.13117, -0.51134], "size": [7, 1, 0], "pivot": [1, 8.73117, -1.11134], "rotation": [-50, 0, 0], "uv": [36, 19]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "Head",
+					"pivot": [0, 0.75, 0],
+					"cubes": [
+						{"origin": [-2.5, 0.5, -2.3], "size": [5, 1, 3], "uv": [0, 59]},
+						{"origin": [-2, 1, -2.2], "size": [4, 1, 2], "uv": [67, 0]}
+					]
+				},
+				{
+					"name": "endoi_jaw2",
+					"parent": "Head",
+					"pivot": [0, 2.14351, 1.57038],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 1.31018, -0.59628], "size": [4, 1, 3], "uv": [60, 26]},
+						{"origin": [-1, 2.31018, 2.40372], "size": [2, 0, 1], "uv": [25, 26]},
+						{"origin": [-1.5, 1.81018, -0.09628], "size": [3, 1, 2], "uv": [15, 37]}
+					]
+				}
+			]
+		}
+	]
+}

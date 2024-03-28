@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Night 4",
+    "texture": "fnaf2cassette",
+    "description": "voicemail 9",
+    "creativeTab": {
+      "value": "CUSTOM:CassetteTapes"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:f2n4"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

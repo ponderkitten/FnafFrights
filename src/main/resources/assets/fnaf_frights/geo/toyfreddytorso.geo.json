@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toyfreddy",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Pelvis",
+					"pivot": [0, -14.5, 0],
+					"cubes": [
+						{"origin": [-4, 0.5, 0], "size": [8, 2, 2], "inflate": 0.01, "uv": [50, 31]},
+						{"origin": [-4.5, 0, -2], "size": [9, 3, 6], "uv": [26, 31]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Pelvis",
+					"pivot": [0, 2.5, 1],
+					"cubes": [
+						{"origin": [-3, 9.5, -3.9], "size": [6, 4, 0], "uv": [66, 10]},
+						{"origin": [-1, 10.5, -4.4], "size": [2, 2, 1], "uv": [32, 5]},
+						{"origin": [-6, 2.5, -3.4], "size": [12, 7, 8], "uv": [0, 0]},
+						{"origin": [-0.5, 7, -3.9], "size": [1, 1, 0], "uv": [0, 0]},
+						{"origin": [-0.5, 9, -3.9], "size": [1, 1, 0], "uv": [0, 0]},
+						{"origin": [-5, 9.5, -3.4], "size": [10, 3, 8], "uv": [0, 15]},
+						{"origin": [-6.5, 9, -0.5], "size": [3, 3, 3], "uv": [13, 61]},
+						{"origin": [3.5, 9, -0.5], "size": [3, 3, 3], "uv": [13, 61]},
+						{"origin": [-1, 2, 0.5], "size": [2, 16, 1], "uv": [51, 57]},
+						{"origin": [4.49, 9.51, 0.01], "size": [2, 2, 2], "uv": [43, 67]},
+						{"origin": [4.5, 10.5, 1], "size": [2, 1, 0], "inflate": -0.01, "uv": [26, 27]},
+						{"origin": [-4.5, 10, 0], "size": [9, 2, 2], "inflate": -0.01, "uv": [18, 48]},
+						{"origin": [-3.5, 6, 0], "size": [7, 6, 2], "uv": [40, 40]},
+						{"origin": [-6.5, 10.5, 1], "size": [2, 1, 0], "inflate": -0.01, "uv": [26, 27]},
+						{"origin": [-6.49, 9.51, 0.01], "size": [2, 2, 2], "uv": [48, 48]}
+					]
+				}
+			]
+		}
+	]
+}

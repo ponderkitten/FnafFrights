@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/foxy_head.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/unwithered_foxy"
+  }
+}

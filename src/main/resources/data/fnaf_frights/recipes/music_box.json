@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_wool"
+    },
+    "1": {
+      "item": "minecraft:purple_wool"
+    },
+    "2": {
+      "item": "minecraft:blue_wool"
+    },
+    "3": {
+      "item": "minecraft:purple_wool"
+    },
+    "4": {
+      "item": "minecraft:jukebox"
+    },
+    "5": {
+      "item": "minecraft:purple_wool"
+    },
+    "6": {
+      "item": "minecraft:blue_wool"
+    },
+    "7": {
+      "item": "minecraft:redstone_torch"
+    },
+    "8": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "fnaf_frights:puppet_in_the_box_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_frights:blocks/fazbearcratetop",
+    "up": "fnaf_frights:blocks/fazbearcratetop",
+    "north": "fnaf_frights:blocks/fazbearcrateside",
+    "east": "fnaf_frights:blocks/fazbearcrateside",
+    "south": "fnaf_frights:blocks/fazbearcrateside",
+    "west": "fnaf_frights:blocks/fazbearcrateside",
+    "particle": "fnaf_frights:blocks/fazbearcratetop"
+  },
+  "render_type": "solid"
+}

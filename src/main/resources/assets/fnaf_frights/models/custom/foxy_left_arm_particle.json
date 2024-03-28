@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/foxyleftarm.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/unwithered_foxy"
+  }
+}

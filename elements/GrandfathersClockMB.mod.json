@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Grandfathers Clock MB",
+    "texture": "disc",
+    "description": "Grandfather's Clock",
+    "creativeTab": {
+      "value": "CUSTOM:BitsAndPiecesMisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:grandfathersclockmusicbox"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

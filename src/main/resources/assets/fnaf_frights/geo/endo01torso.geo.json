@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.endo01",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Pelvis",
+					"pivot": [0, -15, 0],
+					"cubes": [
+						{"origin": [-2.5, 0, 0], "size": [5, 2, 2], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Pelvis",
+					"pivot": [0, 2, 1],
+					"cubes": [
+						{"origin": [-6.99, 9.51, 0.01], "size": [2, 2, 2], "uv": [22, 4]},
+						{"origin": [4.99, 9.51, 0.01], "size": [2, 2, 2], "uv": [28, 26]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Body",
+					"pivot": [0, 10, -2.5]
+				},
+				{
+					"name": "endo_torso",
+					"parent": "Body",
+					"pivot": [-3, -15, 2],
+					"cubes": [
+						{"origin": [-1, 2, 0], "size": [2, 8, 2], "uv": [0, 20]},
+						{"origin": [-2.6, 2, 1], "size": [5, 4, 0], "uv": [8, 59]},
+						{"origin": [-1, 11, 1], "size": [2, 3, 0], "uv": [2, 45]},
+						{"origin": [-5, 10, 0], "size": [10, 1, 2], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "bone10",
+					"parent": "Body",
+					"pivot": [1, 25.5, 2.5],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{"origin": [-3.76681, 10.54582, 1], "size": [1, 6, 0], "uv": [8, 20]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "Body",
+					"pivot": [-1, 15.2, 2.5],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [0.21249, 9.40172, 1], "size": [6, 6, 0], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "bone11",
+					"parent": "Body",
+					"pivot": [2, 25.5, 2.5],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{"origin": [2.99517, 9.39777, 1], "size": [1, 6, 0], "uv": [8, 20]}
+					]
+				}
+			]
+		}
+	]
+}

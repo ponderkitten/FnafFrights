@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.toybonnie",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-5, 25, 1],
+					"cubes": [
+						{"origin": [-6.5, 18.5, -0.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-5.5, 17.5, 0.5], "size": [1, 7, 1], "uv": [32, 80]},
+						{"origin": [-6, 16.5, 0], "size": [2, 2, 2], "uv": [16, 54]}
+					]
+				},
+				{
+					"name": "RightLowerArm",
+					"parent": "RightArm",
+					"pivot": [-5, 17.7, 1],
+					"cubes": [
+						{"origin": [-6.5, 12.5, -0.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-6, 12.5, 0], "size": [2, 4, 2], "uv": [79, 39]},
+						{"origin": [-5.5, 12, 0.5], "size": [1, 6, 1], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "right_hand",
+					"parent": "RightLowerArm",
+					"pivot": [-5.09, 13.2, 1],
+					"cubes": [
+						{"origin": [-6, 9.5, -0.5], "size": [2, 3, 3], "uv": [38, 55]}
+					]
+				},
+				{
+					"name": "RightFingers",
+					"parent": "right_hand",
+					"pivot": [-5.5, 9.5, 1],
+					"cubes": [
+						{"origin": [-6, 9.5, -0.5], "size": [3, 2, 3], "inflate": 0.01, "uv": [70, 53]}
+					]
+				},
+				{
+					"name": "RightThumb",
+					"parent": "right_hand",
+					"pivot": [-4, 12, 1],
+					"cubes": [
+						{"origin": [-4, 10.5, 0.5], "size": [2, 2, 1], "uv": [51, 16]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "right_hand",
+					"pivot": [-3.47236, 12.06815, 0],
+					"rotation": [0, 0, 170]
+				},
+				{
+					"name": "bone6",
+					"parent": "right_hand",
+					"pivot": [9.62764, 8.56815, -1],
+					"rotation": [0, 180, 0]
+				}
+			]
+		}
+	]
+}

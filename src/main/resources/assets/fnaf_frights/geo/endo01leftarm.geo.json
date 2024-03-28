@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.endo01",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "LeftArm",
+					"pivot": [5.5, 25, 1.5],
+					"cubes": [
+						{"origin": [5.49, 17.01, 0.51], "size": [1, 7, 1], "uv": [0, 30]},
+						{"origin": [5.04, 16.11, 0.01], "size": [2, 2, 2], "uv": [28, 26]}
+					]
+				},
+				{
+					"name": "LeftLowerArm",
+					"parent": "LeftArm",
+					"pivot": [5.5, 17.2, 1.5],
+					"cubes": [
+						{"origin": [5.54, 11.11, 0.51], "size": [1, 6, 1], "uv": [27, 30]}
+					]
+				},
+				{
+					"name": "LeftHand",
+					"parent": "LeftLowerArm",
+					"pivot": [5.81, 11.7, 1.5],
+					"cubes": [
+						{"origin": [5.76, 9.11, -0.49], "size": [1, 2, 3], "uv": [0, 40]},
+						{"origin": [4.26, 10.11, -0.49], "size": [2, 1, 1], "uv": [34, 0]},
+						{"origin": [4.96, 8.61, -0.49], "size": [2, 1, 3], "uv": [5, 27]}
+					]
+				}
+			]
+		}
+	]
+}

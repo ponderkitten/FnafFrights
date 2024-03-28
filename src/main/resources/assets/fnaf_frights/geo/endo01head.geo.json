@@ -1,0 +1,63 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.endo01",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 2.03846, 0.9],
+					"cubes": [
+						{"origin": [-3, 1.5, 0.5], "size": [6, 3, 0], "uv": [20, 22]},
+						{"origin": [-3.5, 4.5, 0], "size": [7, 4, 1], "uv": [0, 0]},
+						{"origin": [-2.5, 5.1, -2.6], "size": [1, 1, 0], "uv": [42, 52]},
+						{"origin": [1.5, 5.1, -2.6], "size": [1, 1, 0], "uv": [42, 52]},
+						{"origin": [-3, 4.8, -2.5], "size": [2, 2, 2], "uv": [56, 19]},
+						{"origin": [1, 4.8, -2.5], "size": [2, 2, 2], "uv": [56, 19]},
+						{"origin": [-3.5, 4.3, -1], "size": [3, 3, 0], "uv": [53, 52]},
+						{"origin": [0.5, 4.3, -1], "size": [3, 3, 0], "uv": [53, 49]},
+						{"origin": [-3.5, 4.3, -3], "size": [3, 3, 3], "uv": [52, 58]},
+						{"origin": [0.5, 4.3, -3], "size": [3, 3, 3], "uv": [52, 58]},
+						{"origin": [-1.5, 3, -3], "size": [3, 1, 3], "uv": [52, 6]},
+						{"origin": [-1, 3.5, 0.7], "size": [2, 0, 1], "uv": [9, 11]},
+						{"origin": [-1, 2.5, -2.8], "size": [2, 1, 2], "uv": [56, 0]}
+					]
+				},
+				{
+					"name": "endoi_jaw",
+					"parent": "Head",
+					"pivot": [0, 1.25, 0.7],
+					"cubes": [
+						{"origin": [-1.5, 0.26069, -2.93532], "size": [3, 1, 4], "pivot": [0, 1.01069, -1.33532], "rotation": [10, 0, 0], "uv": [50, 10]},
+						{"origin": [-1, 0.71836, -2.8191], "size": [2, 1, 2], "pivot": [-0.5, 1.46836, -1.6191], "rotation": [10, 0, 0], "uv": [56, 0]}
+					]
+				},
+				{
+					"name": "eyedibottom",
+					"parent": "Head",
+					"pivot": [-1, 6.8, -0.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.501, 4.3227, -3.21544], "size": [3, 1, 3], "inflate": 0.01, "uv": [33, 60]}
+					]
+				},
+				{
+					"name": "eyedibottom2",
+					"parent": "Head",
+					"pivot": [3, 6.8, -0.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [0.499, 4.3227, -3.21544], "size": [3, 1, 3], "inflate": 0.01, "uv": [33, 60]}
+					]
+				}
+			]
+		}
+	]
+}
