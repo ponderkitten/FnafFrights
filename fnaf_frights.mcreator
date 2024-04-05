@@ -9,7 +9,8 @@
       "registry_name": "bitsandpieces",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "FoxyLeftArm",
@@ -31,7 +32,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/FoxyLeftArmBlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyLeftArmTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "LeftArmOnBlockRightClicked",
@@ -66,7 +68,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/codes"
     },
     {
       "name": "FoxyTorso",
@@ -88,7 +91,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyTorsoTileRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyTorsoTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "TorsoOnBlockRightClicked",
@@ -123,7 +127,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/codes"
     },
     {
       "name": "FoxyHead",
@@ -145,7 +150,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyHeadTileEntity.java",
           "src/main/resources/assets/fnaf_frights/models/item/foxy_head.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "FoxyHeadOnBlockRightClicked",
@@ -180,7 +186,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "FoxyLeg",
@@ -202,7 +209,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/FoxyLegDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/foxy_leg.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFoxyLeg",
@@ -224,7 +232,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/withered_foxy_leg.json",
           "src/main/resources/assets/fnaf_frights/models/item/withered_foxy_leg.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredFoxyHead",
@@ -246,7 +255,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredFoxyHeadTileRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredFoxyHeadDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "FoxyRightArm",
@@ -268,7 +278,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/foxy_right_arm.json",
           "src/main/resources/assets/fnaf_frights/models/item/foxy_right_arm.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFoxyTorso",
@@ -290,7 +301,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredFoxyTorsoBlockModel.java",
           "src/main/resources/assets/fnaf_frights/blockstates/withered_foxy_torso.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "FreddyTorso",
@@ -312,7 +324,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/FreddyTorsoTileEntity.java",
           "src/main/resources/assets/fnaf_frights/blockstates/freddy_torso.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "PuppetInTheBoxBlockOnBlockRightClicked",
@@ -347,7 +360,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetInTheBoxBlock",
@@ -369,7 +383,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/PuppetInTheBoxBlockBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetInTheBoxBlockDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "WitheredFreddyTorso",
@@ -391,7 +406,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredFreddyTorsoDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredFreddyTorsoDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyTorso",
@@ -413,7 +429,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredGoldenFreddyTorsoDisplayItem.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredGoldenFreddyTorsoTileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "FreddyHead",
@@ -435,7 +452,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/FreddyHeadBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyHeadDisplayModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFreddyHead",
@@ -457,7 +475,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/WitheredFreddyHeadBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredFreddyHeadBlockModel.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyHead",
@@ -479,7 +498,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/withered_golden_freddy_head.json",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredGoldenFreddyHeadDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "FoxyRightLeg",
@@ -501,7 +521,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/FoxyRightLegDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/foxy_right_leg.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFoxyLeftLeg",
@@ -523,7 +544,8 @@
           "src/main/resources/assets/fnaf_frights/models/custom/withered_foxy_left_leg_particle.json",
           "src/main/java/net/mcreator/fnaffrights/block/entity/WitheredFoxyLeftLegTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "PuppetInTheBoxBlockBlockDestroyedByPlayer",
@@ -554,7 +576,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "FreddyLeftLeg",
@@ -576,7 +599,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyLeftLegBlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyLeftLegDisplayModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "FreddyRightLeg",
@@ -598,7 +622,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/FreddyRightLegDisplayItem.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyRightLegBlockModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFreddyLeftLeg",
@@ -620,7 +645,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/WitheredFreddyLeftLegBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredFreddyLeftLegDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredFreddyRightLeg",
@@ -642,7 +668,8 @@
           "src/main/resources/assets/fnaf_frights/models/custom/withered_freddy_right_leg_particle.json",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredFreddyRightLegDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyRightLeg",
@@ -664,7 +691,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/withered_golden_freddy_right_leg.json",
           "src/main/java/net/mcreator/fnaffrights/block/WitheredGoldenFreddyRightLegBlock.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyLeftLeg",
@@ -686,7 +714,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredGoldenFreddyLeftLegDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/WitheredGoldenFreddyLeftLegTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "BitsAndPiecesMisc",
@@ -697,7 +726,8 @@
       "registry_name": "bits_and_pieces_misc",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "FreddyLeftArm",
@@ -719,7 +749,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/freddy_left_arm.json",
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyLeftArmDisplayModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "FreddyRightArm",
@@ -741,7 +772,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/FreddyRightArmDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/custom/freddy_right_arm_particle.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "WitheredFreddyLeftArm",
@@ -763,7 +795,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredFreddyLeftArmBlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredFreddyLeftArmDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyLeftArm",
@@ -785,7 +818,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredGoldenFreddyLeftArmDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredGoldenFreddyLeftArmBlockModel.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredFreddyRightArm",
@@ -807,7 +841,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/withered_freddy_right_arm.json",
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredFreddyRightArmDisplayModel.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredGoldenFreddyRightArm",
@@ -829,7 +864,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredGoldenFreddyRightArmBlockModel.java",
           "src/main/resources/assets/fnaf_frights/blockstates/withered_golden_freddy_right_arm.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredFoxyLeftArm",
@@ -851,7 +887,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredFoxyLeftArmDisplayItemRenderer.java",
           "src/main/resources/assets/fnaf_frights/models/item/withered_foxy_left_arm.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredFoxyRightArm",
@@ -873,7 +910,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/WitheredFoxyRightArmTileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredFoxyRightArmDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredBonnieHead",
@@ -895,7 +933,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/withered_bonnie_head.json",
           "src/main/java/net/mcreator/fnaffrights/block/entity/WitheredBonnieHeadTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredBonnieRightArm",
@@ -917,7 +956,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/WitheredBonnieRightArmBlock.java",
           "src/main/resources/assets/fnaf_frights/models/item/withered_bonnie_right_arm.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredBonnieTorso",
@@ -939,7 +979,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/withered_bonnie_torso.json",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredBonnieTorsoDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredBonnieLeftLeg",
@@ -961,7 +1002,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/withered_bonnie_left_leg.json",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredBonnieLeftLegTileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredBonnieRightLeg",
@@ -983,7 +1025,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredBonnieRightLegDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredBonnieRightLegDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "BonnieLeftLeg",
@@ -1005,7 +1048,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/BonnieLeftLegBlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/BonnieLeftLegDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieTorso",
@@ -1027,7 +1071,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/bonnie_torso.json",
           "src/main/java/net/mcreator/fnaffrights/block/model/BonnieTorsoBlockModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieLeftArm",
@@ -1049,7 +1094,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/BonnieLeftArmDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/BonnieLeftArmDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieRightArm",
@@ -1071,7 +1117,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/BonnieRightArmBlockModel.java",
           "src/main/resources/assets/fnaf_frights/models/custom/bonnie_right_arm_particle.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieRightLeg",
@@ -1093,7 +1140,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/bonnie_right_leg.json",
           "src/main/resources/assets/fnaf_frights/models/custom/bonnie_right_leg_particle.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieHead",
@@ -1115,7 +1163,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/BonnieHeadDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/bonnie_head.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieMaskBlock",
@@ -1137,7 +1186,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/BonnieMaskBlockTileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/BonnieMaskBlockBlock.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "PresentRightclicked",
@@ -1172,7 +1222,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "Present",
@@ -1188,7 +1239,8 @@
           "src/main/java/net/mcreator/fnaffrights/item/model/PresentItemModel.java",
           "src/main/java/net/mcreator/fnaffrights/item/renderer/PresentItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "WitheredChicaRightArm",
@@ -1210,7 +1262,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/WitheredChicaRightArmBlock.java",
           "src/main/resources/assets/fnaf_frights/models/item/withered_chica_right_arm.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredChicaRightLeg",
@@ -1232,7 +1285,8 @@
           "src/main/resources/assets/fnaf_frights/models/custom/withered_chica_right_leg_particle.json",
           "src/main/java/net/mcreator/fnaffrights/block/WitheredChicaRightLegBlock.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredChicaHead",
@@ -1254,7 +1308,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/WitheredChicaHeadDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/custom/withered_chica_head_particle.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredChicaLeftLeg",
@@ -1276,7 +1331,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/WitheredChicaLeftLegTileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredChicaLeftLegDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredChicaTorso",
@@ -1298,7 +1354,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredChicaTorsoBlockModel.java",
           "src/main/resources/assets/fnaf_frights/blockstates/withered_chica_torso.json"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "WitheredChicaLeftArm",
@@ -1320,7 +1377,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/WitheredChicaLeftArmDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/WitheredChicaLeftArmTileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Witherds"
     },
     {
       "name": "ChicaRightArm",
@@ -1342,7 +1400,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/chica_right_arm.json",
           "src/main/resources/assets/fnaf_frights/models/custom/chica_right_arm_particle.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "ChicaRightLeg",
@@ -1364,7 +1423,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/ChicaRightLegDisplayItemRenderer.java",
           "src/main/resources/assets/fnaf_frights/blockstates/chica_right_leg.json"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "ChicaHead",
@@ -1386,7 +1446,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/ChicaHeadDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/ChicaHeadBlock.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "ChicaLeftArm",
@@ -1408,7 +1469,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/ChicaLeftArmDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/ChicaLeftArmBlockModel.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "ChicaTorso",
@@ -1430,7 +1492,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/ChicaTorsoDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/ChicaTorsoTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "ChicaLeftLeg",
@@ -1452,7 +1515,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/chica_left_leg.json",
           "src/main/java/net/mcreator/fnaffrights/block/entity/ChicaLeftLegTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "BonnieMaskBlockBlockDestroyedByPlayer",
@@ -1487,7 +1551,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Unwitherds"
     },
     {
       "name": "AnimatronicBlocks",
@@ -1498,7 +1563,8 @@
       "registry_name": "animatronic_blocks",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "ToyBonnieTorso",
@@ -1532,7 +1598,8 @@
       "registry_name": "toy_pieces",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "ToyBonnieHead",
@@ -1684,7 +1751,8 @@
           "src/main/java/net/mcreator/fnaffrights/item/ToreadorMarchItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/toreador_march.json"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "LullabyWaltz",
@@ -1698,7 +1766,8 @@
           "src/main/java/net/mcreator/fnaffrights/item/LullabyWaltzItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/lullaby_waltz.json"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "FazbearLogo",
@@ -1720,7 +1789,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FazbearLogoTileRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/FazbearLogoDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Logo"
     },
     {
       "name": "FreddyBoxOnBlockRightClicked",
@@ -1755,7 +1825,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "FreddyBox",
@@ -1777,7 +1848,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/FreddyBoxTileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBoxDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "Coin",
@@ -1791,7 +1863,8 @@
           "src/main/java/net/mcreator/fnaffrights/item/CoinItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/coin.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "FazbearLogo2",
@@ -1813,7 +1886,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/FazbearLogo2DisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/FazbearLogo2DisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Logo"
     },
     {
       "name": "MysteriousCassetteTape",
@@ -1842,7 +1916,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/ticket.json",
           "src/main/java/net/mcreator/fnaffrights/item/TicketItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "CassetteTapes",
@@ -1853,7 +1928,8 @@
       "registry_name": "cassette_tapes",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "F1N1",
@@ -2319,7 +2395,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/hand_crank.json",
           "src/main/java/net/mcreator/fnaffrights/item/HandCrankItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "FreddyBlock",
@@ -2405,7 +2482,8 @@
           "src/main/java/net/mcreator/fnaffrights/entity/layer/BalloonBotLayer.java",
           "src/main/java/net/mcreator/fnaffrights/client/renderer/BalloonBotRenderer.java"
         ]
-      }
+      },
+      "path": "~/Mobs"
     },
     {
       "name": "ToyBonnieShowtime",
@@ -3076,7 +3154,8 @@
       "registry_name": "showtimes",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "ToyChicaBlock",
@@ -3945,7 +4024,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/grandfathers_clock_mb.json",
           "src/main/java/net/mcreator/fnaffrights/item/GrandfathersClockMBItem.java"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "GrandFathersClockRG",
@@ -3959,7 +4039,8 @@
           "src/main/java/net/mcreator/fnaffrights/item/GrandFathersClockRGItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/grand_fathers_clock_rg.json"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "SpringbonnieShowtime",
@@ -6543,7 +6624,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/EmptyboxBlock.java",
           "src/main/resources/assets/fnaf_frights/models/custom/emptybox_particle.json"
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "Endo02Head",
@@ -6565,7 +6647,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/Endo02HeadDisplayItem.java",
           "src/main/resources/assets/fnaf_frights/models/item/endo_02_head.json"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02Torso",
@@ -6587,7 +6670,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Endo02TorsoTileRenderer.java",
           "src/main/resources/assets/fnaf_frights/models/item/endo_02_torso.json"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02LeftLeg",
@@ -6609,7 +6693,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/Endo02LeftLegTileEntity.java",
           "src/main/resources/assets/fnaf_frights/models/item/endo_02_left_leg.json"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02RightLeg",
@@ -6631,7 +6716,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/Endo02RightLegBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/Endo02RightLegTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02LeftArm",
@@ -6653,7 +6739,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Endo02LeftArmTileRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/Endo02LeftArmDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02RightArm",
@@ -6675,7 +6762,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/Endo02RightArmBlock.java",
           "src/main/resources/assets/fnaf_frights/models/custom/endo_02_right_arm_particle.json"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "OffsetFreddyShowtimeRedstoneOn",
@@ -7063,7 +7151,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/Endo02FoxyHeadBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/Endo02FoxyHeadDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Enod02BonnieHead",
@@ -7085,7 +7174,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/Enod02BonnieHeadDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/Enod02BonnieHeadTileEntity.java"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "Endo02ChicaHead",
@@ -7107,7 +7197,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Endo02ChicaHeadTileRenderer.java",
           "src/main/resources/assets/fnaf_frights/blockstates/endo_02_chica_head.json"
         ]
-      }
+      },
+      "path": "~/Endos"
     },
     {
       "name": "FredBearTorso",
@@ -7865,7 +7956,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/FreddyBoxSpinDisplayItem.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBoxSpinDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "FreddyBoxBlockAdded",
@@ -7896,7 +7988,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "FreddyBoxActive",
@@ -7918,7 +8011,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBoxActiveTileRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBoxActiveDisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "ChicaChickenTorso",
@@ -8070,7 +8164,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/fnaf_movie_no_intro.json",
           "src/main/java/net/mcreator/fnaffrights/item/FnafMovieNoIntroItem.java"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "FnafMovieExtended",
@@ -8084,7 +8179,8 @@
           "src/main/resources/assets/fnaf_frights/models/item/fnaf_movie_extended.json",
           "src/main/java/net/mcreator/fnaffrights/item/FnafMovieExtendedItem.java"
         ]
-      }
+      },
+      "path": "~/disks"
     },
     {
       "name": "Puppet",
@@ -8097,7 +8193,8 @@
         "files": [
           "src/main/resources/data/fnaf_mod_bits_and_pieces/loot_tables/gameplay/puppet.json"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxGift",
@@ -8119,7 +8216,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetBoxGiftTileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/PuppetBoxGiftDisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxGiftBlockAdded",
@@ -8150,7 +8248,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxSlumped",
@@ -8172,7 +8271,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/PuppetBoxSlumpedBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetBoxSlumpedTileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxWinding",
@@ -8194,7 +8294,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetBoxWindingTileEntity.java",
           "src/main/resources/assets/fnaf_frights/models/item/puppet_box_winding.json"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxJumpscare",
@@ -8216,7 +8317,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetBoxJumpscareDisplayItemRenderer.java",
           "src/main/resources/assets/fnaf_frights/models/item/puppet_box_jumpscare.json"
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxSlumpedOnBlockRightClicked",
@@ -8251,7 +8353,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxWindingBlockAdded",
@@ -8282,7 +8385,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxJumpscareBlockAdded",
@@ -8313,7 +8417,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "PuppetBoxWindingOnBlockRightClicked",
@@ -8332,7 +8437,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Puppet"
     },
     {
       "name": "FoxyPirateTorso",
@@ -9263,7 +9369,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator",
@@ -9285,7 +9392,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/GeneratorBlockModel.java",
           "src/main/resources/assets/fnaf_frights/models/item/generator.json"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator1",
@@ -9307,7 +9415,8 @@
           "src/main/resources/assets/fnaf_frights/blockstates/generator_1.json",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Generator1TileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator2",
@@ -9329,7 +9438,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/Generator2BlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/Generator2Block.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator3",
@@ -9351,7 +9461,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/Generator3BlockModel.java",
           "src/main/resources/assets/fnaf_frights/blockstates/generator_3.json"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator4",
@@ -9373,7 +9484,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/Generator4DisplayItem.java",
           "src/main/java/net/mcreator/fnaffrights/block/Generator4Block.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator5",
@@ -9395,7 +9507,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/Generator5Block.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/Generator5BlockModel.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator6",
@@ -9417,7 +9530,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/Generator6BlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Generator6TileRenderer.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator7",
@@ -9439,7 +9553,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Generator7DisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/Generator7DisplayItem.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "Generator8",
@@ -9461,7 +9576,8 @@
           "src/main/java/net/mcreator/fnaffrights/block/entity/Generator8TileEntity.java",
           "src/main/java/net/mcreator/fnaffrights/block/renderer/Generator8DisplayItemRenderer.java"
         ]
-      }
+      },
+      "path": "~/Generator"
     },
     {
       "name": "FreddyBoxActiveOnBlockRightClicked",
@@ -9480,7 +9596,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/freddy box"
     },
     {
       "name": "HolidayShowtimes",
@@ -9491,7 +9608,8 @@
       "registry_name": "holiday_showtimes",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     },
     {
       "name": "ChristmasFreddyRedstoneOn",
@@ -9938,7 +10056,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Mobs"
     },
     {
       "name": "Vasstronic",
@@ -12062,6 +12181,54 @@
       },
       {
         "name": "Holiday",
+        "children": []
+      },
+      {
+        "name": "Witherds",
+        "children": []
+      },
+      {
+        "name": "disks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Puppet",
+        "children": []
+      },
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "Endos",
+        "children": []
+      },
+      {
+        "name": "Unwitherds",
+        "children": []
+      },
+      {
+        "name": "freddy box",
+        "children": []
+      },
+      {
+        "name": "Generator",
+        "children": []
+      },
+      {
+        "name": "codes",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Logo",
         "children": []
       }
     ]
