@@ -108,6 +108,7 @@ import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieRightArmTileRen
 import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieLeftLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieHeadTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.PuppetwalldecorTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetInTheBoxBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxWindingTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxSlumpedTileRenderer;
@@ -238,6 +239,7 @@ import net.mcreator.fnaffrights.block.renderer.ChicaChickenLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaChickenHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.CaptainFoxyStatueTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntToyFreddyJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightArmTileRenderer;
@@ -610,5 +612,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CAPTAIN_FOXY_STATUE.get(), CaptainFoxyStatueTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_TOY_CARNIE.get(), AngledToyCarnieTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_BLLOON_BOY_STATUE.get(), AngledBlloonBoyStatueTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPETWALLDECOR.get(), PuppetwalldecorTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_FREDDY_JUMPSCARE.get(), BurntToyFreddyJumpscareTileRenderer::new);
 	}
 }

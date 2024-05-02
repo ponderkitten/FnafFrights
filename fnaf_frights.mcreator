@@ -10319,6 +10319,143 @@
         ]
       },
       "path": "~/Holiday"
+    },
+    {
+      "name": "Puppetwalldecor",
+      "type": "animatedblock",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppetwalldecor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetwalldecorTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/item/puppetwalldecor.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/puppetwalldecor.json",
+          "src/main/java/net/mcreator/fnaffrights/block/PuppetwalldecorBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/PuppetwalldecorDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/puppetwalldecor_particle.json"
+        ]
+      },
+      "path": "~/Puppet"
+    },
+    {
+      "name": "Burnttoyfreddyicon",
+      "type": "item",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnttoyfreddyicon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/item/BurnttoyfreddyiconItem.java",
+          "src/main/resources/assets/fnaf_frights/models/item/burnttoyfreddyicon.json"
+        ]
+      },
+      "path": "~/Burnts"
+    },
+    {
+      "name": "BurntAnimatronic",
+      "type": "tab",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_animatronic",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "Jumscareoff",
+      "type": "procedure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumscareoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/JumscareoffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/codes"
+    },
+    {
+      "name": "BurntToyFreddyJumpscare",
+      "type": "animatedblock",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_toy_freddy_jumpscare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyFreddyJumpscareBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/BurntToyFreddyJumpscareDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyFreddyJumpscareDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyFreddyJumpscareDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/burnt_toy_freddy_jumpscare.json",
+          "src/main/resources/assets/fnaf_frights/models/item/burnt_toy_freddy_jumpscare.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/BurntToyFreddyJumpscareTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/burnt_toy_freddy_jumpscare_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/BurntToyFreddyJumpscareBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyFreddyJumpscareTileRenderer.java"
+        ]
+      },
+      "path": "~/Burnts"
+    },
+    {
+      "name": "Jumscareon",
+      "type": "procedure",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumscareon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/JumscareonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/codes"
     }
   ],
   "variable_elements": [
@@ -10688,6 +10825,7 @@
       "block.fnaf_frights.bonnie_bunnie_right_leg": "Bonnie Bunnie Right Leg",
       "block.fnaf_mod_bits_and_pieces.offset_toy_foxy_showtime": "Offset Toy Foxy Showtime",
       "block.fnaf_mod_bits_and_pieces.offset_spring_bonnie_showtime": "Offset SpringBonnie Showtime",
+      "itemGroup.tabburnt_animatronic": "Burnt Animatronics",
       "item.fnaf_mod_bits_and_pieces.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime_active": "Classic Chica Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_head": "Withered Foxy Head",
@@ -10947,6 +11085,7 @@
       "block.fnaf_frights.withered_freddy_right_leg": "Withered Freddy Right Leg",
       "block.fnaf_frights.a_glitch_bonnie_active": "Angled Glitch Bonnie Showtime Active",
       "block.fnaf_frights.withered_foxy_left_leg": "Withered Foxy Right Leg",
+      "block.fnaf_frights.burnt_toy_freddy_jumpscare": "Burnt Toy Freddy Jumpscare",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_showtime": "Bonnie The Bunnie Showtime",
       "block.fnaf_frights.freddy_fazbear_showtime": "Freddy Fazbear Showtime",
       "item.fnaf_frights.f_2_n_1": "Night 1",
@@ -11117,6 +11256,7 @@
       "block.fnaf_frights.generator_7": "Generator",
       "block.fnaf_frights.generator_6": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_6": "Generator",
+      "block.fnaf_frights.puppetwalldecor": "Puppetwalldecor",
       "block.fnaf_mod_bits_and_pieces.generator_7": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_8": "Generator",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended.desc": "Fnaf Movie (Extended)",
@@ -11330,6 +11470,7 @@
       "block.fnaf_frights.spring_bonnie_right_leg": "SpringBonnie Right Leg",
       "block.fnaf_frights.bonnie_bunnie_showtime_active": "Bonnie The Bunnie Showtime Active",
       "block.fnaf_frights.bonnie_right_leg": "Bonnie Right Leg",
+      "item.fnaf_frights.burnttoyfreddyicon": "Burnttoyfreddyicon",
       "block.fnaf_mod_bits_and_pieces.shaven_bonnie_showtime": "Shaven Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Withered Bonnie Left Leg",
       "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",
@@ -11449,6 +11590,7 @@
       "block.fnaf_frights.bonnie_bunnie_right_leg": "Bonnie Bunnie Right Leg",
       "block.fnaf_mod_bits_and_pieces.offset_toy_foxy_showtime": "Offset Freddy Fazbear Showtime",
       "block.fnaf_mod_bits_and_pieces.offset_spring_bonnie_showtime": "Offset Freddy Fazbear Showtime",
+      "itemGroup.tabburnt_animatronic": "Burnt Animatronic",
       "item.fnaf_mod_bits_and_pieces.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime_active": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_head": "Withered Foxy Head",
@@ -11708,6 +11850,7 @@
       "block.fnaf_frights.withered_freddy_right_leg": "Withered Freddy Right Leg",
       "block.fnaf_frights.a_glitch_bonnie_active": "Angled Glitch Bonnie Showtime Active",
       "block.fnaf_frights.withered_foxy_left_leg": "Withered Foxy Right Leg",
+      "block.fnaf_frights.burnt_toy_freddy_jumpscare": "Burnt Toy Freddy Jumpscare",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_showtime": "Freddy Fazbear Showtime",
       "block.fnaf_frights.freddy_fazbear_showtime": "Freddy Fazbear Showtime",
       "item.fnaf_frights.f_2_n_1": "Night 1",
@@ -11878,6 +12021,7 @@
       "block.fnaf_frights.generator_7": "Generator",
       "block.fnaf_frights.generator_6": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_6": "Generator",
+      "block.fnaf_frights.puppetwalldecor": "Puppetwalldecor",
       "block.fnaf_mod_bits_and_pieces.generator_7": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_8": "Generator",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended.desc": "Fnaf Movie",
@@ -12091,6 +12235,7 @@
       "block.fnaf_frights.spring_bonnie_right_leg": "SpringBonnie Right Leg",
       "block.fnaf_frights.bonnie_bunnie_showtime_active": "Bonnie The Bunnie Showtime Active",
       "block.fnaf_frights.bonnie_right_leg": "Bonnie Right Leg",
+      "item.fnaf_frights.burnttoyfreddyicon": "Burnttoyfreddyicon",
       "block.fnaf_mod_bits_and_pieces.shaven_bonnie_showtime": "Shaven Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Freddy Left Leg",
       "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",

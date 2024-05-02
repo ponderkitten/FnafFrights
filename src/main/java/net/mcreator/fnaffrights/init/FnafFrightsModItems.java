@@ -43,6 +43,7 @@ import net.mcreator.fnaffrights.item.F1N3Item;
 import net.mcreator.fnaffrights.item.F1N2Item;
 import net.mcreator.fnaffrights.item.F1N1Item;
 import net.mcreator.fnaffrights.item.CoinItem;
+import net.mcreator.fnaffrights.item.BurnttoyfreddyiconItem;
 import net.mcreator.fnaffrights.block.display.YellowBearTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.YellowBearRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.YellowBearRightArmDisplayItem;
@@ -144,6 +145,7 @@ import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieRightArmDisplayI
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieHeadDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetwalldecorDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetInTheBoxBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxWindingDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxSlumpedDisplayItem;
@@ -274,6 +276,7 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightArmDisplayItem;
@@ -956,6 +959,11 @@ public class FnafFrightsModItems {
 			() -> new AngledToyCarnieDisplayItem(FnafFrightsModBlocks.ANGLED_TOY_CARNIE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
 	public static final RegistryObject<Item> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.getId().getPath(),
 			() -> new AngledBlloonBoyStatueDisplayItem(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPETWALLDECOR = REGISTRY.register(FnafFrightsModBlocks.PUPPETWALLDECOR.getId().getPath(),
+			() -> new PuppetwalldecorDisplayItem(FnafFrightsModBlocks.PUPPETWALLDECOR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANIMATRONIC_BLOCKS)));
+	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
+	public static final RegistryObject<Item> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.getId().getPath(),
+			() -> new BurntToyFreddyJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
