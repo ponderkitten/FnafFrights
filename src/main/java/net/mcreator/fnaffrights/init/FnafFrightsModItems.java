@@ -277,6 +277,8 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyChicaDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyBonnieJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightArmDisplayItem;
@@ -964,6 +966,10 @@ public class FnafFrightsModItems {
 	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
 	public static final RegistryObject<Item> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.getId().getPath(),
 			() -> new BurntToyFreddyJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.getId().getPath(),
+			() -> new BurntToyBonnieJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_TOY_CHICA = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_CHICA.getId().getPath(),
+			() -> new BurntToyChicaDisplayItem(FnafFrightsModBlocks.BURNT_TOY_CHICA.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

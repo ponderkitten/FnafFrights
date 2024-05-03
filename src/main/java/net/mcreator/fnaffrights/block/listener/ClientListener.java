@@ -240,6 +240,8 @@ import net.mcreator.fnaffrights.block.renderer.ChicaChickenHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.CaptainFoxyStatueTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyFreddyJumpscareTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntToyChicaTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntToyBonnieJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightArmTileRenderer;
@@ -614,5 +616,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_BLLOON_BOY_STATUE.get(), AngledBlloonBoyStatueTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPETWALLDECOR.get(), PuppetwalldecorTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_FREDDY_JUMPSCARE.get(), BurntToyFreddyJumpscareTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_BONNIE_JUMPSCARE.get(), BurntToyBonnieJumpscareTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_CHICA.get(), BurntToyChicaTileRenderer::new);
 	}
 }

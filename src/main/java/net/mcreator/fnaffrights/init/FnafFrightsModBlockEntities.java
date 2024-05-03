@@ -244,6 +244,8 @@ import net.mcreator.fnaffrights.block.entity.ChicaChickenHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChicaBlockTileEntity;
 import net.mcreator.fnaffrights.block.entity.CaptainFoxyStatueTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyFreddyJumpscareTileEntity;
+import net.mcreator.fnaffrights.block.entity.BurntToyChicaTileEntity;
+import net.mcreator.fnaffrights.block.entity.BurntToyBonnieJumpscareTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateRightLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateRightArmTileEntity;
@@ -878,6 +880,10 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(PuppetwalldecorTileEntity::new, FnafFrightsModBlocks.PUPPETWALLDECOR.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntToyFreddyJumpscareTileEntity>> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare",
 			() -> BlockEntityType.Builder.of(BurntToyFreddyJumpscareTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BurntToyBonnieJumpscareTileEntity>> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register("burnt_toy_bonnie_jumpscare",
+			() -> BlockEntityType.Builder.of(BurntToyBonnieJumpscareTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BurntToyChicaTileEntity>> BURNT_TOY_CHICA = REGISTRY.register("burnt_toy_chica",
+			() -> BlockEntityType.Builder.of(BurntToyChicaTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_CHICA.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

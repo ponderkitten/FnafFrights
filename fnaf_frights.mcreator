@@ -10456,6 +10456,52 @@
         ]
       },
       "path": "~/codes"
+    },
+    {
+      "name": "BurntToyBonnieJumpscare",
+      "type": "animatedblock",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_toy_bonnie_jumpscare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/entity/BurntToyBonnieJumpscareTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyBonnieJumpscareDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/burnt_toy_bonnie_jumpscare.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/burnt_toy_bonnie_jumpscare_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyBonnieJumpscareTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/item/burnt_toy_bonnie_jumpscare.json",
+          "src/main/java/net/mcreator/fnaffrights/block/display/BurntToyBonnieJumpscareDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/BurntToyBonnieJumpscareBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyBonnieJumpscareBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyBonnieJumpscareDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Burnts"
+    },
+    {
+      "name": "BurntToyChica",
+      "type": "animatedblock",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_toy_chica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyChicaDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/BurntToyChicaTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/BurntToyChicaBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyChicaTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntToyChicaDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/BurntToyChicaDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntToyChicaBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/burnt_toy_chica_particle.json",
+          "src/main/resources/assets/fnaf_frights/models/item/burnt_toy_chica.json",
+          "src/main/resources/assets/fnaf_frights/blockstates/burnt_toy_chica.json"
+        ]
+      },
+      "path": "~/Burnts"
     }
   ],
   "variable_elements": [
@@ -10938,6 +10984,7 @@
       "block.fnaf_mod_bits_and_pieces.freddy_box_active": "Freddy Box Active",
       "block.fnaf_frights.toy_foxy_showtime": "Toy Foxy Showtime",
       "block.fnaf_frights.withered_golden_freddy_block": "Withered Golden Freddy Block",
+      "block.fnaf_frights.burnt_toy_chica": "Burnt Toy Bonnie Animated",
       "block.fnaf_frights.toy_bonnie_showtime": "Toy Bonnie Showtime",
       "subtitles.electricsizzle": "",
       "item.fnaf_frights.ticket": "Ticket",
@@ -11247,6 +11294,7 @@
       "block.fnaf_frights.generator_1": "Generator",
       "item.fnaf_mod_bits_and_pieces.f_3_n_1": "Night 1",
       "block.fnaf_frights.withered_foxy_leg": "Withered Foxy Leg",
+      "block.fnaf_frights.burnt_toy_bonnie_jumpscare": "Burnt Toy Bonnie Animated",
       "block.fnaf_mod_bits_and_pieces.toy_chica_showtime_active": "Toy Chica Showtime Active",
       "block.fnaf_frights.bonnie_right_arm": "Bonnie Right Arm",
       "block.fnaf_frights.yellow_bear_showtime": "Yellow Bear Showtime",
@@ -11703,6 +11751,7 @@
       "block.fnaf_mod_bits_and_pieces.freddy_box_active": "Freddy Box Spin",
       "block.fnaf_frights.toy_foxy_showtime": "Toy Foxy Showtime",
       "block.fnaf_frights.withered_golden_freddy_block": "Withered Golden Freddy Block",
+      "block.fnaf_frights.burnt_toy_chica": "Burnt Toy Bonnie Animated",
       "block.fnaf_frights.toy_bonnie_showtime": "Toy Bonnie Showtime",
       "subtitles.electricsizzle": "",
       "item.fnaf_frights.ticket": "Ticket",
@@ -12012,6 +12061,7 @@
       "block.fnaf_frights.generator_1": "Generator",
       "item.fnaf_mod_bits_and_pieces.f_3_n_1": "Night 6",
       "block.fnaf_frights.withered_foxy_leg": "Withered Foxy Leg",
+      "block.fnaf_frights.burnt_toy_bonnie_jumpscare": "Burnt Toy Freddy Jumpscare",
       "block.fnaf_mod_bits_and_pieces.toy_chica_showtime_active": "Toy Chica Showtime",
       "block.fnaf_frights.bonnie_right_arm": "Bonnie Right Arm",
       "block.fnaf_frights.yellow_bear_showtime": "Yellow Bear Showtime",

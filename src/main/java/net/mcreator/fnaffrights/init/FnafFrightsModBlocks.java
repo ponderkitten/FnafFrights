@@ -244,6 +244,8 @@ import net.mcreator.fnaffrights.block.ChicaChickenHeadBlock;
 import net.mcreator.fnaffrights.block.ChicaBlockBlock;
 import net.mcreator.fnaffrights.block.CaptainFoxyStatueBlock;
 import net.mcreator.fnaffrights.block.BurntToyFreddyJumpscareBlock;
+import net.mcreator.fnaffrights.block.BurntToyChicaBlock;
+import net.mcreator.fnaffrights.block.BurntToyBonnieJumpscareBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateTorsoBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateRightLegBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateRightArmBlock;
@@ -616,4 +618,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register("angled_blloon_boy_statue", () -> new AngledBlloonBoyStatueBlock());
 	public static final RegistryObject<Block> PUPPETWALLDECOR = REGISTRY.register("puppetwalldecor", () -> new PuppetwalldecorBlock());
 	public static final RegistryObject<Block> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare", () -> new BurntToyFreddyJumpscareBlock());
+	public static final RegistryObject<Block> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register("burnt_toy_bonnie_jumpscare", () -> new BurntToyBonnieJumpscareBlock());
+	public static final RegistryObject<Block> BURNT_TOY_CHICA = REGISTRY.register("burnt_toy_chica", () -> new BurntToyChicaBlock());
 }
