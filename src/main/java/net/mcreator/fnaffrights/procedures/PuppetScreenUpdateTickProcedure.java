@@ -1,15 +1,21 @@
 package net.mcreator.fnaffrights.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.core.BlockPos;
 
-import javax.annotation.Nullable;
+import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
+
+import java.util.Map;
 
 public class PuppetScreenUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if ((world instanceof Level _lvl_getIndPow ? _lvl_getIndPow.getBestNeighborSignal(new BlockPos(x, y, z)) : 0) > 0) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
-				BlockState _bs = FnafFrightsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

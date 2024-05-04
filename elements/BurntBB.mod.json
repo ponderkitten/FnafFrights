@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Burnt BB Animated",
+    "name": "Burnt BB",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
