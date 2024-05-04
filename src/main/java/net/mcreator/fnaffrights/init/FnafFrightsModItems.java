@@ -144,6 +144,8 @@ import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieRightArmDisplayI
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieHeadDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetScreenDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetScreenActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetInTheBoxBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxWindingDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxSlumpedDisplayItem;
@@ -956,6 +958,10 @@ public class FnafFrightsModItems {
 			() -> new AngledToyCarnieDisplayItem(FnafFrightsModBlocks.ANGLED_TOY_CARNIE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
 	public static final RegistryObject<Item> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.getId().getPath(),
 			() -> new AngledBlloonBoyStatueDisplayItem(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PUPPET_SCREEN = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN.getId().getPath(),
+			() -> new PuppetScreenDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> PUPPET_SCREEN_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.getId().getPath(),
+			() -> new PuppetScreenActiveDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

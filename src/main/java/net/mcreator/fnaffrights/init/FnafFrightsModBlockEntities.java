@@ -112,6 +112,8 @@ import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieRightArmTileEntit
 import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieLeftLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieHeadTileEntity;
+import net.mcreator.fnaffrights.block.entity.PuppetScreenTileEntity;
+import net.mcreator.fnaffrights.block.entity.PuppetScreenActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetInTheBoxBlockTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxWindingTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxSlumpedTileEntity;
@@ -872,6 +874,9 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(AngledToyCarnieTileEntity::new, FnafFrightsModBlocks.ANGLED_TOY_CARNIE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledBlloonBoyStatueTileEntity>> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register("angled_blloon_boy_statue",
 			() -> BlockEntityType.Builder.of(AngledBlloonBoyStatueTileEntity::new, FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetScreenTileEntity>> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> BlockEntityType.Builder.of(PuppetScreenTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetScreenActiveTileEntity>> PUPPET_SCREEN_ACTIVE = REGISTRY.register("puppet_screen_active",
+			() -> BlockEntityType.Builder.of(PuppetScreenActiveTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

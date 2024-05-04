@@ -10319,6 +10319,152 @@
         ]
       },
       "path": "~/Holiday"
+    },
+    {
+      "name": "PuppetScreen",
+      "type": "animatedblock",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_screen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/item/puppet_screen.json",
+          "src/main/java/net/mcreator/fnaffrights/block/PuppetScreenBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetScreenTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/puppet_screen.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetScreenDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/puppet_screen_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetScreenTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetScreenDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/PuppetScreenDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetScreenBlockModel.java"
+        ]
+      },
+      "path": "~/Puppet"
+    },
+    {
+      "name": "PuppetScreenActive",
+      "type": "animatedblock",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_screen_active",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/custom/puppet_screen_active_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetScreenActiveDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetScreenActiveTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetScreenActiveBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/puppet_screen_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/PuppetScreenActiveBlock.java",
+          "src/main/resources/assets/fnaf_frights/models/item/puppet_screen_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetScreenActiveTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/PuppetScreenActiveDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetScreenActiveDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Puppet"
+    },
+    {
+      "name": "PuppetScreenActiveBlockAdded",
+      "type": "procedure",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_screen_active_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/PuppetScreenActiveBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Puppet"
+    },
+    {
+      "name": "PuppetScreenRedstoneOn",
+      "type": "procedure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_screen_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/PuppetScreenRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Puppet"
+    },
+    {
+      "name": "PuppetScreenUpdateTick",
+      "type": "procedure",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_screen_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/PuppetScreenUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Puppet"
     }
   ],
   "variable_elements": [
@@ -10904,6 +11050,7 @@
       "subtitles.fnafmovieextended": "",
       "block.fnaf_frights.a_yellow_bear_showtime": "Angled Yellow Bear Showtime",
       "block.fnaf_frights.a_spring_bonnie_bunnie_showtime": "Angled Yellow Rabbit Showtime",
+      "block.fnaf_frights.puppet_screen_active": "Puppet Screen Active",
       "block.fnaf_frights.puppet_box_gift": "Puppet Gift",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime": "Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_2": "Night 2",
@@ -11303,6 +11450,7 @@
       "block.fnaf_frights.foxy_pirate_right_arm": "Foxy Pirate Right Arm",
       "block.fnaf_frights.a_springtrap_active": "Angled Springtrap Showtime Active",
       "block.fnaf_frights.offset_foxy_active": "Offset Foxy Showtime Active",
+      "block.fnaf_frights.puppet_screen": "Puppet Screen",
       "item.fnaf_mod_bits_and_pieces.f_2_n_2.desc": "voicemail 7",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_torso": "Bonnie Bunnie Torso",
       "block.fnaf_frights.fred_bear_left_arm": "Fredbear Left Arm",
@@ -11665,6 +11813,7 @@
       "subtitles.fnafmovieextended": "",
       "block.fnaf_frights.a_yellow_bear_showtime": "Angled Yellow Bear Showtime",
       "block.fnaf_frights.a_spring_bonnie_bunnie_showtime": "Angled Yellow Rabbit Showtime",
+      "block.fnaf_frights.puppet_screen_active": "Puppet Screen",
       "block.fnaf_frights.puppet_box_gift": "Puppet Gift",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime": "Chica Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_2": "Night 1",
@@ -12064,6 +12213,7 @@
       "block.fnaf_frights.foxy_pirate_right_arm": "Foxy Pirate Right Arm",
       "block.fnaf_frights.a_springtrap_active": "Angled Springtrap Showtime Active",
       "block.fnaf_frights.offset_foxy_active": "Offset Foxy Showtime Active",
+      "block.fnaf_frights.puppet_screen": "Puppet Screen",
       "item.fnaf_mod_bits_and_pieces.f_2_n_2.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_torso": "Bonnie Bunnie Torso",
       "block.fnaf_frights.fred_bear_left_arm": "Fredbear Left Arm",

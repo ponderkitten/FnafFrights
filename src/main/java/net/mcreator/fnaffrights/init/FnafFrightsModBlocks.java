@@ -111,6 +111,8 @@ import net.mcreator.fnaffrights.block.SpringBonnieBunnieRightArmBlock;
 import net.mcreator.fnaffrights.block.SpringBonnieBunnieLeftLegBlock;
 import net.mcreator.fnaffrights.block.SpringBonnieBunnieLeftArmBlock;
 import net.mcreator.fnaffrights.block.SpringBonnieBunnieHeadBlock;
+import net.mcreator.fnaffrights.block.PuppetScreenBlock;
+import net.mcreator.fnaffrights.block.PuppetScreenActiveBlock;
 import net.mcreator.fnaffrights.block.PuppetInTheBoxBlockBlock;
 import net.mcreator.fnaffrights.block.PuppetBoxWindingBlock;
 import net.mcreator.fnaffrights.block.PuppetBoxSlumpedBlock;
@@ -612,4 +614,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> CAPTAIN_FOXY_STATUE = REGISTRY.register("captain_foxy_statue", () -> new CaptainFoxyStatueBlock());
 	public static final RegistryObject<Block> ANGLED_TOY_CARNIE = REGISTRY.register("angled_toy_carnie", () -> new AngledToyCarnieBlock());
 	public static final RegistryObject<Block> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register("angled_blloon_boy_statue", () -> new AngledBlloonBoyStatueBlock());
+	public static final RegistryObject<Block> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> new PuppetScreenBlock());
+	public static final RegistryObject<Block> PUPPET_SCREEN_ACTIVE = REGISTRY.register("puppet_screen_active", () -> new PuppetScreenActiveBlock());
 }
