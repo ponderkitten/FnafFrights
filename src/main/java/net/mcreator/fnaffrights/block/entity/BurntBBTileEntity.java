@@ -137,7 +137,7 @@ public class BurntBBTileEntity extends RandomizableContainerBlockEntity implemen
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Burnt BB Animated");
+		return Component.literal("Burnt BB");
 	}
 
 	@Override

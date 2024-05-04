@@ -137,7 +137,7 @@ public class PuppetwalldecorTileEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Puppetwalldecor");
+		return Component.literal("Puppet Wall Decor");
 	}
 
 	@Override

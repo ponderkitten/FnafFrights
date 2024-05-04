@@ -137,7 +137,7 @@ public class BloodchicaAnimatedblockTileEntity extends RandomizableContainerBloc
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Blood Chica Animated");
+		return Component.literal("Blood Chica");
 	}
 
 	@Override

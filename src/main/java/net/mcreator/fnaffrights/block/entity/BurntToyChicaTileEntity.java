@@ -137,7 +137,7 @@ public class BurntToyChicaTileEntity extends RandomizableContainerBlockEntity im
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Burnt Toy Bonnie Animated");
+		return Component.literal("Burnt Toy Bonnie");
 	}
 
 	@Override
