@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "burnt_toyfreddy",
+    "texture": "bloodchica",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Burnt Toy Freddy Jumpscare",
+    "name": "Blood Chica Animated",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BurntAnimatronic"
+      "value": "CUSTOM:Others"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "burntjumpscaretoyfreddy.geo.json",
+    "normal": "bloodchica.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "burnt_toyfreddy",
+    "texture": "image",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Burnt Toy Freddy Jumpscare",
+    "name": "Burnt Mangle Jumpscare",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -141,7 +141,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "burntjumpscaretoyfreddy.geo.json",
+    "normal": "mangle.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

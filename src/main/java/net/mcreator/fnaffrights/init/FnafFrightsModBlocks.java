@@ -246,6 +246,8 @@ import net.mcreator.fnaffrights.block.CaptainFoxyStatueBlock;
 import net.mcreator.fnaffrights.block.BurntToyFreddyJumpscareBlock;
 import net.mcreator.fnaffrights.block.BurntToyChicaBlock;
 import net.mcreator.fnaffrights.block.BurntToyBonnieJumpscareBlock;
+import net.mcreator.fnaffrights.block.BurntMangleBlock;
+import net.mcreator.fnaffrights.block.BurntBBBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateTorsoBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateRightLegBlock;
 import net.mcreator.fnaffrights.block.BrokenFoxyPirateRightArmBlock;
@@ -270,6 +272,7 @@ import net.mcreator.fnaffrights.block.BonnieBunnieLeftLegBlock;
 import net.mcreator.fnaffrights.block.BonnieBunnieLeftArmBlock;
 import net.mcreator.fnaffrights.block.BonnieBunnieHeadBlock;
 import net.mcreator.fnaffrights.block.BonnieBlockBlock;
+import net.mcreator.fnaffrights.block.BloodchicaAnimatedblockBlock;
 import net.mcreator.fnaffrights.block.BlloonBoyStatueBlock;
 import net.mcreator.fnaffrights.block.AngledToyCarnieBlock;
 import net.mcreator.fnaffrights.block.AngledBlloonBoyStatueBlock;
@@ -620,4 +623,7 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare", () -> new BurntToyFreddyJumpscareBlock());
 	public static final RegistryObject<Block> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register("burnt_toy_bonnie_jumpscare", () -> new BurntToyBonnieJumpscareBlock());
 	public static final RegistryObject<Block> BURNT_TOY_CHICA = REGISTRY.register("burnt_toy_chica", () -> new BurntToyChicaBlock());
+	public static final RegistryObject<Block> BLOODCHICA_ANIMATEDBLOCK = REGISTRY.register("bloodchica_animatedblock", () -> new BloodchicaAnimatedblockBlock());
+	public static final RegistryObject<Block> BURNT_MANGLE = REGISTRY.register("burnt_mangle", () -> new BurntMangleBlock());
+	public static final RegistryObject<Block> BURNT_BB = REGISTRY.register("burnt_bb", () -> new BurntBBBlock());
 }

@@ -242,6 +242,8 @@ import net.mcreator.fnaffrights.block.renderer.CaptainFoxyStatueTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyFreddyJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyChicaTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyBonnieJumpscareTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntMangleTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntBBTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BrokenFoxyPirateRightArmTileRenderer;
@@ -266,6 +268,7 @@ import net.mcreator.fnaffrights.block.renderer.BonnieBunnieLeftLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BonnieBunnieLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BonnieBunnieHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BonnieBlockTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BloodchicaAnimatedblockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BlloonBoyStatueTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AngledToyCarnieTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AngledBlloonBoyStatueTileRenderer;
@@ -618,5 +621,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_FREDDY_JUMPSCARE.get(), BurntToyFreddyJumpscareTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_BONNIE_JUMPSCARE.get(), BurntToyBonnieJumpscareTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_CHICA.get(), BurntToyChicaTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BLOODCHICA_ANIMATEDBLOCK.get(), BloodchicaAnimatedblockTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_MANGLE.get(), BurntMangleTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_BB.get(), BurntBBTileRenderer::new);
 	}
 }

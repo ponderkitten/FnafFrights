@@ -246,6 +246,8 @@ import net.mcreator.fnaffrights.block.entity.CaptainFoxyStatueTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyFreddyJumpscareTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyChicaTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyBonnieJumpscareTileEntity;
+import net.mcreator.fnaffrights.block.entity.BurntMangleTileEntity;
+import net.mcreator.fnaffrights.block.entity.BurntBBTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateRightLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.BrokenFoxyPirateRightArmTileEntity;
@@ -270,6 +272,7 @@ import net.mcreator.fnaffrights.block.entity.BonnieBunnieLeftLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.BonnieBunnieLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.BonnieBunnieHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.BonnieBlockTileEntity;
+import net.mcreator.fnaffrights.block.entity.BloodchicaAnimatedblockTileEntity;
 import net.mcreator.fnaffrights.block.entity.BlloonBoyStatueTileEntity;
 import net.mcreator.fnaffrights.block.entity.AngledToyCarnieTileEntity;
 import net.mcreator.fnaffrights.block.entity.AngledBlloonBoyStatueTileEntity;
@@ -884,6 +887,10 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(BurntToyBonnieJumpscareTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntToyChicaTileEntity>> BURNT_TOY_CHICA = REGISTRY.register("burnt_toy_chica",
 			() -> BlockEntityType.Builder.of(BurntToyChicaTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_CHICA.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BloodchicaAnimatedblockTileEntity>> BLOODCHICA_ANIMATEDBLOCK = REGISTRY.register("bloodchica_animatedblock",
+			() -> BlockEntityType.Builder.of(BloodchicaAnimatedblockTileEntity::new, FnafFrightsModBlocks.BLOODCHICA_ANIMATEDBLOCK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BurntMangleTileEntity>> BURNT_MANGLE = REGISTRY.register("burnt_mangle", () -> BlockEntityType.Builder.of(BurntMangleTileEntity::new, FnafFrightsModBlocks.BURNT_MANGLE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BurntBBTileEntity>> BURNT_BB = REGISTRY.register("burnt_bb", () -> BlockEntityType.Builder.of(BurntBBTileEntity::new, FnafFrightsModBlocks.BURNT_BB.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
