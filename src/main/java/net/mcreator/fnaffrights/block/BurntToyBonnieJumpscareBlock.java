@@ -38,11 +38,7 @@ public class BurntToyBonnieJumpscareBlock extends BaseEntityBlock implements Ent
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public BurntToyBonnieJumpscareBlock() {
-<<<<<<< HEAD
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-=======
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
->>>>>>> branch 'master' of https://github.com/ponderkitten/FnafFrights
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
