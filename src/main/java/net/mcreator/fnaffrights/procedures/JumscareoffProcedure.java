@@ -1,8 +1,9 @@
 package net.mcreator.fnaffrights.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
 
 public class JumscareoffProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

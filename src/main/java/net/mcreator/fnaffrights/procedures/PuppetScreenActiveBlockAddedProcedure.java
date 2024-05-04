@@ -1,15 +1,30 @@
 package net.mcreator.fnaffrights.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
-import javax.annotation.Nullable;
+import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
+import net.mcreator.fnaffrights.FnafFrightsMod;
+
+import java.util.Map;
 
 public class PuppetScreenActiveBlockAddedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
 		FnafFrightsMod.queueServerWork(74, () -> {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
-				BlockState _bs = FnafFrightsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FnafFrightsModBlocks.PUPPET_SCREEN.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
