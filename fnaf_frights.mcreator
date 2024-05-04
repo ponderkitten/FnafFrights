@@ -10488,7 +10488,7 @@
       "name": "BurntMangle",
       "type": "animatedblock",
       "sortid": 461,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "burnt_mangle",
       "metadata": {
@@ -10625,7 +10625,7 @@
       "name": "BurntBB",
       "type": "animatedblock",
       "sortid": 462,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "burnt_bb",
       "metadata": {
@@ -10671,7 +10671,7 @@
       "name": "BloodchicaAnimatedblock",
       "type": "animatedblock",
       "sortid": 458,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bloodchica_animatedblock",
       "metadata": {

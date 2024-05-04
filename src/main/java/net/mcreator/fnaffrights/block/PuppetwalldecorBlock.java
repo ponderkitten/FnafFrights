@@ -37,7 +37,7 @@ public class PuppetwalldecorBlock extends BaseEntityBlock implements EntityBlock
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public PuppetwalldecorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
