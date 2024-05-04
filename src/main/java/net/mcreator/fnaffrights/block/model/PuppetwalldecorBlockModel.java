@@ -1,11 +1,5 @@
 package net.mcreator.fnaffrights.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.fnaffrights.block.entity.PuppetwalldecorTileEntity;
-
 public class PuppetwalldecorBlockModel extends AnimatedGeoModel<PuppetwalldecorTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PuppetwalldecorTileEntity animatable) {

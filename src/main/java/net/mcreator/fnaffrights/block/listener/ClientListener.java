@@ -109,6 +109,8 @@ import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieLeftLegTileRend
 import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.SpringBonnieBunnieHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetwalldecorTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.PuppetScreenTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.PuppetScreenActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetInTheBoxBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxWindingTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxSlumpedTileRenderer;
@@ -618,6 +620,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_TOY_CARNIE.get(), AngledToyCarnieTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_BLLOON_BOY_STATUE.get(), AngledBlloonBoyStatueTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPETWALLDECOR.get(), PuppetwalldecorTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPET_SCREEN.get(), PuppetScreenTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPET_SCREEN_ACTIVE.get(), PuppetScreenActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_FREDDY_JUMPSCARE.get(), BurntToyFreddyJumpscareTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_BONNIE_JUMPSCARE.get(), BurntToyBonnieJumpscareTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_CHICA.get(), BurntToyChicaTileRenderer::new);

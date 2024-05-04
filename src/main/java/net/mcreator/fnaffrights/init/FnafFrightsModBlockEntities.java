@@ -113,6 +113,8 @@ import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieLeftLegTileEntity
 import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.SpringBonnieBunnieHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetwalldecorTileEntity;
+import net.mcreator.fnaffrights.block.entity.PuppetScreenTileEntity;
+import net.mcreator.fnaffrights.block.entity.PuppetScreenActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetInTheBoxBlockTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxWindingTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxSlumpedTileEntity;
@@ -881,6 +883,9 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(AngledBlloonBoyStatueTileEntity::new, FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PuppetwalldecorTileEntity>> PUPPETWALLDECOR = REGISTRY.register("puppetwalldecor",
 			() -> BlockEntityType.Builder.of(PuppetwalldecorTileEntity::new, FnafFrightsModBlocks.PUPPETWALLDECOR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetScreenTileEntity>> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> BlockEntityType.Builder.of(PuppetScreenTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetScreenActiveTileEntity>> PUPPET_SCREEN_ACTIVE = REGISTRY.register("puppet_screen_active",
+			() -> BlockEntityType.Builder.of(PuppetScreenActiveTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntToyFreddyJumpscareTileEntity>> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare",
 			() -> BlockEntityType.Builder.of(BurntToyFreddyJumpscareTileEntity::new, FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntToyBonnieJumpscareTileEntity>> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register("burnt_toy_bonnie_jumpscare",

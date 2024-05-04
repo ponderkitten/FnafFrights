@@ -1,11 +1,5 @@
 package net.mcreator.fnaffrights.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.fnaffrights.block.entity.BurntToyBonnieJumpscareTileEntity;
-
 public class BurntToyBonnieJumpscareBlockModel extends AnimatedGeoModel<BurntToyBonnieJumpscareTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BurntToyBonnieJumpscareTileEntity animatable) {

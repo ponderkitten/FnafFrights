@@ -147,6 +147,8 @@ import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftLegDisplayIt
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetwalldecorDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetScreenDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetScreenActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetInTheBoxBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxWindingDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxSlumpedDisplayItem;
@@ -967,7 +969,11 @@ public class FnafFrightsModItems {
 			() -> new AngledBlloonBoyStatueDisplayItem(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PUPPETWALLDECOR = REGISTRY.register(FnafFrightsModBlocks.PUPPETWALLDECOR.getId().getPath(),
 			() -> new PuppetwalldecorDisplayItem(FnafFrightsModBlocks.PUPPETWALLDECOR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANIMATRONIC_BLOCKS)));
+	public static final RegistryObject<Item> PUPPET_SCREEN = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN.getId().getPath(),
+			() -> new PuppetScreenDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
+	public static final RegistryObject<Item> PUPPET_SCREEN_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.getId().getPath(),
+			() -> new PuppetScreenActiveDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.getId().getPath(),
 			() -> new BurntToyFreddyJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.getId().getPath(),
