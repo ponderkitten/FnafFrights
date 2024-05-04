@@ -43,6 +43,8 @@ import net.mcreator.fnaffrights.item.F1N3Item;
 import net.mcreator.fnaffrights.item.F1N2Item;
 import net.mcreator.fnaffrights.item.F1N1Item;
 import net.mcreator.fnaffrights.item.CoinItem;
+import net.mcreator.fnaffrights.item.ChicaiconItem;
+import net.mcreator.fnaffrights.item.BurnttoyfreddyiconItem;
 import net.mcreator.fnaffrights.block.display.YellowBearTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.YellowBearRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.YellowBearRightArmDisplayItem;
@@ -144,6 +146,7 @@ import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieRightArmDisplayI
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.SpringBonnieBunnieHeadDisplayItem;
+import net.mcreator.fnaffrights.block.display.PuppetwalldecorDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetScreenDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetScreenActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetInTheBoxBlockDisplayItem;
@@ -276,6 +279,11 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyChicaDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntToyBonnieJumpscareDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntMangleDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntBBDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.BrokenFoxyPirateRightArmDisplayItem;
@@ -300,6 +308,7 @@ import net.mcreator.fnaffrights.block.display.BonnieBunnieLeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.BonnieBunnieLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.BonnieBunnieHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.BonnieBlockDisplayItem;
+import net.mcreator.fnaffrights.block.display.BloodchicaAnimatedblockDisplayItem;
 import net.mcreator.fnaffrights.block.display.BlloonBoyStatueDisplayItem;
 import net.mcreator.fnaffrights.block.display.AngledToyCarnieDisplayItem;
 import net.mcreator.fnaffrights.block.display.AngledBlloonBoyStatueDisplayItem;
@@ -960,8 +969,24 @@ public class FnafFrightsModItems {
 			() -> new AngledBlloonBoyStatueDisplayItem(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PUPPET_SCREEN = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN.getId().getPath(),
 			() -> new PuppetScreenDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> PUPPETWALLDECOR = REGISTRY.register(FnafFrightsModBlocks.PUPPETWALLDECOR.getId().getPath(),
+			() -> new PuppetwalldecorDisplayItem(FnafFrightsModBlocks.PUPPETWALLDECOR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANIMATRONIC_BLOCKS)));
 	public static final RegistryObject<Item> PUPPET_SCREEN_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.getId().getPath(),
 			() -> new PuppetScreenActiveDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
+	public static final RegistryObject<Item> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.getId().getPath(),
+			() -> new BurntToyFreddyJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.getId().getPath(),
+			() -> new BurntToyBonnieJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_TOY_CHICA = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_CHICA.getId().getPath(),
+			() -> new BurntToyChicaDisplayItem(FnafFrightsModBlocks.BURNT_TOY_CHICA.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BLOODCHICA_ANIMATEDBLOCK = REGISTRY.register(FnafFrightsModBlocks.BLOODCHICA_ANIMATEDBLOCK.getId().getPath(),
+			() -> new BloodchicaAnimatedblockDisplayItem(FnafFrightsModBlocks.BLOODCHICA_ANIMATEDBLOCK.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_OTHERS)));
+	public static final RegistryObject<Item> CHICAICON = REGISTRY.register("chicaicon", () -> new ChicaiconItem());
+	public static final RegistryObject<Item> BURNT_MANGLE = REGISTRY.register(FnafFrightsModBlocks.BURNT_MANGLE.getId().getPath(),
+			() -> new BurntMangleDisplayItem(FnafFrightsModBlocks.BURNT_MANGLE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_BB = REGISTRY.register(FnafFrightsModBlocks.BURNT_BB.getId().getPath(),
+			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

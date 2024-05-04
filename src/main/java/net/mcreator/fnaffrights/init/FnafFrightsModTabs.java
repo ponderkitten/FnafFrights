@@ -17,6 +17,8 @@ public class FnafFrightsModTabs {
 	public static CreativeModeTab TAB_ANGLED_SHOWTIMES;
 	public static CreativeModeTab TAB_CLASSIC_ANIMATRONICS;
 	public static CreativeModeTab TAB_HOLIDAY_SHOWTIMES;
+	public static CreativeModeTab TAB_BURNT_ANIMATRONIC;
+	public static CreativeModeTab TAB_OTHERS;
 
 	public static void load() {
 		TAB_BITSANDPIECES = new CreativeModeTab("tabbitsandpieces") {
@@ -111,6 +113,28 @@ public class FnafFrightsModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(FnafFrightsModItems.HOLIDAY_TAB.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_BURNT_ANIMATRONIC = new CreativeModeTab("tabburnt_animatronic") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FnafFrightsModItems.BURNTTOYFREDDYICON.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_OTHERS = new CreativeModeTab("tabothers") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FnafFrightsModItems.CHICAICON.get());
 			}
 
 			@Override
