@@ -194,6 +194,8 @@ import net.mcreator.fnaffrights.block.renderer.FoxyLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyBlockTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.FoxyArcadeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.FoxyArcadeOnTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FixedFoxyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FixedFoxyShowtimeActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FazbearLogoTileRenderer;
@@ -628,5 +630,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BLOODCHICA_ANIMATEDBLOCK.get(), BloodchicaAnimatedblockTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_MANGLE.get(), BurntMangleTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_BB.get(), BurntBBTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.FOXY_ARCADE.get(), FoxyArcadeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.FOXY_ARCADE_ON.get(), FoxyArcadeOnTileRenderer::new);
 	}
 }

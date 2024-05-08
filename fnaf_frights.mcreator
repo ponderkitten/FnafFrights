@@ -10712,6 +10712,120 @@
         ]
       },
       "path": "~/Puppet"
+    },
+    {
+      "name": "FoxyArcade",
+      "type": "animatedblock",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade.json",
+          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeDisplayItem.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcadeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcadeOn",
+      "type": "animatedblock",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeOnDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeOnBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeOnTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade_on.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_on_particle.json",
+          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade_on.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcadeOnBlockAdded",
+      "type": "procedure",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
     }
   ],
   "variable_elements": [
@@ -11294,6 +11408,7 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Withered Freddy Left Arm",
+      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade On",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "voicemail 9",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
@@ -11486,6 +11601,7 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
+      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Chica Right Leg",
       "subtitles.lullabywaltz": "",
@@ -12068,6 +12184,7 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Freddy Left Arm",
+      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
@@ -12260,6 +12377,7 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
+      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Freddy Right Leg",
       "subtitles.lullabywaltz": "",
@@ -12652,6 +12770,10 @@
       },
       {
         "name": "codes",
+        "children": []
+      },
+      {
+        "name": "Props",
         "children": []
       }
     ]

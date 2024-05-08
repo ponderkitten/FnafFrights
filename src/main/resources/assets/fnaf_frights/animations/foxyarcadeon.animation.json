@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 10,
+			"bones": {
+				"Ticket": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"8.875": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, 0, -4]
+						}
+					}
+				},
+				"Coin": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 4]
+						}
+					}
+				},
+				"screen": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"0.5417": {
+							"vector": [0, 0, 1],
+							"easing": "step",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -14,8 +15,10 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.fnaffrights.init.FnafFrightsModItems;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
@@ -30,10 +33,23 @@ public class FreddyBoxOnBlockRightClickedProcedure {
 		double anger = 0;
 		double used = 0;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafFrightsModItems.COIN.get()) {
-			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(FnafFrightsModItems.COIN.get());
-				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			if ((new Object() {
+				public boolean checkGamemode(Entity _ent) {
+					if (_ent instanceof ServerPlayer _serverPlayer) {
+						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
+					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+								&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
+					}
+					return false;
+				}
+			}.checkGamemode(entity)) == false) {
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(FnafFrightsModItems.COIN.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
 			}
+		} else {
 			if (Math.round(Mth.nextInt(RandomSource.create(), 1, 100)) == 69) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
@@ -65,7 +81,6 @@ public class FreddyBoxOnBlockRightClickedProcedure {
 					world.setBlock(_bp, _bs, 3);
 				}
 			}
-		} else {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_frights:deposit")), SoundSource.NEUTRAL, 1, 1);

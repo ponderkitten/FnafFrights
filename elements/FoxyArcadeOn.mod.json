@@ -2,18 +2,18 @@
   "_fv": 43,
   "_type": "animatedblock",
   "definition": {
-    "texture": "puppetscreen",
+    "texture": "foxyarcadeon",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 0,
-    "rotationMode": 1,
+    "rotationMode": 2,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "puppetscreen",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,30 +32,30 @@
         "subtract": false
       }
     ],
-    "name": "Puppet Screen",
+    "name": "Foxy Arcade On",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BitsAndPiecesMisc"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:FoxyArcade"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 2,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -64,7 +64,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:FoxyArcade"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -123,8 +123,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "PuppetScreenUpdateTick"
+    "onBlockAdded": {
+      "name": "FoxyArcadeOnBlockAdded"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -138,7 +138,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "puppetscreen.geo.json",
+    "normal": "foxyarcadeon.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

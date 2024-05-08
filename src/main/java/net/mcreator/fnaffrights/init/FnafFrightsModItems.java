@@ -232,6 +232,8 @@ import net.mcreator.fnaffrights.block.display.FoxyLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyBlockDisplayItem;
+import net.mcreator.fnaffrights.block.display.FoxyArcadeOnDisplayItem;
+import net.mcreator.fnaffrights.block.display.FoxyArcadeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FixedFoxyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FixedFoxyShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.FazbearLogoDisplayItem;
@@ -987,6 +989,9 @@ public class FnafFrightsModItems {
 			() -> new BurntMangleDisplayItem(FnafFrightsModBlocks.BURNT_MANGLE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_BB = REGISTRY.register(FnafFrightsModBlocks.BURNT_BB.getId().getPath(),
 			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> FOXY_ARCADE = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE.getId().getPath(),
+			() -> new FoxyArcadeDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> FOXY_ARCADE_ON = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE_ON.getId().getPath(), () -> new FoxyArcadeOnDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE_ON.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

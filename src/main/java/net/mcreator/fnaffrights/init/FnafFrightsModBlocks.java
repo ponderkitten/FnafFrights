@@ -197,6 +197,8 @@ import net.mcreator.fnaffrights.block.FoxyLegBlock;
 import net.mcreator.fnaffrights.block.FoxyLeftArmBlock;
 import net.mcreator.fnaffrights.block.FoxyHeadBlock;
 import net.mcreator.fnaffrights.block.FoxyBlockBlock;
+import net.mcreator.fnaffrights.block.FoxyArcadeOnBlock;
+import net.mcreator.fnaffrights.block.FoxyArcadeBlock;
 import net.mcreator.fnaffrights.block.FixedFoxyShowtimeBlock;
 import net.mcreator.fnaffrights.block.FixedFoxyShowtimeActiveBlock;
 import net.mcreator.fnaffrights.block.FazbearLogoBlock;
@@ -630,4 +632,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> BLOODCHICA_ANIMATEDBLOCK = REGISTRY.register("bloodchica_animatedblock", () -> new BloodchicaAnimatedblockBlock());
 	public static final RegistryObject<Block> BURNT_MANGLE = REGISTRY.register("burnt_mangle", () -> new BurntMangleBlock());
 	public static final RegistryObject<Block> BURNT_BB = REGISTRY.register("burnt_bb", () -> new BurntBBBlock());
+	public static final RegistryObject<Block> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> new FoxyArcadeBlock());
+	public static final RegistryObject<Block> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on", () -> new FoxyArcadeOnBlock());
 }
