@@ -38,19 +38,21 @@ public class PuppetBoxGiftBlockAddedProcedure {
 						"/loot give @p loot fnaf_frights:gameplay/puppet");
 		});
 		FnafFrightsMod.queueServerWork(160, () -> {
-			{
-				BlockPos _bp = new BlockPos(x, y, z);
-				BlockState _bs = FnafFrightsModBlocks.PUPPET_IN_THE_BOX_BLOCK.get().defaultBlockState();
-				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-					if (_property != null && _bs.getValue(_property) != null)
-						try {
-							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-						} catch (Exception e) {
-						}
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafFrightsModBlocks.PUPPET_BOX_GIFT.get()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FnafFrightsModBlocks.PUPPET_IN_THE_BOX_BLOCK.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
 				}
-				world.setBlock(_bp, _bs, 3);
 			}
 		});
 	}

@@ -33,22 +33,24 @@ public class PuppetBoxWindingBlockAddedProcedure {
 			}
 		}
 		FnafFrightsMod.queueServerWork(Mth.nextInt(RandomSource.create(), 100, 2400), () -> {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"/stopsound @a master fnaf_mod_bits_and_pieces:musicbox");
-			{
-				BlockPos _bp = new BlockPos(x, y, z);
-				BlockState _bs = FnafFrightsModBlocks.PUPPET_BOX_JUMPSCARE.get().defaultBlockState();
-				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-					if (_property != null && _bs.getValue(_property) != null)
-						try {
-							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-						} catch (Exception e) {
-						}
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafFrightsModBlocks.PUPPET_BOX_WINDING.get()) {
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"/stopsound @a master fnaf_frights:musicbox");
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = FnafFrightsModBlocks.PUPPET_BOX_JUMPSCARE.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
 				}
-				world.setBlock(_bp, _bs, 3);
 			}
 		});
 	}

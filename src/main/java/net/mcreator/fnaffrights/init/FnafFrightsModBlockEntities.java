@@ -198,6 +198,8 @@ import net.mcreator.fnaffrights.block.entity.FoxyLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyBlockTileEntity;
+import net.mcreator.fnaffrights.block.entity.FoxyArcadeTileEntity;
+import net.mcreator.fnaffrights.block.entity.FoxyArcadeOnTileEntity;
 import net.mcreator.fnaffrights.block.entity.FixedFoxyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.FixedFoxyShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.FazbearLogoTileEntity;
@@ -899,6 +901,9 @@ public class FnafFrightsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<BurntBBTileEntity>> BURNT_BB = REGISTRY.register("burnt_bb", () -> BlockEntityType.Builder.of(BurntBBTileEntity::new, FnafFrightsModBlocks.BURNT_BB.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntWwitheredFreddyTileEntity>> BURNT_WWITHERED_FREDDY = REGISTRY.register("burnt_wwithered_freddy",
 			() -> BlockEntityType.Builder.of(BurntWwitheredFreddyTileEntity::new, FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FoxyArcadeTileEntity>> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> BlockEntityType.Builder.of(FoxyArcadeTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FoxyArcadeOnTileEntity>> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on",
+			() -> BlockEntityType.Builder.of(FoxyArcadeOnTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE_ON.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

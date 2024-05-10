@@ -10600,38 +10600,6 @@
       "path": "~/Burnts"
     },
     {
-      "name": "PuppetScreenRedstoneOn",
-      "type": "procedure",
-      "sortid": 453,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "puppet_screen_redstone_on",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnaffrights/procedures/PuppetScreenRedstoneOnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Puppet"
-    },
-    {
       "name": "PuppetScreenUpdateTick",
       "type": "procedure",
       "sortid": 454,
@@ -10767,6 +10735,120 @@
         ]
       },
       "path": "~/Burnts"
+    },
+    {
+      "name": "FoxyArcadeOn",
+      "type": "animatedblock",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_on_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeOnTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeOnBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeOnDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade_on.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade_on.json"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcadeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcade",
+      "type": "animatedblock",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade.json",
+          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_particle.json",
+          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade.json"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FoxyArcadeOnBlockAdded",
+      "type": "procedure",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxy_arcade_on_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
     }
   ],
   "variable_elements": [
@@ -11349,6 +11431,7 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Withered Freddy Left Arm",
+      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade On",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "voicemail 9",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
@@ -11541,6 +11624,7 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
+      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Chica Right Leg",
       "subtitles.lullabywaltz": "",
@@ -11580,7 +11664,6 @@
       "block.fnaf_frights.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.vassilis_a": "Vassilis Active",
       "item.fnaf_frights.present": "Present",
-      "block.fnaf_frights.burnt_wwithered_freddy": "Burnt Withered Freddy Jumpscare Block",
       "block.fnaf_mod_bits_and_pieces.springbonnie_showtime": "SpringBonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_torso": "Foxy Torso",
       "item.fnaf_frights.f_1_n_4": "Night 4",
@@ -11867,8 +11950,8 @@
       "block.fnaf_frights.withered_freddy_left_arm": "Withered Freddy Left Arm",
       "block.fnaf_mod_bits_and_pieces.angled_blloon_boy_statue": "Ballon Boy Statue",
       "itemGroup.tabshowtimes": "Showtimes",
-      "block.fnaf_mod_bits_and_pieces.endo_02_torso": "Freddy Torso",
       "block.fnaf_frights.vassilis": "Vassilis",
+      "block.fnaf_mod_bits_and_pieces.endo_02_torso": "Freddy Torso",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_head": "Chica Chicken Head",
       "block.fnaf_frights.a_toy_freddy_showtime": "Angled Toy Freddy Showtime",
       "item.fnaf_frights.f_2_n_4.desc": "voicemail 9",
@@ -11878,8 +11961,8 @@
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime_active": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_head": "Withered Foxy Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_right_leg": "Fredbear Right Leg",
-      "block.fnaf_mod_bits_and_pieces.freddy_showtime_active": "Freddy Showtime",
       "block.fnaf_frights.withered_freddy_left_leg": "Withered Freddy Left Leg",
+      "block.fnaf_mod_bits_and_pieces.freddy_showtime_active": "Freddy Showtime",
       "block.fnaf_frights.a_fixed_foxy_active": "Angled Fixed Foxy Showtime Active",
       "block.fnaf_frights.a_foxy_pirate_active": "Angled Foxy Pirate Showtime Active",
       "block.fnaf_mod_bits_and_pieces.chica_chicken_left_leg": "Fredbear Left Leg",
@@ -11892,8 +11975,8 @@
       "block.fnaf_frights.glitch_bonnie_showtime_active": "Glitch Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_foxy_pirate_active": "Angled Foxy Pirate Showtime",
       "block.fnaf_frights.withered_foxy_head": "Withered Foxy Head",
-      "item.fnaf_mod_bits_and_pieces.f_1_n_4": "Night 3",
       "block.fnaf_frights.toy_freddy_left_arm": "Toy Freddy Left Arm",
+      "item.fnaf_mod_bits_and_pieces.f_1_n_4": "Night 3",
       "item.fnaf_mod_bits_and_pieces.f_1_n_5": "Night 4",
       "block.fnaf_frights.classic_chica_showtime_active": "Classic Chica Showtime Active",
       "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
@@ -11913,9 +11996,9 @@
       "block.fnaf_frights.toy_freddy_head": "Toy Freddy Head",
       "block.fnaf_mod_bits_and_pieces.toy_foxy_left_leg": "Toy Bonnie Left Leg",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy": "Christmas Freddy",
-      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_torso": "SpringBonnie Torso",
-      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.freddy_left_arm": "Freddy Left Leg",
+      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
+      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_torso": "SpringBonnie Torso",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_frights.endo_02_chica_head": "Endo02 Chica Head",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_head": "Withered Bonnie Head",
@@ -11943,20 +12026,20 @@
       "block.fnaf_frights.freddy_fazbear_showtime_active": "Freddy Fazbear Showtime Active",
       "block.fnaf_frights.enod_02_bonnie_head": "Endo02 Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.offset_foxy_showtime": "Offset Freddy Fazbear Showtime",
-      "block.fnaf_mod_bits_and_pieces.toy_freddy_left_leg": "Toy Bonnie Left Leg",
-      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
       "block.fnaf_frights.chica_chicken_head": "Chica Chicken Head",
+      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
+      "block.fnaf_mod_bits_and_pieces.toy_freddy_left_leg": "Toy Bonnie Left Leg",
       "block.fnaf_frights.freddy_block": "Freddy Block",
       "item.fnaf_frights.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
-      "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg.desc": "Grand Fathers Clock-Red Grammer",
       "block.fnaf_frights.christmas_chica_a": "Christmas Chica Active",
+      "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg.desc": "Grand Fathers Clock-Red Grammer",
       "block.fnaf_mod_bits_and_pieces.freddy_right_leg": "Freddy Left Leg",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3": "Night 2",
-      "item.fnaf_mod_bits_and_pieces.f_2_n_4": "Night 3",
       "block.fnaf_frights.a_fredbear_active": "Angled Fredbear Showtime Active",
+      "item.fnaf_mod_bits_and_pieces.f_2_n_4": "Night 3",
       "item.fnaf_mod_bits_and_pieces.f_2_n_5": "Night 4",
-      "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 5",
       "block.fnaf_frights.classic_chica_showtime": "Classic Chica Showtime",
+      "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 5",
       "block.fnaf_frights.bloodchica_animatedblock": "Burnt Toy Bonnie Animated",
       "block.fnaf_frights.bonnie_bunnie_head": "Bonnie Bunnie Head",
       "block.fnaf_mod_bits_and_pieces.a_yellow_bear_active": "Angled Yellow Bear Showtime",
@@ -11980,19 +12063,19 @@
       "block.fnaf_mod_bits_and_pieces.freddy_right_arm": "Freddy Left Arm",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_bunnie_active": "Angled Spring Bonnie Bunnie Showtime",
       "block.fnaf_mod_bits_and_pieces.a_bonnie_showtime": "Angled Bonnie Bunnie Showtime",
-      "block.fnaf_frights.toy_bonnie_showtime_active": "Toy Bonnie Showtime Active",
       "block.fnaf_frights.a_toy_freddy_active": "Angled Toy Freddy Showtime Active",
+      "block.fnaf_frights.toy_bonnie_showtime_active": "Toy Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_head": "Toy Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_left_arm": "Fredbear Left Arm",
       "block.fnaf_frights.foxy_pirate_showtime": "Foxy The Pirate Showtime",
-      "block.fnaf_mod_bits_and_pieces.endo_01_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
+      "block.fnaf_mod_bits_and_pieces.endo_01_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.withered_freddy_head": "Withered Freddy Head",
       "block.fnaf_frights.puppet_box_gift": "Puppet Gift",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime": "Chica Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_2": "Night 1",
-      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_right_leg": "SpringBonnie Right Leg",
       "item.fnaf_mod_bits_and_pieces.f_1_n_3": "Night 2",
+      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_right_leg": "SpringBonnie Right Leg",
       "block.fnaf_frights.withered_chica_block": "Withered Chica Block",
       "item.fnaf_mod_bits_and_pieces.f_1_n_1": "Night 1",
       "block.fnaf_mod_bits_and_pieces.vasstronic": "Vasstronic",
@@ -12003,13 +12086,13 @@
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_leg": "Foxy Pirate Right Leg",
       "block.fnaf_frights.foxy_torso": "Foxy Torso",
       "subtitles.f3n1": "",
-      "subtitles.f3n2": "",
       "block.fnaf_mod_bits_and_pieces.fred_bear_right_arm": "Bonnie Bunnie Right Arm",
+      "subtitles.f3n2": "",
       "subtitles.f3n3": "",
       "subtitles.f3n4": "",
       "subtitles.f3n5": "",
-      "item.fnaf_mod_bits_and_pieces.f_3_n_4": "Night 3",
       "subtitles.f3n6": "",
+      "item.fnaf_mod_bits_and_pieces.f_3_n_4": "Night 3",
       "item.fnaf_mod_bits_and_pieces.f_3_n_5": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_3_n_2": "Night 1",
       "item.fnaf_mod_bits_and_pieces.f_3_n_3": "Night 2",
@@ -12038,8 +12121,8 @@
       "block.fnaf_mod_bits_and_pieces.withered_chica_left_arm": "Bonnie Left Arm",
       "block.fnaf_frights.withered_bonnie_head": "Withered Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_arm": "Foxy Pirate Right Arm",
-      "block.fnaf_mod_bits_and_pieces.foxy_pirate_right_arm": "Chica Chicken Right Arm",
       "block.fnaf_frights.spring_bonnie_left_l_eg": "SpringBonnie Left Leg",
+      "block.fnaf_mod_bits_and_pieces.foxy_pirate_right_arm": "Chica Chicken Right Arm",
       "block.fnaf_frights.broken_foxy_pirate_torso": "Broken Foxy Pirate Torso",
       "block.fnaf_frights.freddy_fazbear_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.toy_bonnie_right_leg": "Toy Bonnie Right Leg",
@@ -12103,8 +12186,8 @@
       "block.fnaf_mod_bits_and_pieces.generator_7": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_8": "Generator",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended.desc": "Fnaf Movie",
-      "block.fnaf_mod_bits_and_pieces.generator_2": "Generator",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_torso": "Foxy Pirate Torso",
+      "block.fnaf_mod_bits_and_pieces.generator_2": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_3": "Generator",
       "block.fnaf_mod_bits_and_pieces.offset_toy_freddy_active": "Offset Freddy Fazbear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.generator_4": "Generator",
@@ -12124,14 +12207,15 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Freddy Left Arm",
+      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_head": "Foxy Pirate Head",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended": "Fnaf Movie",
       "block.fnaf_frights.fred_bear_right_leg": "Fredbear Right Leg",
-      "block.fnaf_mod_bits_and_pieces.withered_freddy_torso": "Withered Freddy Torso",
       "block.fnaf_frights.chica_block": "Chica Block",
+      "block.fnaf_mod_bits_and_pieces.withered_freddy_torso": "Withered Freddy Torso",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_left_arm": "Freddy Fazbear Left Arm",
       "block.fnaf_mod_bits_and_pieces.offset_fred_bear_showtime": "Offset Freddy Fazbear Showtime",
       "block.fnaf_frights.endo_02_right_arm": "Endo 02 Right Arm",
@@ -12152,9 +12236,9 @@
       "block.fnaf_frights.offset_toy_foxy_showtime": "Offset Toy Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.lullaby_waltz": "Lullaby Waltz",
       "block.fnaf_mod_bits_and_pieces.foxy_right_arm": "Foxy Arm",
-      "block.fnaf_mod_bits_and_pieces.toy_freddy_block": "Toy Chica Block",
-      "itemGroup.tabtoy_pieces": "Toy Pieces",
       "block.fnaf_mod_bits_and_pieces.foxy_left_arm": "Foxy Hook Arm",
+      "itemGroup.tabtoy_pieces": "Toy Pieces",
+      "block.fnaf_mod_bits_and_pieces.toy_freddy_block": "Toy Chica Block",
       "item.fnaf_mod_bits_and_pieces.present": "Present",
       "item.fnaf_frights.grandfathers_clock_mb": "Grandfathers Clock MB",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy_a": "Christmas Freddy",
@@ -12179,8 +12263,8 @@
       "block.fnaf_mod_bits_and_pieces.enod_02_bonnie_head": "Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.chica_showtime_active": "Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.a_toy_chica_showtime": "Angled Toy Bonnie Showtime",
-      "item.fnaf_mod_bits_and_pieces.f_3_n_1.desc": "An old cassette found in freddy jr\u0027s",
       "item.fnaf_frights.f_2_n_3.desc": "voicemail 8",
+      "item.fnaf_mod_bits_and_pieces.f_3_n_1.desc": "An old cassette found in freddy jr\u0027s",
       "item.fnaf_frights.coin": "Coin",
       "block.fnaf_mod_bits_and_pieces.a_shaven_bonnie_active": "Angled Shaven Bonnie Showtime",
       "block.fnaf_frights.toy_foxy_block": "Toy Foxy Block",
@@ -12188,8 +12272,8 @@
       "subtitles.grandfathersclockmusicbox": "",
       "block.fnaf_frights.chica_left_leg": "Chica Left Leg",
       "block.fnaf_frights.freddy_box_spin": "Freddy Box Spin",
-      "item.fnaf_frights.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_frights.bonnie_block": "Bonnie Block",
+      "item.fnaf_frights.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_frights.offset_foxy_active": "Offset Foxy Showtime Active",
       "block.fnaf_frights.puppet_screen": "Puppet Screen",
       "block.fnaf_frights.bonnie_bunnie_right_arm": "Bonnie Bunnie Right Arm",
@@ -12204,8 +12288,8 @@
       "block.fnaf_frights.bonnie_bunnie_showtime_active": "Bonnie The Bunnie Showtime Active",
       "block.fnaf_frights.bonnie_right_leg": "Bonnie Right Leg",
       "item.fnaf_frights.burnttoyfreddyicon": "Burnttoyfreddyicon",
-      "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Freddy Left Leg",
       "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",
+      "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Freddy Left Leg",
       "block.fnaf_mod_bits_and_pieces.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_left_leg": "Foxy Pirate Left Leg",
       "block.fnaf_mod_bits_and_pieces.bonnie_showtime": "Freddy Showtime",
@@ -12316,6 +12400,7 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
+      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Freddy Right Leg",
       "subtitles.lullabywaltz": "",
@@ -12709,6 +12794,10 @@
       },
       {
         "name": "codes",
+        "children": []
+      },
+      {
+        "name": "Props",
         "children": []
       }
     ]
