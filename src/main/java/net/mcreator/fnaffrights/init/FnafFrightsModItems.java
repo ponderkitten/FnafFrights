@@ -279,6 +279,7 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntWwitheredFreddyDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyChicaDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyBonnieJumpscareDisplayItem;
@@ -987,6 +988,8 @@ public class FnafFrightsModItems {
 			() -> new BurntMangleDisplayItem(FnafFrightsModBlocks.BURNT_MANGLE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_BB = REGISTRY.register(FnafFrightsModBlocks.BURNT_BB.getId().getPath(),
 			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_WWITHERED_FREDDY = REGISTRY.register(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.getId().getPath(),
+			() -> new BurntWwitheredFreddyDisplayItem(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

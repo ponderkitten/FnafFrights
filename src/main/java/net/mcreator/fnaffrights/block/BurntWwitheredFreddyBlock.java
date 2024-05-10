@@ -33,11 +33,11 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Collections;
 
-public class BloodchicaAnimatedblockBlock extends BaseEntityBlock implements EntityBlock {
+public class BurntWwitheredFreddyBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public BloodchicaAnimatedblockBlock() {
+	public BurntWwitheredFreddyBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -50,7 +50,7 @@ public class BloodchicaAnimatedblockBlock extends BaseEntityBlock implements Ent
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return FnafFrightsModBlockEntities.BLOODCHICA_ANIMATEDBLOCK.get().create(blockPos, blockState);
+		return FnafFrightsModBlockEntities.BURNT_WWITHERED_FREDDY.get().create(blockPos, blockState);
 	}
 
 	@Override

@@ -10744,6 +10744,29 @@
         ]
       },
       "path": "~/Puppet"
+    },
+    {
+      "name": "BurntWwitheredFreddy",
+      "type": "animatedblock",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_wwithered_freddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/custom/burnt_wwithered_freddy_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/BurntWwitheredFreddyTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/item/burnt_wwithered_freddy.json",
+          "src/main/java/net/mcreator/fnaffrights/block/BurntWwitheredFreddyBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/burnt_wwithered_freddy.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/BurntWwitheredFreddyDisplayItem.java"
+        ]
+      },
+      "path": "~/Burnts"
     }
   ],
   "variable_elements": [
@@ -11137,7 +11160,7 @@
       "block.fnaf_mod_bits_and_pieces.withered_golden_freddy_left_leg": "Withered Golden Freddy Left Leg",
       "block.fnaf_mod_bits_and_pieces.a_yellow_bear_showtime": "Angled Yellow Bear Showtime",
       "block.fnaf_frights.a_freddy_fazbear_active": "Angled Freddy Fazbear Showtime Active",
-      "block.fnaf_frights.burnt_toy_chica": "Burnt Toy Bonnie Animated",
+      "block.fnaf_frights.burnt_toy_chica": "Burnt Toy Bonnie",
       "block.fnaf_frights.toy_bonnie_showtime": "Toy Bonnie Showtime",
       "subtitles.electricsizzle": "",
       "item.fnaf_frights.ticket": "Ticket",
@@ -11159,7 +11182,7 @@
       "item.fnaf_mod_bits_and_pieces.f_2_n_5": "Night 5",
       "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 6",
       "block.fnaf_frights.classic_chica_showtime": "Classic Chica Showtime",
-      "block.fnaf_frights.bloodchica_animatedblock": "Blood Chica Animated",
+      "block.fnaf_frights.bloodchica_animatedblock": "Blood Chica",
       "block.fnaf_frights.bonnie_bunnie_head": "Bonnie Bunnie Head",
       "block.fnaf_mod_bits_and_pieces.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
       "block.fnaf_frights.withered_chica_head": "Withered Chica Head",
@@ -11557,6 +11580,7 @@
       "block.fnaf_frights.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.vassilis_a": "Vassilis Active",
       "item.fnaf_frights.present": "Present",
+      "block.fnaf_frights.burnt_wwithered_freddy": "Burnt Withered Freddy Jumpscare Block",
       "block.fnaf_mod_bits_and_pieces.springbonnie_showtime": "SpringBonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_torso": "Foxy Torso",
       "item.fnaf_frights.f_1_n_4": "Night 4",
@@ -11609,7 +11633,7 @@
       "item.fnaf_frights.f_2_n_3": "Night 3",
       "item.fnaf_frights.f_2_n_4": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_2_n_6.desc": "voicemail 11",
-      "block.fnaf_frights.burnt_bb": "Burnt BB Animated",
+      "block.fnaf_frights.burnt_bb": "Burnt BB",
       "block.fnaf_frights.bonnie_bunnie_showtime": "Bonnie The Bunnie Showtime",
       "block.fnaf_mod_bits_and_pieces.toy_bonnie_head": "Toy Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.a_toy_chica_active": "Angled Toy Chica Showtime Active",
@@ -11691,9 +11715,9 @@
       "block.fnaf_frights.springbonnie_showtime": "SpringBonnie Showtime",
       "block.fnaf_frights.foxy_pirate_head": "Foxy Pirate Head",
       "block.fnaf_frights.withered_foxy_leg": "Withered Foxy Leg",
-      "block.fnaf_frights.burnt_toy_bonnie_jumpscare": "Burnt Toy Bonnie Animated",
+      "block.fnaf_frights.burnt_toy_bonnie_jumpscare": "Burnt Toy Bonnie",
       "block.fnaf_mod_bits_and_pieces.toy_chica_showtime_active": "Toy Chica Showtime Active",
-      "block.fnaf_frights.puppetwalldecor": "Puppetwalldecor",
+      "block.fnaf_frights.puppetwalldecor": "Puppet Wall Decor",
       "block.fnaf_frights.puppet_box_slumped": "Puppet Slump",
       "subtitles.glssbreaks": "",
       "block.fnaf_frights.offset_freddy_fazbear_showtime": "Offset Freddy Fazbear Showtime",
@@ -12331,6 +12355,7 @@
       "block.fnaf_frights.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.vassilis_a": "Christmas Freddy Active",
       "item.fnaf_frights.present": "Present",
+      "block.fnaf_frights.burnt_wwithered_freddy": "Burnt BB",
       "block.fnaf_mod_bits_and_pieces.springbonnie_showtime": "Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_torso": "Foxy Torso",
       "item.fnaf_frights.f_1_n_4": "Night 4",

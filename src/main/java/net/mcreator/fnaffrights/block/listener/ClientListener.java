@@ -241,6 +241,7 @@ import net.mcreator.fnaffrights.block.renderer.ChicaChickenLeftArmTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaChickenHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.CaptainFoxyStatueTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.BurntWwitheredFreddyTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyFreddyJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyChicaTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyBonnieJumpscareTileRenderer;
@@ -628,5 +629,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BLOODCHICA_ANIMATEDBLOCK.get(), BloodchicaAnimatedblockTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_MANGLE.get(), BurntMangleTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_BB.get(), BurntBBTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_WWITHERED_FREDDY.get(), BurntWwitheredFreddyTileRenderer::new);
 	}
 }
