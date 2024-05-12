@@ -248,7 +248,6 @@ import net.mcreator.fnaffrights.block.entity.ChicaChickenHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChicaBlockTileEntity;
 import net.mcreator.fnaffrights.block.entity.CarTileEntity;
 import net.mcreator.fnaffrights.block.entity.CaptainFoxyStatueTileEntity;
-import net.mcreator.fnaffrights.block.entity.BurntWwitheredFreddyTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyFreddyJumpscareTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyChicaTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyBonnieJumpscareTileEntity;
@@ -885,9 +884,9 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(AngledToyCarnieTileEntity::new, FnafFrightsModBlocks.ANGLED_TOY_CARNIE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<AngledBlloonBoyStatueTileEntity>> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register("angled_blloon_boy_statue",
 			() -> BlockEntityType.Builder.of(AngledBlloonBoyStatueTileEntity::new, FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PuppetScreenTileEntity>> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> BlockEntityType.Builder.of(PuppetScreenTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PuppetwalldecorTileEntity>> PUPPETWALLDECOR = REGISTRY.register("puppetwalldecor",
 			() -> BlockEntityType.Builder.of(PuppetwalldecorTileEntity::new, FnafFrightsModBlocks.PUPPETWALLDECOR.get()).build(null));
-	public static final RegistryObject<BlockEntityType<PuppetScreenTileEntity>> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> BlockEntityType.Builder.of(PuppetScreenTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PuppetScreenActiveTileEntity>> PUPPET_SCREEN_ACTIVE = REGISTRY.register("puppet_screen_active",
 			() -> BlockEntityType.Builder.of(PuppetScreenActiveTileEntity::new, FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntToyFreddyJumpscareTileEntity>> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare",
@@ -900,8 +899,6 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(BloodchicaAnimatedblockTileEntity::new, FnafFrightsModBlocks.BLOODCHICA_ANIMATEDBLOCK.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntMangleTileEntity>> BURNT_MANGLE = REGISTRY.register("burnt_mangle", () -> BlockEntityType.Builder.of(BurntMangleTileEntity::new, FnafFrightsModBlocks.BURNT_MANGLE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntBBTileEntity>> BURNT_BB = REGISTRY.register("burnt_bb", () -> BlockEntityType.Builder.of(BurntBBTileEntity::new, FnafFrightsModBlocks.BURNT_BB.get()).build(null));
-	public static final RegistryObject<BlockEntityType<BurntWwitheredFreddyTileEntity>> BURNT_WWITHERED_FREDDY = REGISTRY.register("burnt_wwithered_freddy",
-			() -> BlockEntityType.Builder.of(BurntWwitheredFreddyTileEntity::new, FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FoxyArcadeTileEntity>> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> BlockEntityType.Builder.of(FoxyArcadeTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FoxyArcadeOnTileEntity>> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on",
 			() -> BlockEntityType.Builder.of(FoxyArcadeOnTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE_ON.get()).build(null));

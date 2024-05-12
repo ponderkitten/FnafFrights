@@ -248,7 +248,6 @@ import net.mcreator.fnaffrights.block.ChicaChickenHeadBlock;
 import net.mcreator.fnaffrights.block.ChicaBlockBlock;
 import net.mcreator.fnaffrights.block.CarBlock;
 import net.mcreator.fnaffrights.block.CaptainFoxyStatueBlock;
-import net.mcreator.fnaffrights.block.BurntWwitheredFreddyBlock;
 import net.mcreator.fnaffrights.block.BurntToyFreddyJumpscareBlock;
 import net.mcreator.fnaffrights.block.BurntToyChicaBlock;
 import net.mcreator.fnaffrights.block.BurntToyBonnieJumpscareBlock;
@@ -625,8 +624,8 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> CAPTAIN_FOXY_STATUE = REGISTRY.register("captain_foxy_statue", () -> new CaptainFoxyStatueBlock());
 	public static final RegistryObject<Block> ANGLED_TOY_CARNIE = REGISTRY.register("angled_toy_carnie", () -> new AngledToyCarnieBlock());
 	public static final RegistryObject<Block> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register("angled_blloon_boy_statue", () -> new AngledBlloonBoyStatueBlock());
-	public static final RegistryObject<Block> PUPPETWALLDECOR = REGISTRY.register("puppetwalldecor", () -> new PuppetwalldecorBlock());
 	public static final RegistryObject<Block> PUPPET_SCREEN = REGISTRY.register("puppet_screen", () -> new PuppetScreenBlock());
+	public static final RegistryObject<Block> PUPPETWALLDECOR = REGISTRY.register("puppetwalldecor", () -> new PuppetwalldecorBlock());
 	public static final RegistryObject<Block> PUPPET_SCREEN_ACTIVE = REGISTRY.register("puppet_screen_active", () -> new PuppetScreenActiveBlock());
 	public static final RegistryObject<Block> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register("burnt_toy_freddy_jumpscare", () -> new BurntToyFreddyJumpscareBlock());
 	public static final RegistryObject<Block> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register("burnt_toy_bonnie_jumpscare", () -> new BurntToyBonnieJumpscareBlock());
@@ -634,7 +633,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> BLOODCHICA_ANIMATEDBLOCK = REGISTRY.register("bloodchica_animatedblock", () -> new BloodchicaAnimatedblockBlock());
 	public static final RegistryObject<Block> BURNT_MANGLE = REGISTRY.register("burnt_mangle", () -> new BurntMangleBlock());
 	public static final RegistryObject<Block> BURNT_BB = REGISTRY.register("burnt_bb", () -> new BurntBBBlock());
-	public static final RegistryObject<Block> BURNT_WWITHERED_FREDDY = REGISTRY.register("burnt_wwithered_freddy", () -> new BurntWwitheredFreddyBlock());
 	public static final RegistryObject<Block> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> new FoxyArcadeBlock());
 	public static final RegistryObject<Block> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on", () -> new FoxyArcadeOnBlock());
 	public static final RegistryObject<Block> CAR = REGISTRY.register("car", () -> new CarBlock());

@@ -244,7 +244,6 @@ import net.mcreator.fnaffrights.block.renderer.ChicaChickenHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChicaBlockTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.CarTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.CaptainFoxyStatueTileRenderer;
-import net.mcreator.fnaffrights.block.renderer.BurntWwitheredFreddyTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyFreddyJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyChicaTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.BurntToyBonnieJumpscareTileRenderer;
@@ -623,8 +622,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CAPTAIN_FOXY_STATUE.get(), CaptainFoxyStatueTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_TOY_CARNIE.get(), AngledToyCarnieTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.ANGLED_BLLOON_BOY_STATUE.get(), AngledBlloonBoyStatueTileRenderer::new);
-		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPETWALLDECOR.get(), PuppetwalldecorTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPET_SCREEN.get(), PuppetScreenTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPETWALLDECOR.get(), PuppetwalldecorTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PUPPET_SCREEN_ACTIVE.get(), PuppetScreenActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_FREDDY_JUMPSCARE.get(), BurntToyFreddyJumpscareTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_TOY_BONNIE_JUMPSCARE.get(), BurntToyBonnieJumpscareTileRenderer::new);
@@ -632,7 +631,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BLOODCHICA_ANIMATEDBLOCK.get(), BloodchicaAnimatedblockTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_MANGLE.get(), BurntMangleTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_BB.get(), BurntBBTileRenderer::new);
-		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.BURNT_WWITHERED_FREDDY.get(), BurntWwitheredFreddyTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.FOXY_ARCADE.get(), FoxyArcadeTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.FOXY_ARCADE_ON.get(), FoxyArcadeOnTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CAR.get(), CarTileRenderer::new);
