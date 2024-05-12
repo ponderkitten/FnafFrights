@@ -280,6 +280,7 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenLeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaChickenLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
+import net.mcreator.fnaffrights.block.display.CarDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyChicaDisplayItem;
@@ -992,6 +993,7 @@ public class FnafFrightsModItems {
 	public static final RegistryObject<Item> FOXY_ARCADE = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE.getId().getPath(),
 			() -> new FoxyArcadeDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 	public static final RegistryObject<Item> FOXY_ARCADE_ON = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE_ON.getId().getPath(), () -> new FoxyArcadeOnDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> CAR = REGISTRY.register(FnafFrightsModBlocks.CAR.getId().getPath(), () -> new CarDisplayItem(FnafFrightsModBlocks.CAR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

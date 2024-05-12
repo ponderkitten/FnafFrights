@@ -246,6 +246,7 @@ import net.mcreator.fnaffrights.block.ChicaChickenLeftLegBlock;
 import net.mcreator.fnaffrights.block.ChicaChickenLeftArmBlock;
 import net.mcreator.fnaffrights.block.ChicaChickenHeadBlock;
 import net.mcreator.fnaffrights.block.ChicaBlockBlock;
+import net.mcreator.fnaffrights.block.CarBlock;
 import net.mcreator.fnaffrights.block.CaptainFoxyStatueBlock;
 import net.mcreator.fnaffrights.block.BurntToyFreddyJumpscareBlock;
 import net.mcreator.fnaffrights.block.BurntToyChicaBlock;
@@ -634,4 +635,5 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> BURNT_BB = REGISTRY.register("burnt_bb", () -> new BurntBBBlock());
 	public static final RegistryObject<Block> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> new FoxyArcadeBlock());
 	public static final RegistryObject<Block> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on", () -> new FoxyArcadeOnBlock());
+	public static final RegistryObject<Block> CAR = REGISTRY.register("car", () -> new CarBlock());
 }

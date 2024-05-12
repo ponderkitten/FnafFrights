@@ -246,6 +246,7 @@ import net.mcreator.fnaffrights.block.entity.ChicaChickenLeftLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChicaChickenLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChicaChickenHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChicaBlockTileEntity;
+import net.mcreator.fnaffrights.block.entity.CarTileEntity;
 import net.mcreator.fnaffrights.block.entity.CaptainFoxyStatueTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyFreddyJumpscareTileEntity;
 import net.mcreator.fnaffrights.block.entity.BurntToyChicaTileEntity;
@@ -901,6 +902,7 @@ public class FnafFrightsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<FoxyArcadeTileEntity>> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> BlockEntityType.Builder.of(FoxyArcadeTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FoxyArcadeOnTileEntity>> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on",
 			() -> BlockEntityType.Builder.of(FoxyArcadeOnTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CarTileEntity>> CAR = REGISTRY.register("car", () -> BlockEntityType.Builder.of(CarTileEntity::new, FnafFrightsModBlocks.CAR.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
