@@ -4,13 +4,13 @@ import javax.annotation.Nullable;
 
 import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
 
-public class FoxyArcadeTileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
+public class BurntWwitheredFreddyTileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
 	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public FoxyArcadeTileEntity(BlockPos pos, BlockState state) {
-		super(FnafFrightsModBlockEntities.FOXY_ARCADE.get(), pos, state);
+	public BurntWwitheredFreddyTileEntity(BlockPos pos, BlockState state) {
+		super(FnafFrightsModBlockEntities.BURNT_WWITHERED_FREDDY.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
@@ -37,8 +37,8 @@ public class FoxyArcadeTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public void registerControllers(AnimationData data) {
-		data.addAnimationController(new AnimationController<FoxyArcadeTileEntity>(this, "controller", 0, this::predicate));
-		data.addAnimationController(new AnimationController<FoxyArcadeTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
+		data.addAnimationController(new AnimationController<BurntWwitheredFreddyTileEntity>(this, "controller", 0, this::predicate));
+		data.addAnimationController(new AnimationController<BurntWwitheredFreddyTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
 	}
 
 	@Override
@@ -92,7 +92,7 @@ public class FoxyArcadeTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("foxy_arcade");
+		return Component.literal("burnt_wwithered_freddy");
 	}
 
 	@Override
@@ -107,7 +107,7 @@ public class FoxyArcadeTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Foxy Arcade");
+		return Component.literal("Burnt Withered Freddy Jumpscare Block");
 	}
 
 	@Override

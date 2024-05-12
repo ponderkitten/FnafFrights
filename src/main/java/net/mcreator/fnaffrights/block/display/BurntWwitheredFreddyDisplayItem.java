@@ -2,10 +2,10 @@ package net.mcreator.fnaffrights.block.display;
 
 import net.minecraftforge.common.property.Properties;
 
-public class FoxyArcadeOnDisplayItem extends BlockItem implements IAnimatable {
+public class BurntWwitheredFreddyDisplayItem extends BlockItem implements IAnimatable {
 	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
 
-	public FoxyArcadeOnDisplayItem(Block block, Properties settings) {
+	public BurntWwitheredFreddyDisplayItem(Block block, Properties settings) {
 		super(block, settings);
 	}
 
@@ -17,7 +17,7 @@ public class FoxyArcadeOnDisplayItem extends BlockItem implements IAnimatable {
 	public void initializeClient(Consumer<IClientItemExtensions> consumer) {
 		super.initializeClient(consumer);
 		consumer.accept(new IClientItemExtensions() {
-			private final BlockEntityWithoutLevelRenderer renderer = new FoxyArcadeOnDisplayItemRenderer();
+			private final BlockEntityWithoutLevelRenderer renderer = new BurntWwitheredFreddyDisplayItemRenderer();
 
 			@Override
 			public BlockEntityWithoutLevelRenderer getCustomRenderer() {
