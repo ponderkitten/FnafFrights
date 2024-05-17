@@ -282,6 +282,7 @@ import net.mcreator.fnaffrights.block.display.ChicaChickenHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChicaBlockDisplayItem;
 import net.mcreator.fnaffrights.block.display.CarDisplayItem;
 import net.mcreator.fnaffrights.block.display.CaptainFoxyStatueDisplayItem;
+import net.mcreator.fnaffrights.block.display.BurntWwitheredFreddyDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyFreddyJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyChicaDisplayItem;
 import net.mcreator.fnaffrights.block.display.BurntToyBonnieJumpscareDisplayItem;
@@ -970,13 +971,13 @@ public class FnafFrightsModItems {
 			() -> new AngledToyCarnieDisplayItem(FnafFrightsModBlocks.ANGLED_TOY_CARNIE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
 	public static final RegistryObject<Item> ANGLED_BLLOON_BOY_STATUE = REGISTRY.register(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.getId().getPath(),
 			() -> new AngledBlloonBoyStatueDisplayItem(FnafFrightsModBlocks.ANGLED_BLLOON_BOY_STATUE.get(), new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> PUPPET_SCREEN = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN.getId().getPath(),
-			() -> new PuppetScreenDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 	public static final RegistryObject<Item> PUPPETWALLDECOR = REGISTRY.register(FnafFrightsModBlocks.PUPPETWALLDECOR.getId().getPath(),
 			() -> new PuppetwalldecorDisplayItem(FnafFrightsModBlocks.PUPPETWALLDECOR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANIMATRONIC_BLOCKS)));
+	public static final RegistryObject<Item> PUPPET_SCREEN = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN.getId().getPath(),
+			() -> new PuppetScreenDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
 	public static final RegistryObject<Item> PUPPET_SCREEN_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.getId().getPath(),
 			() -> new PuppetScreenActiveDisplayItem(FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get(), new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> BURNTTOYFREDDYICON = REGISTRY.register("burnttoyfreddyicon", () -> new BurnttoyfreddyiconItem());
 	public static final RegistryObject<Item> BURNT_TOY_FREDDY_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.getId().getPath(),
 			() -> new BurntToyFreddyJumpscareDisplayItem(FnafFrightsModBlocks.BURNT_TOY_FREDDY_JUMPSCARE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_TOY_BONNIE_JUMPSCARE = REGISTRY.register(FnafFrightsModBlocks.BURNT_TOY_BONNIE_JUMPSCARE.getId().getPath(),
@@ -990,6 +991,8 @@ public class FnafFrightsModItems {
 			() -> new BurntMangleDisplayItem(FnafFrightsModBlocks.BURNT_MANGLE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_BB = REGISTRY.register(FnafFrightsModBlocks.BURNT_BB.getId().getPath(),
 			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> BURNT_WWITHERED_FREDDY = REGISTRY.register(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.getId().getPath(),
+			() -> new BurntWwitheredFreddyDisplayItem(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> FOXY_ARCADE = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE.getId().getPath(),
 			() -> new FoxyArcadeDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 	public static final RegistryObject<Item> FOXY_ARCADE_ON = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE_ON.getId().getPath(), () -> new FoxyArcadeOnDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE_ON.get(), new Item.Properties().tab(null)));
