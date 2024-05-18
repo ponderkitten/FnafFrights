@@ -198,8 +198,6 @@ import net.mcreator.fnaffrights.block.entity.FoxyLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyLeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyBlockTileEntity;
-import net.mcreator.fnaffrights.block.entity.FoxyArcadeTileEntity;
-import net.mcreator.fnaffrights.block.entity.FoxyArcadeOnTileEntity;
 import net.mcreator.fnaffrights.block.entity.FixedFoxyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.FixedFoxyShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.FazbearLogoTileEntity;
@@ -221,6 +219,14 @@ import net.mcreator.fnaffrights.block.entity.Endo01LeftLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.Endo01LeftArmTileEntity;
 import net.mcreator.fnaffrights.block.entity.Endo01HeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.EmptyboxTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerFreddyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerFreddyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerFoxyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerFoxyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerChicaShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerChicaActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerBonnieShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.DinerBonnieActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.ClassicChicaShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.ClassicChicaShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChristmasFreddyTileEntity;
@@ -902,10 +908,23 @@ public class FnafFrightsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<BurntBBTileEntity>> BURNT_BB = REGISTRY.register("burnt_bb", () -> BlockEntityType.Builder.of(BurntBBTileEntity::new, FnafFrightsModBlocks.BURNT_BB.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BurntWwitheredFreddyTileEntity>> BURNT_WWITHERED_FREDDY = REGISTRY.register("burnt_wwithered_freddy",
 			() -> BlockEntityType.Builder.of(BurntWwitheredFreddyTileEntity::new, FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FoxyArcadeTileEntity>> FOXY_ARCADE = REGISTRY.register("foxy_arcade", () -> BlockEntityType.Builder.of(FoxyArcadeTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE.get()).build(null));
-	public static final RegistryObject<BlockEntityType<FoxyArcadeOnTileEntity>> FOXY_ARCADE_ON = REGISTRY.register("foxy_arcade_on",
-			() -> BlockEntityType.Builder.of(FoxyArcadeOnTileEntity::new, FnafFrightsModBlocks.FOXY_ARCADE_ON.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CarTileEntity>> CAR = REGISTRY.register("car", () -> BlockEntityType.Builder.of(CarTileEntity::new, FnafFrightsModBlocks.CAR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerFreddyShowtimeTileEntity>> DINER_FREDDY_SHOWTIME = REGISTRY.register("diner_freddy_showtime",
+			() -> BlockEntityType.Builder.of(DinerFreddyShowtimeTileEntity::new, FnafFrightsModBlocks.DINER_FREDDY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerFreddyActiveTileEntity>> DINER_FREDDY_ACTIVE = REGISTRY.register("diner_freddy_active",
+			() -> BlockEntityType.Builder.of(DinerFreddyActiveTileEntity::new, FnafFrightsModBlocks.DINER_FREDDY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerFoxyShowtimeTileEntity>> DINER_FOXY_SHOWTIME = REGISTRY.register("diner_foxy_showtime",
+			() -> BlockEntityType.Builder.of(DinerFoxyShowtimeTileEntity::new, FnafFrightsModBlocks.DINER_FOXY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerFoxyActiveTileEntity>> DINER_FOXY_ACTIVE = REGISTRY.register("diner_foxy_active",
+			() -> BlockEntityType.Builder.of(DinerFoxyActiveTileEntity::new, FnafFrightsModBlocks.DINER_FOXY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerChicaShowtimeTileEntity>> DINER_CHICA_SHOWTIME = REGISTRY.register("diner_chica_showtime",
+			() -> BlockEntityType.Builder.of(DinerChicaShowtimeTileEntity::new, FnafFrightsModBlocks.DINER_CHICA_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerChicaActiveTileEntity>> DINER_CHICA_ACTIVE = REGISTRY.register("diner_chica_active",
+			() -> BlockEntityType.Builder.of(DinerChicaActiveTileEntity::new, FnafFrightsModBlocks.DINER_CHICA_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerBonnieShowtimeTileEntity>> DINER_BONNIE_SHOWTIME = REGISTRY.register("diner_bonnie_showtime",
+			() -> BlockEntityType.Builder.of(DinerBonnieShowtimeTileEntity::new, FnafFrightsModBlocks.DINER_BONNIE_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<DinerBonnieActiveTileEntity>> DINER_BONNIE_ACTIVE = REGISTRY.register("diner_bonnie_active",
+			() -> BlockEntityType.Builder.of(DinerBonnieActiveTileEntity::new, FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

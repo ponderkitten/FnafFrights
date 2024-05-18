@@ -24,7 +24,7 @@ public class FullanimatronicRightClickedProcedure {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x, y, z), box, 3);
 			{
-				int _value = (int) Mth.nextDouble(RandomSource.create(), -1, 7);
+				int _value = Math.round(Mth.nextInt(RandomSource.create(), 0, 18));
 				BlockPos _pos = new BlockPos(x, y, z);
 				BlockState _bs = world.getBlockState(_pos);
 				if (_bs.getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))

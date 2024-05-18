@@ -232,8 +232,6 @@ import net.mcreator.fnaffrights.block.display.FoxyLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyLeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyBlockDisplayItem;
-import net.mcreator.fnaffrights.block.display.FoxyArcadeOnDisplayItem;
-import net.mcreator.fnaffrights.block.display.FoxyArcadeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FixedFoxyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FixedFoxyShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.FazbearLogoDisplayItem;
@@ -255,6 +253,14 @@ import net.mcreator.fnaffrights.block.display.Endo01LeftLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.Endo01LeftArmDisplayItem;
 import net.mcreator.fnaffrights.block.display.Endo01HeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.EmptyboxDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerFreddyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerFreddyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerFoxyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerFoxyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerChicaShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerChicaActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerBonnieShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.DinerBonnieActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.ClassicChicaShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.ClassicChicaShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChristmasFreddyDisplayItem;
@@ -993,10 +999,23 @@ public class FnafFrightsModItems {
 			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_WWITHERED_FREDDY = REGISTRY.register(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.getId().getPath(),
 			() -> new BurntWwitheredFreddyDisplayItem(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
-	public static final RegistryObject<Item> FOXY_ARCADE = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE.getId().getPath(),
-			() -> new FoxyArcadeDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
-	public static final RegistryObject<Item> FOXY_ARCADE_ON = REGISTRY.register(FnafFrightsModBlocks.FOXY_ARCADE_ON.getId().getPath(), () -> new FoxyArcadeOnDisplayItem(FnafFrightsModBlocks.FOXY_ARCADE_ON.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> CAR = REGISTRY.register(FnafFrightsModBlocks.CAR.getId().getPath(), () -> new CarDisplayItem(FnafFrightsModBlocks.CAR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> DINER_FREDDY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.DINER_FREDDY_SHOWTIME.getId().getPath(),
+			() -> new DinerFreddyShowtimeDisplayItem(FnafFrightsModBlocks.DINER_FREDDY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
+	public static final RegistryObject<Item> DINER_FREDDY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_FREDDY_ACTIVE.getId().getPath(),
+			() -> new DinerFreddyActiveDisplayItem(FnafFrightsModBlocks.DINER_FREDDY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> DINER_FOXY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.DINER_FOXY_SHOWTIME.getId().getPath(),
+			() -> new DinerFoxyShowtimeDisplayItem(FnafFrightsModBlocks.DINER_FOXY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
+	public static final RegistryObject<Item> DINER_FOXY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_FOXY_ACTIVE.getId().getPath(),
+			() -> new DinerFoxyActiveDisplayItem(FnafFrightsModBlocks.DINER_FOXY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> DINER_CHICA_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.DINER_CHICA_SHOWTIME.getId().getPath(),
+			() -> new DinerChicaShowtimeDisplayItem(FnafFrightsModBlocks.DINER_CHICA_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
+	public static final RegistryObject<Item> DINER_CHICA_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_CHICA_ACTIVE.getId().getPath(),
+			() -> new DinerChicaActiveDisplayItem(FnafFrightsModBlocks.DINER_CHICA_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> DINER_BONNIE_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.DINER_BONNIE_SHOWTIME.getId().getPath(),
+			() -> new DinerBonnieShowtimeDisplayItem(FnafFrightsModBlocks.DINER_BONNIE_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
+	public static final RegistryObject<Item> DINER_BONNIE_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.getId().getPath(),
+			() -> new DinerBonnieActiveDisplayItem(FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

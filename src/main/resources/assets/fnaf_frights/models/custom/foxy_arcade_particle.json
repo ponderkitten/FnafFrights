@@ -1,6 +1,0 @@
-{
-  "parent": "fnaf_frights:displaysettings/fullanimatronic.item",
-  "textures": {
-    "particle": "fnaf_frights:blocks/foxyarcade"
-  }
-}

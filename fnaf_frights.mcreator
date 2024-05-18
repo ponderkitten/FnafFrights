@@ -2407,16 +2407,16 @@
       "registry_name": "freddy_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fnaf_frights/blockstates/freddy_block.json",
-          "src/main/resources/assets/fnaf_frights/models/custom/freddy_block_particle.json",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBlockDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBlockTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/display/FreddyBlockDisplayItem.java",
-          "src/main/resources/assets/fnaf_frights/models/item/freddy_block.json",
           "src/main/java/net/mcreator/fnaffrights/block/FreddyBlockBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/FreddyBlockBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FreddyBlockDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBlockTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FreddyBlockDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/FreddyBlockDisplayModel.java",
-          "src/main/java/net/mcreator/fnaffrights/block/entity/FreddyBlockTileEntity.java"
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FreddyBlockTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/item/freddy_block.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FreddyBlockBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/freddy_block.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/freddy_block_particle.json"
         ]
       },
       "path": "~/ToyAnimatronics"
@@ -10329,16 +10329,16 @@
       "registry_name": "puppetwalldecor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetwalldecorTileEntity.java",
-          "src/main/resources/assets/fnaf_frights/models/item/puppetwalldecor.json",
-          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorBlockModel.java",
-          "src/main/resources/assets/fnaf_frights/blockstates/puppetwalldecor.json",
-          "src/main/java/net/mcreator/fnaffrights/block/PuppetwalldecorBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorDisplayModel.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/PuppetwalldecorDisplayItem.java",
-          "src/main/resources/assets/fnaf_frights/models/custom/puppetwalldecor_particle.json"
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/item/puppetwalldecor.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PuppetwalldecorTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PuppetwalldecorTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/puppetwalldecor_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/PuppetwalldecorBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PuppetwalldecorDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/puppetwalldecor.json"
         ]
       },
       "path": "~/Puppet"
@@ -10722,53 +10722,314 @@
       "registry_name": "burnt_wwithered_freddy",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyBlockModel.java",
           "src/main/resources/assets/fnaf_frights/models/custom/burnt_wwithered_freddy_particle.json",
           "src/main/java/net/mcreator/fnaffrights/block/entity/BurntWwitheredFreddyTileEntity.java",
           "src/main/resources/assets/fnaf_frights/models/item/burnt_wwithered_freddy.json",
-          "src/main/java/net/mcreator/fnaffrights/block/BurntWwitheredFreddyBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyBlockModel.java",
           "src/main/resources/assets/fnaf_frights/blockstates/burnt_wwithered_freddy.json",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/BurntWwitheredFreddyTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/BurntWwitheredFreddyDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/BurntWwitheredFreddyBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/BurntWwitheredFreddyDisplayItem.java"
         ]
       },
       "path": "~/Burnts"
     },
     {
-      "name": "FoxyArcadeOn",
+      "name": "Car",
       "type": "animatedblock",
-      "sortid": 466,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "foxy_arcade_on",
+      "registry_name": "car",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_on_particle.json",
-          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeOnTileEntity.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnBlockModel.java",
-          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeOnBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeOnTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeOnDisplayItem.java",
-          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade_on.json",
-          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeOnDisplayModel.java",
-          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade_on.json"
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/CarTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/CarTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/CarBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/models/item/car.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/car_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/CarDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/CarBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/CarDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/CarDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/car.json"
         ]
       },
       "path": "~/Props"
     },
     {
-      "name": "FoxyArcadeOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 464,
+      "name": "DinerFreddyShowtime",
+      "type": "animatedblock",
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "foxy_arcade_on_block_right_clicked",
+      "registry_name": "diner_freddy_showtime",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockRightClickedProcedure.java"
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFreddyShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerFreddyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerFreddyShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerFreddyShowtimeBlock.java",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_freddy_showtime.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_freddy_showtime_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFreddyShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFreddyShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFreddyShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_freddy_showtime.json"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerFreddyActive",
+      "type": "animatedblock",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_freddy_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFreddyActiveDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFreddyActiveTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFreddyActiveBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_freddy_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerFreddyActiveDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_freddy_active_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerFreddyActiveTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerFreddyActiveBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFreddyActiveDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_freddy_active.json"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerFoxyShowtime",
+      "type": "animatedblock",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerFoxyShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerFoxyShowtimeTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerFoxyShowtimeBlock.java",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_foxy_showtime.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFoxyShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_foxy_showtime_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFoxyShowtimeDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_foxy_showtime.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFoxyShowtimeTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFoxyShowtimeDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerFoxyActive",
+      "type": "animatedblock",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_foxy_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFoxyActiveTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFoxyActiveDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerFoxyActiveBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerFoxyActiveDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerFoxyActiveTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_foxy_active_particle.json",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_foxy_active.json",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_foxy_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerFoxyActiveBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerFoxyActiveDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerShowtimes",
+      "type": "procedure",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_showtimes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/DinerShowtimesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerChicaShowtime",
+      "type": "animatedblock",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerChicaShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerChicaShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_chica_showtime.json",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerChicaShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerChicaShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerChicaShowtimeBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerChicaShowtimeDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_chica_showtime.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerChicaShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_chica_showtime_particle.json"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerChicaActive",
+      "type": "animatedblock",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chica_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/DinerChicaActiveBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerChicaActiveDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerChicaActiveDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerChicaActiveDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_chica_active_particle.json",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_chica_active.json",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_chica_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerChicaActiveTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerChicaActiveTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerChicaActiveBlockModel.java"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerBonnieShowtime",
+      "type": "animatedblock",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_showtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerBonnieShowtimeDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerBonnieShowtimeTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_bonnie_showtime_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerBonnieShowtimeDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerBonnieShowtimeDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerBonnieShowtimeBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerBonnieShowtimeTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_bonnie_showtime.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerBonnieShowtimeBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_bonnie_showtime.json"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "DinerBonnieActive",
+      "type": "animatedblock",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_bonnie_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerBonnieActiveDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerBonnieActiveTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/DinerBonnieActiveBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/DinerBonnieActiveBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/DinerBonnieActiveDisplayItem.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/DinerBonnieActiveDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/diner_bonnie_active.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/DinerBonnieActiveTileEntity.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/diner_bonnie_active_particle.json",
+          "src/main/resources/assets/fnaf_frights/models/item/diner_bonnie_active.json"
+        ]
+      },
+      "path": "~/Diners"
+    },
+    {
+      "name": "FullAnimatronicTickUpdate",
+      "type": "procedure",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_animatronic_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/FullAnimatronicTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ToyAnimatronics"
+    },
+    {
+      "name": "Memory",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/client/gui/MemoryScreen.java",
+          "src/main/java/net/mcreator/fnaffrights/world/inventory/MemoryMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MemoryClick",
+      "type": "procedure",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/MemoryClickProcedure.java"
         ],
         "dependencies": [
           {
@@ -10793,85 +11054,7 @@
           }
         ]
       },
-      "path": "~/Props"
-    },
-    {
-      "name": "FoxyArcade",
-      "type": "animatedblock",
-      "sortid": 463,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "foxy_arcade",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnaffrights/block/entity/FoxyArcadeTileEntity.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeDisplayItemRenderer.java",
-          "src/main/resources/assets/fnaf_frights/blockstates/foxy_arcade.json",
-          "src/main/java/net/mcreator/fnaffrights/block/FoxyArcadeBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/FoxyArcadeTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeBlockModel.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/FoxyArcadeDisplayModel.java",
-          "src/main/java/net/mcreator/fnaffrights/block/display/FoxyArcadeDisplayItem.java",
-          "src/main/resources/assets/fnaf_frights/models/custom/foxy_arcade_particle.json",
-          "src/main/resources/assets/fnaf_frights/models/item/foxy_arcade.json"
-        ]
-      },
-      "path": "~/Props"
-    },
-    {
-      "name": "FoxyArcadeOnBlockAdded",
-      "type": "procedure",
-      "sortid": 465,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "foxy_arcade_on_block_added",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnaffrights/procedures/FoxyArcadeOnBlockAddedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Props"
-    },
-    {
-      "name": "Car",
-      "type": "animatedblock",
-      "sortid": 467,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "car",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/CarTileRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/entity/CarTileEntity.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/CarBlockModel.java",
-          "src/main/resources/assets/fnaf_frights/models/item/car.json",
-          "src/main/resources/assets/fnaf_frights/models/custom/car_particle.json",
-          "src/main/java/net/mcreator/fnaffrights/block/renderer/CarDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/fnaffrights/block/CarBlock.java",
-          "src/main/java/net/mcreator/fnaffrights/block/display/CarDisplayItem.java",
-          "src/main/java/net/mcreator/fnaffrights/block/model/CarDisplayModel.java",
-          "src/main/resources/assets/fnaf_frights/blockstates/car.json"
-        ]
-      },
-      "path": "~/Props"
+      "path": "~/ToyAnimatronics"
     }
   ],
   "variable_elements": [
@@ -11198,8 +11381,8 @@
       "block.fnaf_frights.withered_freddy_left_arm": "Withered Freddy Left Arm",
       "block.fnaf_mod_bits_and_pieces.angled_blloon_boy_statue": "Ballon Boy Statue",
       "itemGroup.tabshowtimes": "Showtimes",
-      "block.fnaf_mod_bits_and_pieces.endo_02_torso": "Endo 02 Torso",
       "block.fnaf_frights.vassilis": "Vassilis",
+      "block.fnaf_mod_bits_and_pieces.endo_02_torso": "Endo 02 Torso",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_head": "Foxy Pirate Head",
       "block.fnaf_frights.a_toy_freddy_showtime": "Angled Toy Freddy Showtime",
       "item.fnaf_frights.f_2_n_4.desc": "voicemail 9",
@@ -11209,8 +11392,8 @@
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime_active": "Classic Chica Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_head": "Withered Foxy Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_right_leg": "SpringBonnie Right Leg",
-      "block.fnaf_mod_bits_and_pieces.freddy_showtime_active": "Freddy Showtime Active",
       "block.fnaf_frights.withered_freddy_left_leg": "Withered Freddy Left Leg",
+      "block.fnaf_mod_bits_and_pieces.freddy_showtime_active": "Freddy Showtime Active",
       "block.fnaf_frights.a_fixed_foxy_active": "Angled Fixed Foxy Showtime Active",
       "block.fnaf_frights.a_foxy_pirate_active": "Angled Foxy Pirate Showtime Active",
       "block.fnaf_mod_bits_and_pieces.chica_chicken_left_leg": "Chica Chicken Left Leg",
@@ -11223,8 +11406,8 @@
       "block.fnaf_frights.glitch_bonnie_showtime_active": "Glitch Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_foxy_pirate_active": "Angled Foxy Pirate Showtime Active",
       "block.fnaf_frights.withered_foxy_head": "Withered Foxy Head",
-      "item.fnaf_mod_bits_and_pieces.f_1_n_4": "Night 4",
       "block.fnaf_frights.toy_freddy_left_arm": "Toy Freddy Left Arm",
+      "item.fnaf_mod_bits_and_pieces.f_1_n_4": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_1_n_5": "Night 5",
       "block.fnaf_frights.classic_chica_showtime_active": "Classic Chica Showtime Active",
       "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
@@ -11238,15 +11421,16 @@
       "block.fnaf_mod_bits_and_pieces.endo_02_foxy_head": "Endo02 Foxy Head",
       "block.fnaf_mod_bits_and_pieces.a_fredbear_active": "Angled Fredbear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.toy_bonnie_right_arm": "Toy Bonnie Right Arm",
+      "block.fnaf_frights.diner_foxy_active": "Diner Foxy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_golden_freddy_left_arm": "Withered Golden Freddy Left Arm",
       "subtitles.funforfamily": "",
       "block.fnaf_frights.vasstronic": "Vasstronic",
       "block.fnaf_frights.toy_freddy_head": "Toy Freddy Head",
       "block.fnaf_mod_bits_and_pieces.toy_foxy_left_leg": "Toy Foxy Left Leg",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy": "Christmas Freddy",
-      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_torso": "Freddy Fazbear Torso",
-      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.freddy_left_arm": "Freddy Left Arm",
+      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
+      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_torso": "Freddy Fazbear Torso",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3.desc": "voicemail 8",
       "block.fnaf_frights.endo_02_chica_head": "Endo02 Chica Head",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_head": "Withered Bonnie Head",
@@ -11274,20 +11458,20 @@
       "block.fnaf_frights.freddy_fazbear_showtime_active": "Freddy Fazbear Showtime Active",
       "block.fnaf_frights.enod_02_bonnie_head": "Endo02 Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.offset_foxy_showtime": "Offset Foxy Showtime",
-      "block.fnaf_mod_bits_and_pieces.toy_freddy_left_leg": "Toy Freddy Left Leg",
-      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
       "block.fnaf_frights.chica_chicken_head": "Chica Chicken Head",
+      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
+      "block.fnaf_mod_bits_and_pieces.toy_freddy_left_leg": "Toy Freddy Left Leg",
       "block.fnaf_frights.freddy_block": "Freddy Block",
       "item.fnaf_frights.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
-      "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg.desc": "Grand Fathers Clock-Red Grammer",
       "block.fnaf_frights.christmas_chica_a": "Christmas Chica Active",
+      "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg.desc": "Grand Fathers Clock-Red Grammer",
       "block.fnaf_mod_bits_and_pieces.freddy_right_leg": "Freddy Right Leg",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3": "Night 3",
-      "item.fnaf_mod_bits_and_pieces.f_2_n_4": "Night 4",
       "block.fnaf_frights.a_fredbear_active": "Angled Fredbear Showtime Active",
+      "item.fnaf_mod_bits_and_pieces.f_2_n_4": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_2_n_5": "Night 5",
-      "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 6",
       "block.fnaf_frights.classic_chica_showtime": "Classic Chica Showtime",
+      "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 6",
       "block.fnaf_frights.bloodchica_animatedblock": "Blood Chica",
       "block.fnaf_frights.bonnie_bunnie_head": "Bonnie Bunnie Head",
       "block.fnaf_mod_bits_and_pieces.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
@@ -11311,19 +11495,19 @@
       "block.fnaf_mod_bits_and_pieces.freddy_right_arm": "Freddy Right Arm",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_bunnie_active": "Angled Yellow Rabbit Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_bonnie_showtime": "Angled Bonnie Showtime",
-      "block.fnaf_frights.toy_bonnie_showtime_active": "Toy Bonnie Showtime Active",
       "block.fnaf_frights.a_toy_freddy_active": "Angled Toy Freddy Showtime Active",
+      "block.fnaf_frights.toy_bonnie_showtime_active": "Toy Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_head": "Toy Freddy Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_left_arm": "SpringBonnie Left Arm",
       "block.fnaf_frights.foxy_pirate_showtime": "Foxy The Pirate Showtime",
-      "block.fnaf_mod_bits_and_pieces.endo_01_torso": "Endo01 Torso",
       "block.fnaf_frights.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
+      "block.fnaf_mod_bits_and_pieces.endo_01_torso": "Endo01 Torso",
       "block.fnaf_frights.withered_freddy_head": "Withered Freddy Head",
       "block.fnaf_frights.puppet_box_gift": "Puppet Gift",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime": "Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_2": "Night 2",
-      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_right_leg": "Freddy Fazbear Right Leg",
       "item.fnaf_mod_bits_and_pieces.f_1_n_3": "Night 3",
+      "block.fnaf_mod_bits_and_pieces.freddy_fazbear_right_leg": "Freddy Fazbear Right Leg",
       "block.fnaf_frights.withered_chica_block": "Withered Chica Block",
       "item.fnaf_mod_bits_and_pieces.f_1_n_1": "Night 1",
       "block.fnaf_mod_bits_and_pieces.vasstronic": "Vasstronic",
@@ -11334,13 +11518,14 @@
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_leg": "Broken Foxy Pirate Right Leg",
       "block.fnaf_frights.foxy_torso": "Foxy Torso",
       "subtitles.f3n1": "",
-      "subtitles.f3n2": "",
       "block.fnaf_mod_bits_and_pieces.fred_bear_right_arm": "Fredbear Right Arm",
+      "subtitles.f3n2": "",
       "subtitles.f3n3": "",
       "subtitles.f3n4": "",
+      "block.fnaf_frights.diner_chica_showtime": "Diner Chica Showtime",
       "subtitles.f3n5": "",
-      "item.fnaf_mod_bits_and_pieces.f_3_n_4": "Night 4",
       "subtitles.f3n6": "",
+      "item.fnaf_mod_bits_and_pieces.f_3_n_4": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_3_n_5": "Night 5",
       "item.fnaf_mod_bits_and_pieces.f_3_n_2": "Night 2",
       "item.fnaf_mod_bits_and_pieces.f_3_n_3": "Night 3",
@@ -11369,8 +11554,8 @@
       "block.fnaf_mod_bits_and_pieces.withered_chica_left_arm": "Withered Chica Left Arm",
       "block.fnaf_frights.withered_bonnie_head": "Withered Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_arm": "Broken Foxy Pirate Right Arm",
-      "block.fnaf_mod_bits_and_pieces.foxy_pirate_right_arm": "Foxy Pirate Right Arm",
       "block.fnaf_frights.spring_bonnie_left_l_eg": "SpringBonnie Left Leg",
+      "block.fnaf_mod_bits_and_pieces.foxy_pirate_right_arm": "Foxy Pirate Right Arm",
       "block.fnaf_frights.broken_foxy_pirate_torso": "Broken Foxy Pirate Torso",
       "block.fnaf_frights.freddy_fazbear_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.toy_bonnie_right_leg": "Toy Bonnie Right Leg",
@@ -11434,8 +11619,8 @@
       "block.fnaf_mod_bits_and_pieces.generator_7": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_8": "Generator",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended.desc": "Fnaf Movie (Extended)",
-      "block.fnaf_mod_bits_and_pieces.generator_2": "Generator",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_torso": "Broken Foxy Pirate Torso",
+      "block.fnaf_mod_bits_and_pieces.generator_2": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_3": "Generator",
       "block.fnaf_mod_bits_and_pieces.offset_toy_freddy_active": "Offset Freddy Fazbear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.generator_4": "Generator",
@@ -11455,15 +11640,14 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Withered Freddy Left Arm",
-      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade On",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "voicemail 9",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_head": "Broken Foxy Pirate Head",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended": "Fnaf Movie (Extended)",
       "block.fnaf_frights.fred_bear_right_leg": "Fredbear Right Leg",
-      "block.fnaf_mod_bits_and_pieces.withered_freddy_torso": "Withered Freddy Torso",
       "block.fnaf_frights.chica_block": "Chica Block",
+      "block.fnaf_mod_bits_and_pieces.withered_freddy_torso": "Withered Freddy Torso",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_left_arm": "Yellow Bear Left Arm",
       "block.fnaf_mod_bits_and_pieces.offset_fred_bear_showtime": "Offset Fredbear Showtime",
       "block.fnaf_frights.endo_02_right_arm": "Endo 02 Right Arm",
@@ -11484,9 +11668,9 @@
       "block.fnaf_frights.offset_toy_foxy_showtime": "Offset Toy Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.lullaby_waltz": "Lullaby Waltz",
       "block.fnaf_mod_bits_and_pieces.foxy_right_arm": "Foxy Hook Arm",
-      "block.fnaf_mod_bits_and_pieces.toy_freddy_block": "Toy Freddy Block",
-      "itemGroup.tabtoy_pieces": "Toy Pieces",
       "block.fnaf_mod_bits_and_pieces.foxy_left_arm": "Foxy Left Arm",
+      "itemGroup.tabtoy_pieces": "Toy Pieces",
+      "block.fnaf_mod_bits_and_pieces.toy_freddy_block": "Toy Freddy Block",
       "item.fnaf_mod_bits_and_pieces.present": "Present",
       "item.fnaf_frights.grandfathers_clock_mb": "Grandfathers Clock MB",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy_a": "Christmas Freddy Active",
@@ -11506,13 +11690,14 @@
       "block.fnaf_mod_bits_and_pieces.christmas_foxy_a": "Christmas Foxy Active",
       "block.fnaf_frights.foxy_showtime_active": "Foxy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.christmas_bonnie_a": "Christmas Bonnie Active",
+      "block.fnaf_frights.diner_freddy_showtime": "Diner Freddy Showtime",
       "block.fnaf_frights.offset_foxy_pirate_active": "Offset Foxy The Pirate Showtime Active",
       "block.fnaf_mod_bits_and_pieces.puppet_in_the_box_block": "Puppet In The Box Block",
       "block.fnaf_mod_bits_and_pieces.enod_02_bonnie_head": "Endo02 Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.chica_showtime_active": "Chica Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_toy_chica_showtime": "Angled Toy Chica Showtime",
-      "item.fnaf_mod_bits_and_pieces.f_3_n_1.desc": "voicemail 12",
       "item.fnaf_frights.f_2_n_3.desc": "voicemail 8",
+      "item.fnaf_mod_bits_and_pieces.f_3_n_1.desc": "voicemail 12",
       "item.fnaf_frights.coin": "Coin",
       "block.fnaf_mod_bits_and_pieces.a_shaven_bonnie_active": "Angled Shaven Bonnie Showtime Active",
       "block.fnaf_frights.toy_foxy_block": "Toy Foxy Block",
@@ -11520,8 +11705,8 @@
       "subtitles.grandfathersclockmusicbox": "",
       "block.fnaf_frights.chica_left_leg": "Chica Left Leg",
       "block.fnaf_frights.freddy_box_spin": "Freddy Box Spin",
-      "item.fnaf_frights.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_frights.bonnie_block": "Bonnie Block",
+      "item.fnaf_frights.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
       "block.fnaf_frights.offset_foxy_active": "Offset Foxy Showtime Active",
       "block.fnaf_frights.puppet_screen": "Puppet Screen",
       "block.fnaf_frights.bonnie_bunnie_right_arm": "Bonnie Bunnie Right Arm",
@@ -11536,8 +11721,8 @@
       "block.fnaf_frights.bonnie_bunnie_showtime_active": "Bonnie The Bunnie Showtime Active",
       "block.fnaf_frights.bonnie_right_leg": "Bonnie Right Leg",
       "item.fnaf_frights.burnttoyfreddyicon": "Burnttoyfreddyicon",
-      "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Withered Bonnie Left Leg",
       "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",
+      "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Withered Bonnie Left Leg",
       "block.fnaf_mod_bits_and_pieces.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_left_leg": "Broken Foxy Pirate Left Leg",
       "block.fnaf_mod_bits_and_pieces.bonnie_showtime": "Bonnie Showtime",
@@ -11550,6 +11735,7 @@
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_bunnie_left_arm": "Yellow Rabbit Left Arm",
       "block.fnaf_frights.toy_bonnie_head": "Toy Bonnie Head",
       "block.fnaf_frights.christmas_freddy": "Christmas Freddy",
+      "block.fnaf_frights.diner_bonnie_showtime": "Diner Bonnie Showtime",
       "block.fnaf_frights.toy_freddy_showtime_active": "Toy Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.chica_chicken_right_leg": "Chica Chicken Right Leg",
       "item.fnaf_frights.lullaby_waltz": "Lullaby Waltz",
@@ -11648,7 +11834,6 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
-      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Chica Right Leg",
       "subtitles.lullabywaltz": "",
@@ -11688,6 +11873,7 @@
       "block.fnaf_frights.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.vassilis_a": "Vassilis Active",
       "item.fnaf_frights.present": "Present",
+      "block.fnaf_frights.burnt_wwithered_freddy": "Burnt Withered Freddy Jumpscare Block",
       "block.fnaf_mod_bits_and_pieces.springbonnie_showtime": "SpringBonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_torso": "Foxy Torso",
       "item.fnaf_frights.f_1_n_4": "Night 4",
@@ -11708,6 +11894,7 @@
       "block.fnaf_frights.endo_01_right_arm": "Endo01 Right Arm",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_left_leg": "Foxy Pirate Left Leg",
       "item.fnaf_frights.grandfathers_clock_mb.desc": "Grandfather\u0027s Clock",
+      "block.fnaf_frights.diner_bonnie_active": "Diner Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime_active": "Foxy Showtime Active",
       "item.fnaf_mod_bits_and_pieces.f_1_n_3.desc": "voicemail 3",
       "block.fnaf_frights.withered_foxy_left_arm": "Withered Foxy Left Arm",
@@ -11801,6 +11988,7 @@
       "block.fnaf_mod_bits_and_pieces.chica_torso": "Chica Torso",
       "block.fnaf_mod_bits_and_pieces.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.puppet_box_winding": "Puppet Winding",
+      "block.fnaf_frights.diner_chica_active": "Diner Chica Showtime Active",
       "item.fnaf_mod_bits_and_pieces.f_2_n_1.desc": "voicemail 6",
       "block.fnaf_frights.freddy_showtime": "Freddy Showtime",
       "block.fnaf_frights.freddy_left_leg": "Freddy Left Leg",
@@ -11893,6 +12081,7 @@
       "block.fnaf_frights.broken_foxy_pirate_head": "Broken Foxy Pirate Head",
       "item.fnaf_mod_bits_and_pieces.f_1_n_1.desc": "voicemail 1",
       "block.fnaf_mod_bits_and_pieces.glitch_bonnie_torso": "Glitch Bonnie Torso",
+      "block.fnaf_frights.diner_foxy_showtime": "Diner Foxy Showtime",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_head": "Bonnie Bunnie Head",
       "block.fnaf_mod_bits_and_pieces.fred_bear_left_arm": "Fredbear Left Arm",
       "block.fnaf_mod_bits_and_pieces.endo_02_chica_head": "Endo02 Chica Head",
@@ -11903,6 +12092,7 @@
       "item.fnaf_frights.f_3_n_2.desc": "voicemail 13",
       "block.fnaf_frights.a_toy_bonnie_active": "Angled Toy Bonnie Showtime Active",
       "block.fnaf_frights.toy_foxy_right_leg": "Toy Foxy Right Leg",
+      "block.fnaf_frights.diner_freddy_active": "Diner Freddy Showtime Active",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_no_intro.desc": "Fnaf Movie",
       "block.fnaf_frights.withered_golden_freddy_head": "Withered Golden Freddy Head",
       "item.fnaf_mod_bits_and_pieces.mysterious_cassette_tape": "Mysterious Cassette Tape",
@@ -11975,8 +12165,8 @@
       "block.fnaf_frights.withered_freddy_left_arm": "Withered Freddy Left Arm",
       "block.fnaf_mod_bits_and_pieces.angled_blloon_boy_statue": "Ballon Boy Statue",
       "itemGroup.tabshowtimes": "Showtimes",
-      "block.fnaf_frights.vassilis": "Vassilis",
       "block.fnaf_mod_bits_and_pieces.endo_02_torso": "Freddy Torso",
+      "block.fnaf_frights.vassilis": "Vassilis",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_head": "Chica Chicken Head",
       "block.fnaf_frights.a_toy_freddy_showtime": "Angled Toy Freddy Showtime",
       "item.fnaf_frights.f_2_n_4.desc": "voicemail 9",
@@ -11986,8 +12176,8 @@
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime_active": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_foxy_head": "Withered Foxy Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_right_leg": "Fredbear Right Leg",
-      "block.fnaf_frights.withered_freddy_left_leg": "Withered Freddy Left Leg",
       "block.fnaf_mod_bits_and_pieces.freddy_showtime_active": "Freddy Showtime",
+      "block.fnaf_frights.withered_freddy_left_leg": "Withered Freddy Left Leg",
       "block.fnaf_frights.a_fixed_foxy_active": "Angled Fixed Foxy Showtime Active",
       "block.fnaf_frights.a_foxy_pirate_active": "Angled Foxy Pirate Showtime Active",
       "block.fnaf_mod_bits_and_pieces.chica_chicken_left_leg": "Fredbear Left Leg",
@@ -12000,8 +12190,8 @@
       "block.fnaf_frights.glitch_bonnie_showtime_active": "Glitch Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_foxy_pirate_active": "Angled Foxy Pirate Showtime",
       "block.fnaf_frights.withered_foxy_head": "Withered Foxy Head",
-      "block.fnaf_frights.toy_freddy_left_arm": "Toy Freddy Left Arm",
       "item.fnaf_mod_bits_and_pieces.f_1_n_4": "Night 3",
+      "block.fnaf_frights.toy_freddy_left_arm": "Toy Freddy Left Arm",
       "item.fnaf_mod_bits_and_pieces.f_1_n_5": "Night 4",
       "block.fnaf_frights.classic_chica_showtime_active": "Classic Chica Showtime Active",
       "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
@@ -12015,15 +12205,16 @@
       "block.fnaf_mod_bits_and_pieces.endo_02_foxy_head": "Foxy Head",
       "block.fnaf_mod_bits_and_pieces.a_fredbear_active": "Angled Fredbear Showtime",
       "block.fnaf_mod_bits_and_pieces.toy_bonnie_right_arm": "Toy Bonnie Head",
+      "block.fnaf_frights.diner_foxy_active": "Diner Foxy Showtime",
       "block.fnaf_mod_bits_and_pieces.withered_golden_freddy_left_arm": "Withered Freddy Left Arm",
       "subtitles.funforfamily": "",
       "block.fnaf_frights.vasstronic": "Vasstronic",
       "block.fnaf_frights.toy_freddy_head": "Toy Freddy Head",
       "block.fnaf_mod_bits_and_pieces.toy_foxy_left_leg": "Toy Bonnie Left Leg",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy": "Christmas Freddy",
-      "block.fnaf_mod_bits_and_pieces.freddy_left_arm": "Freddy Left Leg",
-      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.freddy_fazbear_torso": "SpringBonnie Torso",
+      "block.fnaf_mod_bits_and_pieces.glitch_bonnie_showtime": "Glitch Bonnie Showtime",
+      "block.fnaf_mod_bits_and_pieces.freddy_left_arm": "Freddy Left Leg",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_frights.endo_02_chica_head": "Endo02 Chica Head",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_head": "Withered Bonnie Head",
@@ -12051,20 +12242,20 @@
       "block.fnaf_frights.freddy_fazbear_showtime_active": "Freddy Fazbear Showtime Active",
       "block.fnaf_frights.enod_02_bonnie_head": "Endo02 Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.offset_foxy_showtime": "Offset Freddy Fazbear Showtime",
-      "block.fnaf_frights.chica_chicken_head": "Chica Chicken Head",
-      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_left_leg": "Toy Bonnie Left Leg",
+      "block.fnaf_frights.withered_foxy_block": "Withered Foxy Block",
+      "block.fnaf_frights.chica_chicken_head": "Chica Chicken Head",
       "block.fnaf_frights.freddy_block": "Freddy Block",
       "item.fnaf_frights.grand_fathers_clock_rg": "Grand Fathers Clock-Red Grammer",
-      "block.fnaf_frights.christmas_chica_a": "Christmas Chica Active",
       "item.fnaf_mod_bits_and_pieces.grand_fathers_clock_rg.desc": "Grand Fathers Clock-Red Grammer",
+      "block.fnaf_frights.christmas_chica_a": "Christmas Chica Active",
       "block.fnaf_mod_bits_and_pieces.freddy_right_leg": "Freddy Left Leg",
       "item.fnaf_mod_bits_and_pieces.f_2_n_3": "Night 2",
-      "block.fnaf_frights.a_fredbear_active": "Angled Fredbear Showtime Active",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4": "Night 3",
+      "block.fnaf_frights.a_fredbear_active": "Angled Fredbear Showtime Active",
       "item.fnaf_mod_bits_and_pieces.f_2_n_5": "Night 4",
-      "block.fnaf_frights.classic_chica_showtime": "Classic Chica Showtime",
       "item.fnaf_mod_bits_and_pieces.f_2_n_6": "Night 5",
+      "block.fnaf_frights.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_frights.bloodchica_animatedblock": "Burnt Toy Bonnie Animated",
       "block.fnaf_frights.bonnie_bunnie_head": "Bonnie Bunnie Head",
       "block.fnaf_mod_bits_and_pieces.a_yellow_bear_active": "Angled Yellow Bear Showtime",
@@ -12088,19 +12279,19 @@
       "block.fnaf_mod_bits_and_pieces.freddy_right_arm": "Freddy Left Arm",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_bunnie_active": "Angled Spring Bonnie Bunnie Showtime",
       "block.fnaf_mod_bits_and_pieces.a_bonnie_showtime": "Angled Bonnie Bunnie Showtime",
-      "block.fnaf_frights.a_toy_freddy_active": "Angled Toy Freddy Showtime Active",
       "block.fnaf_frights.toy_bonnie_showtime_active": "Toy Bonnie Showtime Active",
+      "block.fnaf_frights.a_toy_freddy_active": "Angled Toy Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_head": "Toy Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_left_arm": "Fredbear Left Arm",
       "block.fnaf_frights.foxy_pirate_showtime": "Foxy The Pirate Showtime",
-      "block.fnaf_frights.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.endo_01_torso": "Freddy Fazbear Torso",
+      "block.fnaf_frights.a_yellow_bear_active": "Angled Yellow Bear Showtime Active",
       "block.fnaf_frights.withered_freddy_head": "Withered Freddy Head",
       "block.fnaf_frights.puppet_box_gift": "Puppet Gift",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime": "Chica Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_2": "Night 1",
-      "item.fnaf_mod_bits_and_pieces.f_1_n_3": "Night 2",
       "block.fnaf_mod_bits_and_pieces.freddy_fazbear_right_leg": "SpringBonnie Right Leg",
+      "item.fnaf_mod_bits_and_pieces.f_1_n_3": "Night 2",
       "block.fnaf_frights.withered_chica_block": "Withered Chica Block",
       "item.fnaf_mod_bits_and_pieces.f_1_n_1": "Night 1",
       "block.fnaf_mod_bits_and_pieces.vasstronic": "Vasstronic",
@@ -12111,13 +12302,14 @@
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_leg": "Foxy Pirate Right Leg",
       "block.fnaf_frights.foxy_torso": "Foxy Torso",
       "subtitles.f3n1": "",
-      "block.fnaf_mod_bits_and_pieces.fred_bear_right_arm": "Bonnie Bunnie Right Arm",
       "subtitles.f3n2": "",
+      "block.fnaf_mod_bits_and_pieces.fred_bear_right_arm": "Bonnie Bunnie Right Arm",
       "subtitles.f3n3": "",
       "subtitles.f3n4": "",
+      "block.fnaf_frights.diner_chica_showtime": "Diner Foxy Showtime",
       "subtitles.f3n5": "",
-      "subtitles.f3n6": "",
       "item.fnaf_mod_bits_and_pieces.f_3_n_4": "Night 3",
+      "subtitles.f3n6": "",
       "item.fnaf_mod_bits_and_pieces.f_3_n_5": "Night 4",
       "item.fnaf_mod_bits_and_pieces.f_3_n_2": "Night 1",
       "item.fnaf_mod_bits_and_pieces.f_3_n_3": "Night 2",
@@ -12146,8 +12338,8 @@
       "block.fnaf_mod_bits_and_pieces.withered_chica_left_arm": "Bonnie Left Arm",
       "block.fnaf_frights.withered_bonnie_head": "Withered Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_right_arm": "Foxy Pirate Right Arm",
-      "block.fnaf_frights.spring_bonnie_left_l_eg": "SpringBonnie Left Leg",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_right_arm": "Chica Chicken Right Arm",
+      "block.fnaf_frights.spring_bonnie_left_l_eg": "SpringBonnie Left Leg",
       "block.fnaf_frights.broken_foxy_pirate_torso": "Broken Foxy Pirate Torso",
       "block.fnaf_frights.freddy_fazbear_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.toy_bonnie_right_leg": "Toy Bonnie Right Leg",
@@ -12211,8 +12403,8 @@
       "block.fnaf_mod_bits_and_pieces.generator_7": "Generator",
       "block.fnaf_mod_bits_and_pieces.generator_8": "Generator",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended.desc": "Fnaf Movie",
-      "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_torso": "Foxy Pirate Torso",
       "block.fnaf_mod_bits_and_pieces.generator_2": "Generator",
+      "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_torso": "Foxy Pirate Torso",
       "block.fnaf_mod_bits_and_pieces.generator_3": "Generator",
       "block.fnaf_mod_bits_and_pieces.offset_toy_freddy_active": "Offset Freddy Fazbear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.generator_4": "Generator",
@@ -12232,15 +12424,14 @@
       "block.fnaf_frights.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime_active": "Yellow Bear Showtime Active",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_left_arm": "Freddy Left Arm",
-      "block.fnaf_frights.foxy_arcade_on": "Foxy Arcade",
       "item.fnaf_mod_bits_and_pieces.f_2_n_4.desc": "An old cassette found in freddy jr\u0027s",
       "block.fnaf_frights.toy_chica_left_arm": "Toy Chica Left Arm",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_showtime": "Yellow Bear Showtime",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_head": "Foxy Pirate Head",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_extended": "Fnaf Movie",
       "block.fnaf_frights.fred_bear_right_leg": "Fredbear Right Leg",
-      "block.fnaf_frights.chica_block": "Chica Block",
       "block.fnaf_mod_bits_and_pieces.withered_freddy_torso": "Withered Freddy Torso",
+      "block.fnaf_frights.chica_block": "Chica Block",
       "block.fnaf_mod_bits_and_pieces.yellow_bear_left_arm": "Freddy Fazbear Left Arm",
       "block.fnaf_mod_bits_and_pieces.offset_fred_bear_showtime": "Offset Freddy Fazbear Showtime",
       "block.fnaf_frights.endo_02_right_arm": "Endo 02 Right Arm",
@@ -12261,9 +12452,9 @@
       "block.fnaf_frights.offset_toy_foxy_showtime": "Offset Toy Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.lullaby_waltz": "Lullaby Waltz",
       "block.fnaf_mod_bits_and_pieces.foxy_right_arm": "Foxy Arm",
-      "block.fnaf_mod_bits_and_pieces.foxy_left_arm": "Foxy Hook Arm",
-      "itemGroup.tabtoy_pieces": "Toy Pieces",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_block": "Toy Chica Block",
+      "itemGroup.tabtoy_pieces": "Toy Pieces",
+      "block.fnaf_mod_bits_and_pieces.foxy_left_arm": "Foxy Hook Arm",
       "item.fnaf_mod_bits_and_pieces.present": "Present",
       "item.fnaf_frights.grandfathers_clock_mb": "Grandfathers Clock MB",
       "block.fnaf_mod_bits_and_pieces.christmas_freddy_a": "Christmas Freddy",
@@ -12283,13 +12474,14 @@
       "block.fnaf_mod_bits_and_pieces.christmas_foxy_a": "Christmas Foxy",
       "block.fnaf_frights.foxy_showtime_active": "Foxy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.christmas_bonnie_a": "Christmas Bonnie",
+      "block.fnaf_frights.diner_freddy_showtime": "Diner Freddy Showtime",
       "block.fnaf_frights.offset_foxy_pirate_active": "Offset Foxy The Pirate Showtime Active",
       "block.fnaf_mod_bits_and_pieces.puppet_in_the_box_block": "Puppet In The Box Block",
       "block.fnaf_mod_bits_and_pieces.enod_02_bonnie_head": "Bonnie Head",
       "block.fnaf_mod_bits_and_pieces.chica_showtime_active": "Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.a_toy_chica_showtime": "Angled Toy Bonnie Showtime",
-      "item.fnaf_frights.f_2_n_3.desc": "voicemail 8",
       "item.fnaf_mod_bits_and_pieces.f_3_n_1.desc": "An old cassette found in freddy jr\u0027s",
+      "item.fnaf_frights.f_2_n_3.desc": "voicemail 8",
       "item.fnaf_frights.coin": "Coin",
       "block.fnaf_mod_bits_and_pieces.a_shaven_bonnie_active": "Angled Shaven Bonnie Showtime",
       "block.fnaf_frights.toy_foxy_block": "Toy Foxy Block",
@@ -12297,8 +12489,8 @@
       "subtitles.grandfathersclockmusicbox": "",
       "block.fnaf_frights.chica_left_leg": "Chica Left Leg",
       "block.fnaf_frights.freddy_box_spin": "Freddy Box Spin",
-      "block.fnaf_frights.bonnie_block": "Bonnie Block",
       "item.fnaf_frights.balloon_bot_spawn_egg": "Balloon Bot Spawn Egg",
+      "block.fnaf_frights.bonnie_block": "Bonnie Block",
       "block.fnaf_frights.offset_foxy_active": "Offset Foxy Showtime Active",
       "block.fnaf_frights.puppet_screen": "Puppet Screen",
       "block.fnaf_frights.bonnie_bunnie_right_arm": "Bonnie Bunnie Right Arm",
@@ -12313,8 +12505,8 @@
       "block.fnaf_frights.bonnie_bunnie_showtime_active": "Bonnie The Bunnie Showtime Active",
       "block.fnaf_frights.bonnie_right_leg": "Bonnie Right Leg",
       "item.fnaf_frights.burnttoyfreddyicon": "Burnttoyfreddyicon",
-      "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.withered_bonnie_left_leg": "Freddy Left Leg",
+      "block.fnaf_frights.angled_blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.fazbear_crate_block": "Fazbear Crate",
       "block.fnaf_mod_bits_and_pieces.broken_foxy_pirate_left_leg": "Foxy Pirate Left Leg",
       "block.fnaf_mod_bits_and_pieces.bonnie_showtime": "Freddy Showtime",
@@ -12327,6 +12519,7 @@
       "block.fnaf_mod_bits_and_pieces.spring_bonnie_bunnie_left_arm": "Bonnie Bunnie Left Arm",
       "block.fnaf_frights.toy_bonnie_head": "Toy Bonnie Head",
       "block.fnaf_frights.christmas_freddy": "Christmas Freddy",
+      "block.fnaf_frights.diner_bonnie_showtime": "Diner Chica Showtime",
       "block.fnaf_frights.toy_freddy_showtime_active": "Toy Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.chica_chicken_right_leg": "Fredbear Right Leg",
       "item.fnaf_frights.lullaby_waltz": "Lullaby Waltz",
@@ -12425,7 +12618,6 @@
       "item.fnaf_mod_bits_and_pieces.toreador_march": "Toreador March",
       "block.fnaf_mod_bits_and_pieces.classic_chica_showtime": "Classic Chica Showtime",
       "block.fnaf_mod_bits_and_pieces.fazbear_logo": "Fazbear Entertainment Logo",
-      "block.fnaf_frights.foxy_arcade": "Foxy Arcade",
       "block.fnaf_frights.freddy_fazbear_left_leg": "Freddy Fazbear Left Leg",
       "block.fnaf_mod_bits_and_pieces.toy_chica_right_leg": "Toy Freddy Right Leg",
       "subtitles.lullabywaltz": "",
@@ -12486,6 +12678,7 @@
       "block.fnaf_frights.endo_01_right_arm": "Endo01 Right Arm",
       "block.fnaf_mod_bits_and_pieces.foxy_pirate_left_leg": "Chica Chicken Left Leg",
       "item.fnaf_frights.grandfathers_clock_mb.desc": "Grandfather\u0027s Clock",
+      "block.fnaf_frights.diner_bonnie_active": "Diner Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.foxy_showtime_active": "Foxy Showtime",
       "item.fnaf_mod_bits_and_pieces.f_1_n_3.desc": "An old cassette found in freddy\u0027s",
       "block.fnaf_frights.withered_foxy_left_arm": "Withered Foxy Left Arm",
@@ -12579,6 +12772,7 @@
       "block.fnaf_mod_bits_and_pieces.chica_torso": "Withered Chica Torso",
       "block.fnaf_mod_bits_and_pieces.shaven_bonnie_showtime_active": "Shaven Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.puppet_box_winding": "Puppet Gift",
+      "block.fnaf_frights.diner_chica_active": "Diner Chica Showtime",
       "item.fnaf_mod_bits_and_pieces.f_2_n_1.desc": "An old cassette found in freddy\u0027s",
       "block.fnaf_frights.freddy_showtime": "Freddy Showtime",
       "block.fnaf_frights.freddy_left_leg": "Freddy Left Leg",
@@ -12671,6 +12865,7 @@
       "block.fnaf_frights.broken_foxy_pirate_head": "Broken Foxy Pirate Head",
       "item.fnaf_mod_bits_and_pieces.f_1_n_1.desc": "An old cassette found in freddy\u0027s",
       "block.fnaf_mod_bits_and_pieces.glitch_bonnie_torso": "SpringBonnie Torso",
+      "block.fnaf_frights.diner_foxy_showtime": "Diner Freddy Showtime",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_head": "Bonnie Bunnie Right Arm",
       "block.fnaf_mod_bits_and_pieces.fred_bear_left_arm": "Bonnie Bunnie Left Arm",
       "block.fnaf_mod_bits_and_pieces.endo_02_chica_head": "Chica Head",
@@ -12681,6 +12876,7 @@
       "item.fnaf_frights.f_3_n_2.desc": "voicemail 13",
       "block.fnaf_frights.a_toy_bonnie_active": "Angled Toy Bonnie Showtime Active",
       "block.fnaf_frights.toy_foxy_right_leg": "Toy Foxy Right Leg",
+      "block.fnaf_frights.diner_freddy_active": "Diner Freddy Showtime",
       "item.fnaf_mod_bits_and_pieces.fnaf_movie_no_intro.desc": "Fnaf Movie",
       "block.fnaf_frights.withered_golden_freddy_head": "Withered Golden Freddy Head",
       "item.fnaf_mod_bits_and_pieces.mysterious_cassette_tape": "Mysterious Cassette Tape",
@@ -12823,6 +13019,10 @@
       },
       {
         "name": "Props",
+        "children": []
+      },
+      {
+        "name": "Diners",
         "children": []
       }
     ]

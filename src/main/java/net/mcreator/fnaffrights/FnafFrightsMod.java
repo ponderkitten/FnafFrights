@@ -33,6 +33,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fnaffrights.init.FnafFrightsModTabs;
 import net.mcreator.fnaffrights.init.FnafFrightsModSounds;
+import net.mcreator.fnaffrights.init.FnafFrightsModMenus;
 import net.mcreator.fnaffrights.init.FnafFrightsModItems;
 import net.mcreator.fnaffrights.init.FnafFrightsModEntities;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
@@ -61,6 +62,8 @@ public class FnafFrightsMod {
 		FnafFrightsModItems.REGISTRY.register(bus);
 		FnafFrightsModEntities.REGISTRY.register(bus);
 		FnafFrightsModBlockEntities.REGISTRY.register(bus);
+
+		FnafFrightsModMenus.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
