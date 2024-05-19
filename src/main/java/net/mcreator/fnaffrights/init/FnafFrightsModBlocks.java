@@ -137,6 +137,10 @@ import net.mcreator.fnaffrights.block.OffsetFoxyPirateActiveBlock;
 import net.mcreator.fnaffrights.block.OffsetFoxyActiveBlock;
 import net.mcreator.fnaffrights.block.OffsetFixedFoxyShowtimeBlock;
 import net.mcreator.fnaffrights.block.OffsetFixedFoxyActiveBlock;
+import net.mcreator.fnaffrights.block.ODinerFreddyShowtimeBlock;
+import net.mcreator.fnaffrights.block.ODinerFreddyActiveBlock;
+import net.mcreator.fnaffrights.block.ODinerFoxyShowtimeBlock;
+import net.mcreator.fnaffrights.block.ODinerFoxyActiveBlock;
 import net.mcreator.fnaffrights.block.GoldenFreddyShowtimeBlock;
 import net.mcreator.fnaffrights.block.GoldenFreddyShowtimeActiveBlock;
 import net.mcreator.fnaffrights.block.GlitchtrapShowtimeBlock;
@@ -666,4 +670,8 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> A_DINER_CHICA_ACTIVE = REGISTRY.register("a_diner_chica_active", () -> new ADinerChicaActiveBlock());
 	public static final RegistryObject<Block> A_DINER_FOXY_SHOWTIME = REGISTRY.register("a_diner_foxy_showtime", () -> new ADinerFoxyShowtimeBlock());
 	public static final RegistryObject<Block> A_DINER_FOXY_ACTIVE = REGISTRY.register("a_diner_foxy_active", () -> new ADinerFoxyActiveBlock());
+	public static final RegistryObject<Block> O_DINER_FREDDY_SHOWTIME = REGISTRY.register("o_diner_freddy_showtime", () -> new ODinerFreddyShowtimeBlock());
+	public static final RegistryObject<Block> O_DINER_FREDDY_ACTIVE = REGISTRY.register("o_diner_freddy_active", () -> new ODinerFreddyActiveBlock());
+	public static final RegistryObject<Block> O_DINER_FOXY_SHOWTIME = REGISTRY.register("o_diner_foxy_showtime", () -> new ODinerFoxyShowtimeBlock());
+	public static final RegistryObject<Block> O_DINER_FOXY_ACTIVE = REGISTRY.register("o_diner_foxy_active", () -> new ODinerFoxyActiveBlock());
 }

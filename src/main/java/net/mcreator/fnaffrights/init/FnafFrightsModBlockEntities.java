@@ -138,6 +138,10 @@ import net.mcreator.fnaffrights.block.entity.OffsetFoxyPirateActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetFoxyActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetFixedFoxyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetFixedFoxyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ODinerFreddyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ODinerFreddyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ODinerFoxyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ODinerFoxyActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.GoldenFreddyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.GoldenFreddyShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.GlitchtrapShowtimeTileEntity;
@@ -949,6 +953,14 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(ADinerFoxyShowtimeTileEntity::new, FnafFrightsModBlocks.A_DINER_FOXY_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ADinerFoxyActiveTileEntity>> A_DINER_FOXY_ACTIVE = REGISTRY.register("a_diner_foxy_active",
 			() -> BlockEntityType.Builder.of(ADinerFoxyActiveTileEntity::new, FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ODinerFreddyShowtimeTileEntity>> O_DINER_FREDDY_SHOWTIME = REGISTRY.register("o_diner_freddy_showtime",
+			() -> BlockEntityType.Builder.of(ODinerFreddyShowtimeTileEntity::new, FnafFrightsModBlocks.O_DINER_FREDDY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ODinerFreddyActiveTileEntity>> O_DINER_FREDDY_ACTIVE = REGISTRY.register("o_diner_freddy_active",
+			() -> BlockEntityType.Builder.of(ODinerFreddyActiveTileEntity::new, FnafFrightsModBlocks.O_DINER_FREDDY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ODinerFoxyShowtimeTileEntity>> O_DINER_FOXY_SHOWTIME = REGISTRY.register("o_diner_foxy_showtime",
+			() -> BlockEntityType.Builder.of(ODinerFoxyShowtimeTileEntity::new, FnafFrightsModBlocks.O_DINER_FOXY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ODinerFoxyActiveTileEntity>> O_DINER_FOXY_ACTIVE = REGISTRY.register("o_diner_foxy_active",
+			() -> BlockEntityType.Builder.of(ODinerFoxyActiveTileEntity::new, FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

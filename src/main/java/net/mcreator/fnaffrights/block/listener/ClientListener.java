@@ -134,6 +134,10 @@ import net.mcreator.fnaffrights.block.renderer.OffsetFoxyPirateActiveTileRendere
 import net.mcreator.fnaffrights.block.renderer.OffsetFoxyActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.OffsetFixedFoxyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.OffsetFixedFoxyActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ODinerFreddyShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ODinerFreddyActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ODinerFoxyShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ODinerFoxyActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.GoldenFreddyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.GoldenFreddyShowtimeActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.GlitchtrapShowtimeTileRenderer;
@@ -664,5 +668,9 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_CHICA_ACTIVE.get(), ADinerChicaActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FOXY_SHOWTIME.get(), ADinerFoxyShowtimeTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FOXY_ACTIVE.get(), ADinerFoxyActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FREDDY_SHOWTIME.get(), ODinerFreddyShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FREDDY_ACTIVE.get(), ODinerFreddyActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FOXY_SHOWTIME.get(), ODinerFoxyShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FOXY_ACTIVE.get(), ODinerFoxyActiveTileRenderer::new);
 	}
 }

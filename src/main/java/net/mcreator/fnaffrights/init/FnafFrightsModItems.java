@@ -172,6 +172,10 @@ import net.mcreator.fnaffrights.block.display.OffsetFoxyPirateActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetFoxyActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetFixedFoxyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetFixedFoxyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ODinerFreddyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ODinerFreddyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ODinerFoxyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ODinerFoxyActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.GoldenFreddyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.GoldenFreddyShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.GlitchtrapShowtimeDisplayItem;
@@ -1040,6 +1044,14 @@ public class FnafFrightsModItems {
 			() -> new ADinerFoxyShowtimeDisplayItem(FnafFrightsModBlocks.A_DINER_FOXY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
 	public static final RegistryObject<Item> A_DINER_FOXY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.getId().getPath(),
 			() -> new ADinerFoxyActiveDisplayItem(FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> O_DINER_FREDDY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.O_DINER_FREDDY_SHOWTIME.getId().getPath(),
+			() -> new ODinerFreddyShowtimeDisplayItem(FnafFrightsModBlocks.O_DINER_FREDDY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> O_DINER_FREDDY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.O_DINER_FREDDY_ACTIVE.getId().getPath(),
+			() -> new ODinerFreddyActiveDisplayItem(FnafFrightsModBlocks.O_DINER_FREDDY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> O_DINER_FOXY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.O_DINER_FOXY_SHOWTIME.getId().getPath(),
+			() -> new ODinerFoxyShowtimeDisplayItem(FnafFrightsModBlocks.O_DINER_FOXY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> O_DINER_FOXY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.getId().getPath(),
+			() -> new ODinerFoxyActiveDisplayItem(FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
