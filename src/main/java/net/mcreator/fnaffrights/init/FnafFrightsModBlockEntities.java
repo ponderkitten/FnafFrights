@@ -320,6 +320,14 @@ import net.mcreator.fnaffrights.block.entity.AFoxyPirateActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.AFoxyActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.AFixedFoxyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.AFixedFoxyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerFreddyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerFreddyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerFoxyShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerFoxyActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerChicaShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerChicaActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerBonnieShowtimeTileEntity;
+import net.mcreator.fnaffrights.block.entity.ADinerBonnieActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.AChicaShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.AChicaChickenShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.AChicaChickenActiveTileEntity;
@@ -925,6 +933,22 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(DinerBonnieShowtimeTileEntity::new, FnafFrightsModBlocks.DINER_BONNIE_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<DinerBonnieActiveTileEntity>> DINER_BONNIE_ACTIVE = REGISTRY.register("diner_bonnie_active",
 			() -> BlockEntityType.Builder.of(DinerBonnieActiveTileEntity::new, FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerFreddyShowtimeTileEntity>> A_DINER_FREDDY_SHOWTIME = REGISTRY.register("a_diner_freddy_showtime",
+			() -> BlockEntityType.Builder.of(ADinerFreddyShowtimeTileEntity::new, FnafFrightsModBlocks.A_DINER_FREDDY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerFreddyActiveTileEntity>> A_DINER_FREDDY_ACTIVE = REGISTRY.register("a_diner_freddy_active",
+			() -> BlockEntityType.Builder.of(ADinerFreddyActiveTileEntity::new, FnafFrightsModBlocks.A_DINER_FREDDY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerBonnieActiveTileEntity>> A_DINER_BONNIE_ACTIVE = REGISTRY.register("a_diner_bonnie_active",
+			() -> BlockEntityType.Builder.of(ADinerBonnieActiveTileEntity::new, FnafFrightsModBlocks.A_DINER_BONNIE_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerBonnieShowtimeTileEntity>> A_DINER_BONNIE_SHOWTIME = REGISTRY.register("a_diner_bonnie_showtime",
+			() -> BlockEntityType.Builder.of(ADinerBonnieShowtimeTileEntity::new, FnafFrightsModBlocks.A_DINER_BONNIE_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerChicaShowtimeTileEntity>> A_DINER_CHICA_SHOWTIME = REGISTRY.register("a_diner_chica_showtime",
+			() -> BlockEntityType.Builder.of(ADinerChicaShowtimeTileEntity::new, FnafFrightsModBlocks.A_DINER_CHICA_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerChicaActiveTileEntity>> A_DINER_CHICA_ACTIVE = REGISTRY.register("a_diner_chica_active",
+			() -> BlockEntityType.Builder.of(ADinerChicaActiveTileEntity::new, FnafFrightsModBlocks.A_DINER_CHICA_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerFoxyShowtimeTileEntity>> A_DINER_FOXY_SHOWTIME = REGISTRY.register("a_diner_foxy_showtime",
+			() -> BlockEntityType.Builder.of(ADinerFoxyShowtimeTileEntity::new, FnafFrightsModBlocks.A_DINER_FOXY_SHOWTIME.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ADinerFoxyActiveTileEntity>> A_DINER_FOXY_ACTIVE = REGISTRY.register("a_diner_foxy_active",
+			() -> BlockEntityType.Builder.of(ADinerFoxyActiveTileEntity::new, FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -354,6 +354,14 @@ import net.mcreator.fnaffrights.block.display.AFoxyPirateActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.AFoxyActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.AFixedFoxyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.AFixedFoxyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerFreddyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerFreddyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerFoxyShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerFoxyActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerChicaShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerChicaActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerBonnieShowtimeDisplayItem;
+import net.mcreator.fnaffrights.block.display.ADinerBonnieActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.AChicaShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.AChicaChickenShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.AChicaChickenActiveDisplayItem;
@@ -1016,6 +1024,22 @@ public class FnafFrightsModItems {
 			() -> new DinerBonnieShowtimeDisplayItem(FnafFrightsModBlocks.DINER_BONNIE_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
 	public static final RegistryObject<Item> DINER_BONNIE_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.getId().getPath(),
 			() -> new DinerBonnieActiveDisplayItem(FnafFrightsModBlocks.DINER_BONNIE_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> A_DINER_FREDDY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.A_DINER_FREDDY_SHOWTIME.getId().getPath(),
+			() -> new ADinerFreddyShowtimeDisplayItem(FnafFrightsModBlocks.A_DINER_FREDDY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> A_DINER_FREDDY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.A_DINER_FREDDY_ACTIVE.getId().getPath(),
+			() -> new ADinerFreddyActiveDisplayItem(FnafFrightsModBlocks.A_DINER_FREDDY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> A_DINER_BONNIE_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.A_DINER_BONNIE_ACTIVE.getId().getPath(),
+			() -> new ADinerBonnieActiveDisplayItem(FnafFrightsModBlocks.A_DINER_BONNIE_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> A_DINER_BONNIE_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.A_DINER_BONNIE_SHOWTIME.getId().getPath(),
+			() -> new ADinerBonnieShowtimeDisplayItem(FnafFrightsModBlocks.A_DINER_BONNIE_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> A_DINER_CHICA_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.A_DINER_CHICA_SHOWTIME.getId().getPath(),
+			() -> new ADinerChicaShowtimeDisplayItem(FnafFrightsModBlocks.A_DINER_CHICA_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> A_DINER_CHICA_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.A_DINER_CHICA_ACTIVE.getId().getPath(),
+			() -> new ADinerChicaActiveDisplayItem(FnafFrightsModBlocks.A_DINER_CHICA_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> A_DINER_FOXY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.A_DINER_FOXY_SHOWTIME.getId().getPath(),
+			() -> new ADinerFoxyShowtimeDisplayItem(FnafFrightsModBlocks.A_DINER_FOXY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
+	public static final RegistryObject<Item> A_DINER_FOXY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.getId().getPath(),
+			() -> new ADinerFoxyActiveDisplayItem(FnafFrightsModBlocks.A_DINER_FOXY_ACTIVE.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

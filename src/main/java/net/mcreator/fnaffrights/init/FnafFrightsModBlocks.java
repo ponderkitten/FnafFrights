@@ -320,6 +320,14 @@ import net.mcreator.fnaffrights.block.AFoxyPirateActiveBlock;
 import net.mcreator.fnaffrights.block.AFoxyActiveBlock;
 import net.mcreator.fnaffrights.block.AFixedFoxyShowtimeBlock;
 import net.mcreator.fnaffrights.block.AFixedFoxyActiveBlock;
+import net.mcreator.fnaffrights.block.ADinerFreddyShowtimeBlock;
+import net.mcreator.fnaffrights.block.ADinerFreddyActiveBlock;
+import net.mcreator.fnaffrights.block.ADinerFoxyShowtimeBlock;
+import net.mcreator.fnaffrights.block.ADinerFoxyActiveBlock;
+import net.mcreator.fnaffrights.block.ADinerChicaShowtimeBlock;
+import net.mcreator.fnaffrights.block.ADinerChicaActiveBlock;
+import net.mcreator.fnaffrights.block.ADinerBonnieShowtimeBlock;
+import net.mcreator.fnaffrights.block.ADinerBonnieActiveBlock;
 import net.mcreator.fnaffrights.block.AChicaShowtimeBlock;
 import net.mcreator.fnaffrights.block.AChicaChickenShowtimeBlock;
 import net.mcreator.fnaffrights.block.AChicaChickenActiveBlock;
@@ -650,4 +658,12 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> DINER_CHICA_ACTIVE = REGISTRY.register("diner_chica_active", () -> new DinerChicaActiveBlock());
 	public static final RegistryObject<Block> DINER_BONNIE_SHOWTIME = REGISTRY.register("diner_bonnie_showtime", () -> new DinerBonnieShowtimeBlock());
 	public static final RegistryObject<Block> DINER_BONNIE_ACTIVE = REGISTRY.register("diner_bonnie_active", () -> new DinerBonnieActiveBlock());
+	public static final RegistryObject<Block> A_DINER_FREDDY_SHOWTIME = REGISTRY.register("a_diner_freddy_showtime", () -> new ADinerFreddyShowtimeBlock());
+	public static final RegistryObject<Block> A_DINER_FREDDY_ACTIVE = REGISTRY.register("a_diner_freddy_active", () -> new ADinerFreddyActiveBlock());
+	public static final RegistryObject<Block> A_DINER_BONNIE_ACTIVE = REGISTRY.register("a_diner_bonnie_active", () -> new ADinerBonnieActiveBlock());
+	public static final RegistryObject<Block> A_DINER_BONNIE_SHOWTIME = REGISTRY.register("a_diner_bonnie_showtime", () -> new ADinerBonnieShowtimeBlock());
+	public static final RegistryObject<Block> A_DINER_CHICA_SHOWTIME = REGISTRY.register("a_diner_chica_showtime", () -> new ADinerChicaShowtimeBlock());
+	public static final RegistryObject<Block> A_DINER_CHICA_ACTIVE = REGISTRY.register("a_diner_chica_active", () -> new ADinerChicaActiveBlock());
+	public static final RegistryObject<Block> A_DINER_FOXY_SHOWTIME = REGISTRY.register("a_diner_foxy_showtime", () -> new ADinerFoxyShowtimeBlock());
+	public static final RegistryObject<Block> A_DINER_FOXY_ACTIVE = REGISTRY.register("a_diner_foxy_active", () -> new ADinerFoxyActiveBlock());
 }

@@ -135,7 +135,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "puppet.geo.json",
+    "normal": "wallpuppet.geo.json",
     "displaySettings": "fullanimatronic.item.json"
   }
 }

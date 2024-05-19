@@ -316,6 +316,14 @@ import net.mcreator.fnaffrights.block.renderer.AFoxyPirateActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AFoxyActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AFixedFoxyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AFixedFoxyActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerFreddyShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerFreddyActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerFoxyShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerFoxyActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerChicaShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerChicaActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerBonnieShowtimeTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ADinerBonnieActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AChicaShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AChicaChickenShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.AChicaChickenActiveTileRenderer;
@@ -648,5 +656,13 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.DINER_CHICA_ACTIVE.get(), DinerChicaActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.DINER_BONNIE_SHOWTIME.get(), DinerBonnieShowtimeTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.DINER_BONNIE_ACTIVE.get(), DinerBonnieActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FREDDY_SHOWTIME.get(), ADinerFreddyShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FREDDY_ACTIVE.get(), ADinerFreddyActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_BONNIE_ACTIVE.get(), ADinerBonnieActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_BONNIE_SHOWTIME.get(), ADinerBonnieShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_CHICA_SHOWTIME.get(), ADinerChicaShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_CHICA_ACTIVE.get(), ADinerChicaActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FOXY_SHOWTIME.get(), ADinerFoxyShowtimeTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.A_DINER_FOXY_ACTIVE.get(), ADinerFoxyActiveTileRenderer::new);
 	}
 }

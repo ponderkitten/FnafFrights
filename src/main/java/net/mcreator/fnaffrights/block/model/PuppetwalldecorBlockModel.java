@@ -9,12 +9,12 @@ import net.mcreator.fnaffrights.block.entity.PuppetwalldecorTileEntity;
 public class PuppetwalldecorBlockModel extends AnimatedGeoModel<PuppetwalldecorTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PuppetwalldecorTileEntity animatable) {
-		return new ResourceLocation("fnaf_frights", "animations/puppet.animation.json");
+		return new ResourceLocation("fnaf_frights", "animations/wallpuppet.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(PuppetwalldecorTileEntity animatable) {
-		return new ResourceLocation("fnaf_frights", "geo/puppet.geo.json");
+		return new ResourceLocation("fnaf_frights", "geo/wallpuppet.geo.json");
 	}
 
 	@Override
