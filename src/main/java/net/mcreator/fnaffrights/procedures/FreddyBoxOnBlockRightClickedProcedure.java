@@ -49,7 +49,6 @@ public class FreddyBoxOnBlockRightClickedProcedure {
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
 			}
-		} else {
 			if (Math.round(Mth.nextInt(RandomSource.create(), 1, 100)) == 69) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
@@ -81,6 +80,7 @@ public class FreddyBoxOnBlockRightClickedProcedure {
 					world.setBlock(_bp, _bs, 3);
 				}
 			}
+		} else {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_frights:deposit")), SoundSource.NEUTRAL, 1, 1);

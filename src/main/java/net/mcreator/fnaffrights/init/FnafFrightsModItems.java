@@ -1011,7 +1011,7 @@ public class FnafFrightsModItems {
 			() -> new BurntBBDisplayItem(FnafFrightsModBlocks.BURNT_BB.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> BURNT_WWITHERED_FREDDY = REGISTRY.register(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.getId().getPath(),
 			() -> new BurntWwitheredFreddyDisplayItem(FnafFrightsModBlocks.BURNT_WWITHERED_FREDDY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
-	public static final RegistryObject<Item> CAR = REGISTRY.register(FnafFrightsModBlocks.CAR.getId().getPath(), () -> new CarDisplayItem(FnafFrightsModBlocks.CAR.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> CAR = REGISTRY.register(FnafFrightsModBlocks.CAR.getId().getPath(), () -> new CarDisplayItem(FnafFrightsModBlocks.CAR.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> DINER_FREDDY_SHOWTIME = REGISTRY.register(FnafFrightsModBlocks.DINER_FREDDY_SHOWTIME.getId().getPath(),
 			() -> new DinerFreddyShowtimeDisplayItem(FnafFrightsModBlocks.DINER_FREDDY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_SHOWTIMES)));
 	public static final RegistryObject<Item> DINER_FREDDY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.DINER_FREDDY_ACTIVE.getId().getPath(),
