@@ -231,6 +231,8 @@ import net.mcreator.fnaffrights.block.entity.DinerChicaShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.DinerChicaActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.DinerBonnieShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.DinerBonnieActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.ClosetFoxyTileEntity;
+import net.mcreator.fnaffrights.block.entity.ClosetFoxyAttackTileEntity;
 import net.mcreator.fnaffrights.block.entity.ClassicChicaShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.ClassicChicaShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.ChristmasFreddyTileEntity;
@@ -961,6 +963,9 @@ public class FnafFrightsModBlockEntities {
 			() -> BlockEntityType.Builder.of(ODinerFoxyShowtimeTileEntity::new, FnafFrightsModBlocks.O_DINER_FOXY_SHOWTIME.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ODinerFoxyActiveTileEntity>> O_DINER_FOXY_ACTIVE = REGISTRY.register("o_diner_foxy_active",
 			() -> BlockEntityType.Builder.of(ODinerFoxyActiveTileEntity::new, FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ClosetFoxyTileEntity>> CLOSET_FOXY = REGISTRY.register("closet_foxy", () -> BlockEntityType.Builder.of(ClosetFoxyTileEntity::new, FnafFrightsModBlocks.CLOSET_FOXY.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ClosetFoxyAttackTileEntity>> CLOSET_FOXY_ATTACK = REGISTRY.register("closet_foxy_attack",
+			() -> BlockEntityType.Builder.of(ClosetFoxyAttackTileEntity::new, FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

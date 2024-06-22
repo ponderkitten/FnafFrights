@@ -52,4 +52,5 @@ public class FnafFrightsModSounds {
 	public static final RegistryObject<SoundEvent> YOURUGLYMUG = REGISTRY.register("youruglymug", () -> new SoundEvent(new ResourceLocation("fnaf_frights", "youruglymug")));
 	public static final RegistryObject<SoundEvent> FUNFORFAMILY = REGISTRY.register("funforfamily", () -> new SoundEvent(new ResourceLocation("fnaf_frights", "funforfamily")));
 	public static final RegistryObject<SoundEvent> STEPRIGHTUP = REGISTRY.register("steprightup", () -> new SoundEvent(new ResourceLocation("fnaf_frights", "steprightup")));
+	public static final RegistryObject<SoundEvent> CLOSETFOXY = REGISTRY.register("closetfoxy", () -> new SoundEvent(new ResourceLocation("fnaf_frights", "closetfoxy")));
 }

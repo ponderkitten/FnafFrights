@@ -9,11 +9,11 @@ import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
 
 import java.util.Map;
 
-public class PuppetScreenRedstoneOnProcedure {
+public class ClosetFoxyRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = new BlockPos(x, y, z);
-			BlockState _bs = FnafFrightsModBlocks.PUPPET_SCREEN_ACTIVE.get().defaultBlockState();
+			BlockState _bs = FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

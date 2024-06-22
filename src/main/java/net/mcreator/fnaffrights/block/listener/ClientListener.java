@@ -227,6 +227,8 @@ import net.mcreator.fnaffrights.block.renderer.DinerChicaShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.DinerChicaActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.DinerBonnieShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.DinerBonnieActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ClosetFoxyTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.ClosetFoxyAttackTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ClassicChicaShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ClassicChicaShowtimeActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ChristmasFreddyTileRenderer;
@@ -672,5 +674,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FREDDY_ACTIVE.get(), ODinerFreddyActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FOXY_SHOWTIME.get(), ODinerFoxyShowtimeTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FOXY_ACTIVE.get(), ODinerFoxyActiveTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CLOSET_FOXY.get(), ClosetFoxyTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CLOSET_FOXY_ATTACK.get(), ClosetFoxyAttackTileRenderer::new);
 	}
 }

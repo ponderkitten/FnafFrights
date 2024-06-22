@@ -1,0 +1,135 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Pivot": {
+					"position": {
+						"vector": [0, -1.5, 6]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [35, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [45, 0, 0]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [20.94102, 8.42106, -20.94102]
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [20.94102, -8.42106, 20.94102]
+					}
+				},
+				"LeftEye": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RightEye": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [-17.5, 0, 0],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"LeftLowerArm": {
+					"rotation": {
+						"vector": [-80.58693, 11.21125, -20.96563],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"LeftHand": {
+					"rotation": {
+						"vector": [173.11997, 163.8701, -156.52397],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-33.05396, -3.24832, 8.00554],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"RightLowerArm": {
+					"rotation": {
+						"vector": [-89.16933, -7.85993, 12.27905],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"RightHand": {
+					"rotation": {
+						"vector": [0, -35, 0],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-22.5, 0, 0]
+					}
+				},
+				"LeftLowerLeg": {
+					"rotation": {
+						"vector": [45, 0, 0]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"vector": [-22.65874, 0.45467, 2.57816],
+						"easing": "easeInBounce",
+						"easingArgs": [0.1]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-22.5, 0, 0]
+					}
+				},
+				"RightLowerLeg": {
+					"rotation": {
+						"vector": [45, 0, 0]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [-22.67458, -0.57382, -2.88419]
+					}
+				},
+				"LDoor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"RDoor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/left_arm.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/closetedfoxy"
+  }
+}

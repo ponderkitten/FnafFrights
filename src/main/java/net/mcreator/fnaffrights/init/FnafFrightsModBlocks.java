@@ -231,6 +231,8 @@ import net.mcreator.fnaffrights.block.DinerChicaShowtimeBlock;
 import net.mcreator.fnaffrights.block.DinerChicaActiveBlock;
 import net.mcreator.fnaffrights.block.DinerBonnieShowtimeBlock;
 import net.mcreator.fnaffrights.block.DinerBonnieActiveBlock;
+import net.mcreator.fnaffrights.block.ClosetFoxyBlock;
+import net.mcreator.fnaffrights.block.ClosetFoxyAttackBlock;
 import net.mcreator.fnaffrights.block.ClassicChicaShowtimeBlock;
 import net.mcreator.fnaffrights.block.ClassicChicaShowtimeActiveBlock;
 import net.mcreator.fnaffrights.block.ChristmasFreddyBlock;
@@ -674,4 +676,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> O_DINER_FREDDY_ACTIVE = REGISTRY.register("o_diner_freddy_active", () -> new ODinerFreddyActiveBlock());
 	public static final RegistryObject<Block> O_DINER_FOXY_SHOWTIME = REGISTRY.register("o_diner_foxy_showtime", () -> new ODinerFoxyShowtimeBlock());
 	public static final RegistryObject<Block> O_DINER_FOXY_ACTIVE = REGISTRY.register("o_diner_foxy_active", () -> new ODinerFoxyActiveBlock());
+	public static final RegistryObject<Block> CLOSET_FOXY = REGISTRY.register("closet_foxy", () -> new ClosetFoxyBlock());
+	public static final RegistryObject<Block> CLOSET_FOXY_ATTACK = REGISTRY.register("closet_foxy_attack", () -> new ClosetFoxyAttackBlock());
 }

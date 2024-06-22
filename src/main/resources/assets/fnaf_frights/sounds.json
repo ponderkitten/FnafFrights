@@ -298,5 +298,14 @@
         "stream": false
       }
     ]
+  },
+  "closetfoxy": {
+    "subtitle": "subtitles.closetfoxy",
+    "sounds": [
+      {
+        "name": "fnaf_frights:closetfoxy",
+        "stream": false
+      }
+    ]
   }
 }

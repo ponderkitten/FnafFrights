@@ -265,6 +265,8 @@ import net.mcreator.fnaffrights.block.display.DinerChicaShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.DinerChicaActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.DinerBonnieShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.DinerBonnieActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.ClosetFoxyDisplayItem;
+import net.mcreator.fnaffrights.block.display.ClosetFoxyAttackDisplayItem;
 import net.mcreator.fnaffrights.block.display.ClassicChicaShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.ClassicChicaShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.ChristmasFreddyDisplayItem;
@@ -1052,6 +1054,10 @@ public class FnafFrightsModItems {
 			() -> new ODinerFoxyShowtimeDisplayItem(FnafFrightsModBlocks.O_DINER_FOXY_SHOWTIME.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_ANGLED_SHOWTIMES)));
 	public static final RegistryObject<Item> O_DINER_FOXY_ACTIVE = REGISTRY.register(FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.getId().getPath(),
 			() -> new ODinerFoxyActiveDisplayItem(FnafFrightsModBlocks.O_DINER_FOXY_ACTIVE.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> CLOSET_FOXY = REGISTRY.register(FnafFrightsModBlocks.CLOSET_FOXY.getId().getPath(),
+			() -> new ClosetFoxyDisplayItem(FnafFrightsModBlocks.CLOSET_FOXY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
+	public static final RegistryObject<Item> CLOSET_FOXY_ATTACK = REGISTRY.register(FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.getId().getPath(),
+			() -> new ClosetFoxyAttackDisplayItem(FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
