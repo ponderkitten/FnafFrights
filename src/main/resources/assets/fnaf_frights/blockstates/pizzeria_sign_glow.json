@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_frights:custom/pizzeria_sign_glow_particle"
+    },
+    "facing=east": {
+      "model": "fnaf_frights:custom/pizzeria_sign_glow_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_frights:custom/pizzeria_sign_glow_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_frights:custom/pizzeria_sign_glow_particle",
+      "y": 270
+    }
+  }
+}

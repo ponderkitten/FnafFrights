@@ -11506,6 +11506,84 @@
         ]
       },
       "path": "~/HauntedHouse"
+    },
+    {
+      "name": "PizzeriaSign",
+      "type": "animatedblock",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/PizzeriaSignDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PizzeriaSignTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/PizzeriaSignDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/pizzeria_sign.json",
+          "src/main/resources/assets/fnaf_frights/models/item/pizzeria_sign.json",
+          "src/main/resources/assets/fnaf_frights/models/custom/pizzeria_sign_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PizzeriaSignTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PizzeriaSignBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PizzeriaSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/PizzeriaSignBlock.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "PizzeriaSignGlow",
+      "type": "animatedblock",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_sign_glow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/item/pizzeria_sign_glow.json",
+          "src/main/java/net/mcreator/fnaffrights/block/PizzeriaSignGlowBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PizzeriaSignGlowTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/pizzeria_sign_glow_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PizzeriaSignGlowBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/PizzeriaSignGlowDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/PizzeriaSignGlowTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/PizzeriaSignGlowDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/PizzeriaSignGlowDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/pizzeria_sign_glow.json"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "PizzeriaSignUpdateTick",
+      "type": "procedure",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_sign_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/PizzeriaSignUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
     }
   ],
   "variable_elements": [
@@ -12286,6 +12364,7 @@
       "block.fnaf_frights.toy_chica_right_arm": "Toy Chica Right Arm",
       "block.fnaf_frights.blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.bonnie_right_leg": "Bonnie Right Leg",
+      "block.fnaf_frights.pizzeria_sign_glow": "Centered Pizzeria Sign",
       "block.fnaf_frights.a_diner_freddy_active": "Angled Diner Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_freddy_active": "Angled Freddy Showtime Active",
       "block.fnaf_frights.a_gltich_bonnie_showtime": "Angled Glitch Bonnie Showtime",
@@ -12402,6 +12481,7 @@
       "block.fnaf_frights.fazbear_logo": "Fazbear Entertainment Logo",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_bunnie_showtime": "Angled Yellow Rabbit Showtime",
       "block.fnaf_frights.endo_01_torso": "Endo01 Torso",
+      "block.fnaf_frights.pizzeria_sign": "Centered Pizzeria Sign",
       "block.fnaf_mod_bits_and_pieces.a_bonnie_active": "Angled Bonnie Showtime Active",
       "block.fnaf_mod_bits_and_pieces.christmas_bonnie": "Christmas Bonnie",
       "block.fnaf_frights.withered_chica_right_arm": "Withered Chica Right Arm",
@@ -13085,6 +13165,7 @@
       "block.fnaf_frights.toy_chica_right_arm": "Toy Chica Right Arm",
       "block.fnaf_frights.blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.bonnie_right_leg": "Foxy Right Leg",
+      "block.fnaf_frights.pizzeria_sign_glow": "Centered Pizzeria Sign",
       "block.fnaf_frights.a_diner_freddy_active": "Angled Diner Freddy Showtime",
       "block.fnaf_mod_bits_and_pieces.a_freddy_active": "Angled Freddy Showtime",
       "block.fnaf_frights.a_gltich_bonnie_showtime": "Angled Glitch Bonnie Showtime",
@@ -13201,6 +13282,7 @@
       "block.fnaf_frights.fazbear_logo": "Fazbear Entertainment Logo",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_bunnie_showtime": "Angled Bonnie Bunnie Showtime",
       "block.fnaf_frights.endo_01_torso": "Endo01 Torso",
+      "block.fnaf_frights.pizzeria_sign": "Centered Pizzeria Sign",
       "block.fnaf_mod_bits_and_pieces.a_bonnie_active": "Angled Bonnie Showtime",
       "block.fnaf_mod_bits_and_pieces.christmas_bonnie": "Christmas Freddy",
       "block.fnaf_frights.withered_chica_right_arm": "Withered Chica Right Arm",

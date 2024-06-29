@@ -120,6 +120,8 @@ import net.mcreator.fnaffrights.block.entity.PuppetBoxWindingTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxSlumpedTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxJumpscareTileEntity;
 import net.mcreator.fnaffrights.block.entity.PuppetBoxGiftTileEntity;
+import net.mcreator.fnaffrights.block.entity.PizzeriaSignTileEntity;
+import net.mcreator.fnaffrights.block.entity.PizzeriaSignGlowTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetToyFreddyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetToyFreddyActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.OffsetToyFoxyShowtimeTileEntity;
@@ -966,6 +968,9 @@ public class FnafFrightsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<ClosetFoxyTileEntity>> CLOSET_FOXY = REGISTRY.register("closet_foxy", () -> BlockEntityType.Builder.of(ClosetFoxyTileEntity::new, FnafFrightsModBlocks.CLOSET_FOXY.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ClosetFoxyAttackTileEntity>> CLOSET_FOXY_ATTACK = REGISTRY.register("closet_foxy_attack",
 			() -> BlockEntityType.Builder.of(ClosetFoxyAttackTileEntity::new, FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzeriaSignTileEntity>> PIZZERIA_SIGN = REGISTRY.register("pizzeria_sign", () -> BlockEntityType.Builder.of(PizzeriaSignTileEntity::new, FnafFrightsModBlocks.PIZZERIA_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PizzeriaSignGlowTileEntity>> PIZZERIA_SIGN_GLOW = REGISTRY.register("pizzeria_sign_glow",
+			() -> BlockEntityType.Builder.of(PizzeriaSignGlowTileEntity::new, FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

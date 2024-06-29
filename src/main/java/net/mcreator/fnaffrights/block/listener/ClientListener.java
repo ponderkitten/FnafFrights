@@ -116,6 +116,8 @@ import net.mcreator.fnaffrights.block.renderer.PuppetBoxWindingTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxSlumpedTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxJumpscareTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.PuppetBoxGiftTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.PizzeriaSignTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.PizzeriaSignGlowTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.OffsetToyFreddyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.OffsetToyFreddyActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.OffsetToyFoxyShowtimeTileRenderer;
@@ -676,5 +678,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.O_DINER_FOXY_ACTIVE.get(), ODinerFoxyActiveTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CLOSET_FOXY.get(), ClosetFoxyTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CLOSET_FOXY_ATTACK.get(), ClosetFoxyAttackTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PIZZERIA_SIGN.get(), PizzeriaSignTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PIZZERIA_SIGN_GLOW.get(), PizzeriaSignGlowTileRenderer::new);
 	}
 }

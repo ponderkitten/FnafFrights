@@ -154,6 +154,8 @@ import net.mcreator.fnaffrights.block.display.PuppetBoxWindingDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxSlumpedDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxJumpscareDisplayItem;
 import net.mcreator.fnaffrights.block.display.PuppetBoxGiftDisplayItem;
+import net.mcreator.fnaffrights.block.display.PizzeriaSignGlowDisplayItem;
+import net.mcreator.fnaffrights.block.display.PizzeriaSignDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetToyFreddyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetToyFreddyActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.OffsetToyFoxyShowtimeDisplayItem;
@@ -1058,6 +1060,10 @@ public class FnafFrightsModItems {
 			() -> new ClosetFoxyDisplayItem(FnafFrightsModBlocks.CLOSET_FOXY.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BURNT_ANIMATRONIC)));
 	public static final RegistryObject<Item> CLOSET_FOXY_ATTACK = REGISTRY.register(FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.getId().getPath(),
 			() -> new ClosetFoxyAttackDisplayItem(FnafFrightsModBlocks.CLOSET_FOXY_ATTACK.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PIZZERIA_SIGN = REGISTRY.register(FnafFrightsModBlocks.PIZZERIA_SIGN.getId().getPath(),
+			() -> new PizzeriaSignDisplayItem(FnafFrightsModBlocks.PIZZERIA_SIGN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> PIZZERIA_SIGN_GLOW = REGISTRY.register(FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.getId().getPath(),
+			() -> new PizzeriaSignGlowDisplayItem(FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

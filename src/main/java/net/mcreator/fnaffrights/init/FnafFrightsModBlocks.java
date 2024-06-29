@@ -119,6 +119,8 @@ import net.mcreator.fnaffrights.block.PuppetBoxWindingBlock;
 import net.mcreator.fnaffrights.block.PuppetBoxSlumpedBlock;
 import net.mcreator.fnaffrights.block.PuppetBoxJumpscareBlock;
 import net.mcreator.fnaffrights.block.PuppetBoxGiftBlock;
+import net.mcreator.fnaffrights.block.PizzeriaSignGlowBlock;
+import net.mcreator.fnaffrights.block.PizzeriaSignBlock;
 import net.mcreator.fnaffrights.block.OffsetToyFreddyShowtimeBlock;
 import net.mcreator.fnaffrights.block.OffsetToyFreddyActiveBlock;
 import net.mcreator.fnaffrights.block.OffsetToyFoxyShowtimeBlock;
@@ -678,4 +680,6 @@ public class FnafFrightsModBlocks {
 	public static final RegistryObject<Block> O_DINER_FOXY_ACTIVE = REGISTRY.register("o_diner_foxy_active", () -> new ODinerFoxyActiveBlock());
 	public static final RegistryObject<Block> CLOSET_FOXY = REGISTRY.register("closet_foxy", () -> new ClosetFoxyBlock());
 	public static final RegistryObject<Block> CLOSET_FOXY_ATTACK = REGISTRY.register("closet_foxy_attack", () -> new ClosetFoxyAttackBlock());
+	public static final RegistryObject<Block> PIZZERIA_SIGN = REGISTRY.register("pizzeria_sign", () -> new PizzeriaSignBlock());
+	public static final RegistryObject<Block> PIZZERIA_SIGN_GLOW = REGISTRY.register("pizzeria_sign_glow", () -> new PizzeriaSignGlowBlock());
 }
