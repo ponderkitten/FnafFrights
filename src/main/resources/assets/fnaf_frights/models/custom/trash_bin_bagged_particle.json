@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_frights:displaysettings/bonniemask.item",
+  "textures": {
+    "particle": "fnaf_frights:blocks/empty_trash_bin"
+  }
+}

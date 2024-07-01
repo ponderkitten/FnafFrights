@@ -8,8 +8,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.fnaffrights.init.FnafFrightsModTabs;
-
 import java.util.List;
 
 public class HandCrankItem extends Item {

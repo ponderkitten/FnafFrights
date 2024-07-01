@@ -23,7 +23,6 @@ import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 
 import net.mcreator.fnaffrights.procedures.PresentRightclickedProcedure;
 import net.mcreator.fnaffrights.item.renderer.PresentItemRenderer;
-import net.mcreator.fnaffrights.init.FnafFrightsModTabs;
 
 import java.util.function.Consumer;
 import java.util.List;

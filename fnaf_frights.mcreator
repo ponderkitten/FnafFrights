@@ -8859,6 +8859,24 @@
           "src/main/java/net/mcreator/fnaffrights/block/renderer/OffsetToyFreddyShowtimeDisplayItemRenderer.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/OffsetToyFreddyShowtimeBlockModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/display/OffsetToyFreddyShowtimeDisplayItem.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/OffsetShowtimes"
@@ -8882,6 +8900,24 @@
           "src/main/java/net/mcreator/fnaffrights/block/display/OffsetToyFreddyActiveDisplayItem.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/OffsetToyFreddyActiveDisplayModel.java",
           "src/main/java/net/mcreator/fnaffrights/block/entity/OffsetToyFreddyActiveTileEntity.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/OffsetShowtimes"
@@ -8905,6 +8941,24 @@
           "src/main/java/net/mcreator/fnaffrights/block/model/OffsetSpringBonnieShowtimeBlockModel.java",
           "src/main/resources/assets/fnaf_frights/models/item/offset_spring_bonnie_showtime.json",
           "src/main/java/net/mcreator/fnaffrights/block/entity/OffsetSpringBonnieShowtimeTileEntity.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/OffsetShowtimes"
@@ -9391,6 +9445,28 @@
           "src/main/java/net/mcreator/fnaffrights/block/GeneratorBlock.java",
           "src/main/java/net/mcreator/fnaffrights/block/model/GeneratorBlockModel.java",
           "src/main/resources/assets/fnaf_frights/models/item/generator.json"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Generator"
@@ -9693,7 +9769,7 @@
       "name": "ChristmasBonnie",
       "type": "animatedblock",
       "sortid": 426,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_bonnie",
       "metadata": {
@@ -9748,7 +9824,7 @@
       "name": "ChristmasBonnieA",
       "type": "animatedblock",
       "sortid": 427,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_bonnie_a",
       "metadata": {
@@ -9771,7 +9847,7 @@
       "name": "ChristmasChica",
       "type": "animatedblock",
       "sortid": 429,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_chica",
       "metadata": {
@@ -9826,7 +9902,7 @@
       "name": "ChristmasChicaA",
       "type": "animatedblock",
       "sortid": 430,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_chica_a",
       "metadata": {
@@ -9849,7 +9925,7 @@
       "name": "ChristmasFoxy",
       "type": "animatedblock",
       "sortid": 432,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_foxy",
       "metadata": {
@@ -9904,7 +9980,7 @@
       "name": "ChristmasFoxyA",
       "type": "animatedblock",
       "sortid": 433,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "christmas_foxy_a",
       "metadata": {
@@ -11010,6 +11086,7 @@
     {
       "name": "Memory",
       "type": "gui",
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "memory",
@@ -11565,6 +11642,142 @@
           "src/main/java/net/mcreator/fnaffrights/procedures/PizzeriaSignUpdateTickProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "TrashBin",
+      "type": "animatedblock",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_bin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/TrashBinBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/TrashBinDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/TrashBinBlock.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/TrashBinTileRenderer.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/trash_bin_particle.json",
+          "src/main/resources/assets/fnaf_frights/models/item/trash_bin.json",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/TrashBinTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/TrashBinDisplayModel.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/trash_bin.json",
+          "src/main/java/net/mcreator/fnaffrights/block/display/TrashBinDisplayItem.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FullTrashBag",
+      "type": "item",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_trash_bag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/item/full_trash_bag.json",
+          "src/main/java/net/mcreator/fnaffrights/item/FullTrashBagItem.java",
+          "src/main/java/net/mcreator/fnaffrights/item/inventory/FullTrashBagInventoryCapability.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "TrashBinBagged",
+      "type": "animatedblock",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_bin_bagged",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/item/trash_bin_bagged.json",
+          "src/main/java/net/mcreator/fnaffrights/block/model/TrashBinBaggedBlockModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/TrashBinBaggedBlock.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/trash_bin_bagged.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/TrashBinBaggedTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/TrashBinBaggedDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/TrashBinBaggedTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/TrashBinBaggedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/display/TrashBinBaggedDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/trash_bin_bagged_particle.json"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "FullTrashBin",
+      "type": "animatedblock",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_trash_bin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/block/model/FullTrashBinBlockModel.java",
+          "src/main/resources/assets/fnaf_frights/models/custom/full_trash_bin_particle.json",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FullTrashBinTileRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/model/FullTrashBinDisplayModel.java",
+          "src/main/java/net/mcreator/fnaffrights/block/renderer/FullTrashBinDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnaffrights/block/entity/FullTrashBinTileEntity.java",
+          "src/main/java/net/mcreator/fnaffrights/block/FullTrashBinBlock.java",
+          "src/main/resources/assets/fnaf_frights/models/item/full_trash_bin.json",
+          "src/main/java/net/mcreator/fnaffrights/block/display/FullTrashBinDisplayItem.java",
+          "src/main/resources/assets/fnaf_frights/blockstates/full_trash_bin.json"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "EmptyTrashBag",
+      "type": "item",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_trash_bag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_frights/models/item/empty_trash_bag.json",
+          "src/main/java/net/mcreator/fnaffrights/item/EmptyTrashBagItem.java"
+        ]
+      },
+      "path": "~/Props"
+    },
+    {
+      "name": "TrashBinOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_bin_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnaffrights/procedures/TrashBinOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -12219,6 +12432,7 @@
       "block.fnaf_mod_bits_and_pieces.yellow_bear_torso": "Yellow Bear Torso",
       "block.fnaf_frights.vassilis_a": "Vassilis Active",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_showtime": "Angled Spring Bonnie Showtime",
+      "block.fnaf_frights.trash_bin": "Trash Bin",
       "block.fnaf_frights.offset_toy_freddy_active": "Offset Freddy Fazbear Showtime Active",
       "item.fnaf_frights.f_3_n_4.desc": "voicemail 15",
       "block.fnaf_frights.freddy_right_leg": "Freddy Right Leg",
@@ -12340,10 +12554,11 @@
       "block.fnaf_frights.springtrap_showtime_active": "Springtrap Showtime Active",
       "block.fnaf_mod_bits_and_pieces.toy_freddy_showtime_active": "Toy Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.offset_toy_foxy_showtime": "Offset Toy Foxy Showtime",
-      "itemGroup.tabburnt_animatronic": "Burnt Animatronics",
+      "itemGroup.tabburnt_animatronic": "Generator",
       "block.fnaf_frights.withered_bonnie_right_leg": "Withered Bonnie Right Leg",
       "block.fnaf_frights.endo_02_left_arm": "Endo 02 Left Arm",
       "block.fnaf_frights.toy_carnie_showtime": "Toy Carnie Showtime",
+      "block.fnaf_frights.full_trash_bin": "Trash Bin",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_right_leg": "Bonnie Bunnie Right Leg",
       "block.fnaf_frights.withered_bonnie_left_leg": "Withered Bonnie Left Leg",
       "block.fnaf_frights.spring_bonnie_bunnie_left_arm": "Yellow Rabbit Left Arm",
@@ -12365,6 +12580,7 @@
       "block.fnaf_frights.blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.bonnie_right_leg": "Bonnie Right Leg",
       "block.fnaf_frights.pizzeria_sign_glow": "Centered Pizzeria Sign",
+      "block.fnaf_frights.trash_bin_bagged": "Trash Bin",
       "block.fnaf_frights.a_diner_freddy_active": "Angled Diner Freddy Showtime Active",
       "block.fnaf_mod_bits_and_pieces.a_freddy_active": "Angled Freddy Showtime Active",
       "block.fnaf_frights.a_gltich_bonnie_showtime": "Angled Glitch Bonnie Showtime",
@@ -12583,6 +12799,7 @@
       "block.fnaf_mod_bits_and_pieces.yellow_bear_right_arm": "Yellow Bear Right Arm",
       "block.fnaf_frights.spring_bonnie_bunnie_head": "Yellow Rabbit Head",
       "block.fnaf_frights.a_diner_foxy_active": "Angled Diner Foxy Showtime Active",
+      "item.fnaf_frights.empty_trash_bag": "Empty Trash Bag",
       "block.fnaf_mod_bits_and_pieces.angled_toy_carnie": "Angled Toy Carnie Showtime",
       "block.fnaf_frights.spring_bonnie_bunnie_torso": "Yellow Rabbit Torso",
       "block.fnaf_frights.bonnie_left_leg": "Bonnie Left Leg",
@@ -12640,6 +12857,7 @@
       "block.fnaf_mod_bits_and_pieces.endo_02_chica_head": "Endo02 Chica Head",
       "block.fnaf_frights.yellow_bear_right_arm": "Yellow Bear Right Arm",
       "block.fnaf_frights.toy_chica_right_leg": "Toy Chica Right Leg",
+      "item.fnaf_frights.full_trash_bag": "Full Trash Bag",
       "item.fnaf_mod_bits_and_pieces.toreador_march.desc": "Toreador March",
       "block.fnaf_frights.toy_chica_head": "Toy Chica Head",
       "item.fnaf_frights.f_3_n_2.desc": "voicemail 13",
@@ -13020,6 +13238,7 @@
       "block.fnaf_mod_bits_and_pieces.yellow_bear_torso": "Freddy Fazbear Torso",
       "block.fnaf_frights.vassilis_a": "Vassilis Active",
       "block.fnaf_mod_bits_and_pieces.a_spring_bonnie_showtime": "Angled Freddy Showtime",
+      "block.fnaf_frights.trash_bin": "Trash Bin",
       "block.fnaf_frights.offset_toy_freddy_active": "Offset Freddy Fazbear Showtime Active",
       "item.fnaf_frights.f_3_n_4.desc": "voicemail 15",
       "block.fnaf_frights.freddy_right_leg": "Freddy Right Leg",
@@ -13145,6 +13364,7 @@
       "block.fnaf_frights.withered_bonnie_right_leg": "Withered Bonnie Right Leg",
       "block.fnaf_frights.endo_02_left_arm": "Endo 02 Left Arm",
       "block.fnaf_frights.toy_carnie_showtime": "Toy Carnie Showtime",
+      "block.fnaf_frights.full_trash_bin": "Trash Bin",
       "block.fnaf_mod_bits_and_pieces.bonnie_bunnie_right_leg": "Bonnie Bunnie Right Arm",
       "block.fnaf_frights.withered_bonnie_left_leg": "Withered Bonnie Left Leg",
       "block.fnaf_frights.spring_bonnie_bunnie_left_arm": "Yellow Rabbit Left Arm",
@@ -13166,6 +13386,7 @@
       "block.fnaf_frights.blloon_boy_statue": "Ballon Boy Statue",
       "block.fnaf_mod_bits_and_pieces.bonnie_right_leg": "Foxy Right Leg",
       "block.fnaf_frights.pizzeria_sign_glow": "Centered Pizzeria Sign",
+      "block.fnaf_frights.trash_bin_bagged": "Trash Bin",
       "block.fnaf_frights.a_diner_freddy_active": "Angled Diner Freddy Showtime",
       "block.fnaf_mod_bits_and_pieces.a_freddy_active": "Angled Freddy Showtime",
       "block.fnaf_frights.a_gltich_bonnie_showtime": "Angled Glitch Bonnie Showtime",
@@ -13384,6 +13605,7 @@
       "block.fnaf_mod_bits_and_pieces.yellow_bear_right_arm": "Freddy fazbear Right Arm",
       "block.fnaf_frights.spring_bonnie_bunnie_head": "Yellow Rabbit Head",
       "block.fnaf_frights.a_diner_foxy_active": "Angled Diner Chica Showtime Active",
+      "item.fnaf_frights.empty_trash_bag": "Empty Trash Bag",
       "block.fnaf_mod_bits_and_pieces.angled_toy_carnie": "Toy Carnie Showtime",
       "block.fnaf_frights.spring_bonnie_bunnie_torso": "Yellow Rabbit Torso",
       "block.fnaf_frights.bonnie_left_leg": "Bonnie Left Leg",
@@ -13441,6 +13663,7 @@
       "block.fnaf_mod_bits_and_pieces.endo_02_chica_head": "Chica Head",
       "block.fnaf_frights.yellow_bear_right_arm": "Yellow Bear Right Arm",
       "block.fnaf_frights.toy_chica_right_leg": "Toy Chica Right Leg",
+      "item.fnaf_frights.full_trash_bag": "Full Trash Bag",
       "item.fnaf_mod_bits_and_pieces.toreador_march.desc": "he\u0027s here",
       "block.fnaf_frights.toy_chica_head": "Toy Chica Head",
       "item.fnaf_frights.f_3_n_2.desc": "voicemail 13",

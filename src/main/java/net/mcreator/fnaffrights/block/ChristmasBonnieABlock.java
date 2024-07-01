@@ -28,7 +28,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnaffrights.procedures.ChristmasBonnieRedstoneOnProcedure;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlockEntities;
 

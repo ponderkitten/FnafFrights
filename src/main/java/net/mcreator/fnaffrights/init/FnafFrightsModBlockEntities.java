@@ -56,6 +56,8 @@ import net.mcreator.fnaffrights.block.entity.VassilisTileEntity;
 import net.mcreator.fnaffrights.block.entity.VassilisATileEntity;
 import net.mcreator.fnaffrights.block.entity.UnBonnieShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.UnBonnieShowtimeActiveTileEntity;
+import net.mcreator.fnaffrights.block.entity.TrashBinTileEntity;
+import net.mcreator.fnaffrights.block.entity.TrashBinBaggedTileEntity;
 import net.mcreator.fnaffrights.block.entity.ToyFreddyTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.ToyFreddyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.ToyFreddyShowtimeActiveTileEntity;
@@ -151,7 +153,6 @@ import net.mcreator.fnaffrights.block.entity.GlitchtrapShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.GlitchBonnieTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.GlitchBonnieHeadTileEntity;
 import net.mcreator.fnaffrights.block.entity.GeneratorTileEntity;
-import net.mcreator.fnaffrights.block.entity.Generator8TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator7TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator6TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator5TileEntity;
@@ -159,6 +160,7 @@ import net.mcreator.fnaffrights.block.entity.Generator4TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator3TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator2TileEntity;
 import net.mcreator.fnaffrights.block.entity.Generator1TileEntity;
+import net.mcreator.fnaffrights.block.entity.FullTrashBinTileEntity;
 import net.mcreator.fnaffrights.block.entity.FreddyTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.FreddyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.FreddyShowtimeActiveTileEntity;
@@ -192,7 +194,6 @@ import net.mcreator.fnaffrights.block.entity.FoxyShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyRightLegTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyRightArmTileEntity;
-import net.mcreator.fnaffrights.block.entity.FoxyPirateTorsoTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyPirateShowtimeTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyPirateShowtimeActiveTileEntity;
 import net.mcreator.fnaffrights.block.entity.FoxyPirateRightLegTileEntity;
@@ -971,6 +972,11 @@ public class FnafFrightsModBlockEntities {
 	public static final RegistryObject<BlockEntityType<PizzeriaSignTileEntity>> PIZZERIA_SIGN = REGISTRY.register("pizzeria_sign", () -> BlockEntityType.Builder.of(PizzeriaSignTileEntity::new, FnafFrightsModBlocks.PIZZERIA_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PizzeriaSignGlowTileEntity>> PIZZERIA_SIGN_GLOW = REGISTRY.register("pizzeria_sign_glow",
 			() -> BlockEntityType.Builder.of(PizzeriaSignGlowTileEntity::new, FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.get()).build(null));
+	public static final RegistryObject<BlockEntityType<TrashBinTileEntity>> TRASH_BIN = REGISTRY.register("trash_bin", () -> BlockEntityType.Builder.of(TrashBinTileEntity::new, FnafFrightsModBlocks.TRASH_BIN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<TrashBinBaggedTileEntity>> TRASH_BIN_BAGGED = REGISTRY.register("trash_bin_bagged",
+			() -> BlockEntityType.Builder.of(TrashBinBaggedTileEntity::new, FnafFrightsModBlocks.TRASH_BIN_BAGGED.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FullTrashBinTileEntity>> FULL_TRASH_BIN = REGISTRY.register("full_trash_bin",
+			() -> BlockEntityType.Builder.of(FullTrashBinTileEntity::new, FnafFrightsModBlocks.FULL_TRASH_BIN.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -8,8 +8,6 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.fnaffrights.init.FnafFrightsModTabs;
-
 public class F3N4Item extends RecordItem {
 	public F3N4Item() {
 		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_frights:f3n4")), new Item.Properties().tab(FnafFrightsModTabs.TAB_CASSETTE_TAPES).stacksTo(1).rarity(Rarity.RARE), 100);

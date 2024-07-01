@@ -52,6 +52,8 @@ import net.mcreator.fnaffrights.block.renderer.VassilisTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.VassilisATileRenderer;
 import net.mcreator.fnaffrights.block.renderer.UnBonnieShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.UnBonnieShowtimeActiveTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.TrashBinTileRenderer;
+import net.mcreator.fnaffrights.block.renderer.TrashBinBaggedTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ToyFreddyTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ToyFreddyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.ToyFreddyShowtimeActiveTileRenderer;
@@ -147,7 +149,6 @@ import net.mcreator.fnaffrights.block.renderer.GlitchtrapShowtimeActiveTileRende
 import net.mcreator.fnaffrights.block.renderer.GlitchBonnieTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.GlitchBonnieHeadTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.GeneratorTileRenderer;
-import net.mcreator.fnaffrights.block.renderer.Generator8TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator7TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator6TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator5TileRenderer;
@@ -155,6 +156,7 @@ import net.mcreator.fnaffrights.block.renderer.Generator4TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator3TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator2TileRenderer;
 import net.mcreator.fnaffrights.block.renderer.Generator1TileRenderer;
+import net.mcreator.fnaffrights.block.renderer.FullTrashBinTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FreddyTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FreddyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FreddyShowtimeActiveTileRenderer;
@@ -188,7 +190,6 @@ import net.mcreator.fnaffrights.block.renderer.FoxyShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyShowtimeActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyRightLegTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyRightArmTileRenderer;
-import net.mcreator.fnaffrights.block.renderer.FoxyPirateTorsoTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyPirateShowtimeTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyPirateShowtimeActiveTileRenderer;
 import net.mcreator.fnaffrights.block.renderer.FoxyPirateRightLegTileRenderer;
@@ -680,5 +681,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.CLOSET_FOXY_ATTACK.get(), ClosetFoxyAttackTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PIZZERIA_SIGN.get(), PizzeriaSignTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.PIZZERIA_SIGN_GLOW.get(), PizzeriaSignGlowTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.TRASH_BIN.get(), TrashBinTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.TRASH_BIN_BAGGED.get(), TrashBinBaggedTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafFrightsModBlockEntities.FULL_TRASH_BIN.get(), FullTrashBinTileRenderer::new);
 	}
 }

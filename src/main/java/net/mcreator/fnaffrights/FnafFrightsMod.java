@@ -31,7 +31,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.fnaffrights.init.FnafFrightsModTabs;
 import net.mcreator.fnaffrights.init.FnafFrightsModSounds;
 import net.mcreator.fnaffrights.init.FnafFrightsModMenus;
 import net.mcreator.fnaffrights.init.FnafFrightsModItems;

@@ -6,6 +6,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.fnaffrights.init.FnafFrightsModItems;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlocks;
 
 import java.util.Map;
@@ -135,7 +136,7 @@ public class GeneratorUpdateTickProcedure {
 		} else if ((world instanceof Level _lvl_getIndPow ? _lvl_getIndPow.getBestNeighborSignal(new BlockPos(x, y, z)) : 0) >= 14) {
 			{
 				BlockPos _bp = new BlockPos(x, y, z);
-				BlockState _bs = FnafFrightsModBlocks.GENERATOR_8.get().defaultBlockState();
+				BlockState _bs = FnafFrightsModItems.GENERATOR_8.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

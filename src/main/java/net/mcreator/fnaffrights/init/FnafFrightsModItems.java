@@ -23,6 +23,7 @@ import net.mcreator.fnaffrights.item.HolidayTabItem;
 import net.mcreator.fnaffrights.item.HandCrankItem;
 import net.mcreator.fnaffrights.item.GrandfathersClockMBItem;
 import net.mcreator.fnaffrights.item.GrandFathersClockRGItem;
+import net.mcreator.fnaffrights.item.FullTrashBagItem;
 import net.mcreator.fnaffrights.item.FnafMovieNoIntroItem;
 import net.mcreator.fnaffrights.item.FnafMovieExtendedItem;
 import net.mcreator.fnaffrights.item.F3N6Item;
@@ -42,6 +43,7 @@ import net.mcreator.fnaffrights.item.F1N4Item;
 import net.mcreator.fnaffrights.item.F1N3Item;
 import net.mcreator.fnaffrights.item.F1N2Item;
 import net.mcreator.fnaffrights.item.F1N1Item;
+import net.mcreator.fnaffrights.item.EmptyTrashBagItem;
 import net.mcreator.fnaffrights.item.CoinItem;
 import net.mcreator.fnaffrights.item.ChicaiconItem;
 import net.mcreator.fnaffrights.item.BurnttoyfreddyiconItem;
@@ -90,6 +92,8 @@ import net.mcreator.fnaffrights.block.display.VassilisDisplayItem;
 import net.mcreator.fnaffrights.block.display.VassilisADisplayItem;
 import net.mcreator.fnaffrights.block.display.UnBonnieShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.UnBonnieShowtimeActiveDisplayItem;
+import net.mcreator.fnaffrights.block.display.TrashBinDisplayItem;
+import net.mcreator.fnaffrights.block.display.TrashBinBaggedDisplayItem;
 import net.mcreator.fnaffrights.block.display.ToyFreddyTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.ToyFreddyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.ToyFreddyShowtimeActiveDisplayItem;
@@ -185,7 +189,6 @@ import net.mcreator.fnaffrights.block.display.GlitchtrapShowtimeActiveDisplayIte
 import net.mcreator.fnaffrights.block.display.GlitchBonnieTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.GlitchBonnieHeadDisplayItem;
 import net.mcreator.fnaffrights.block.display.GeneratorDisplayItem;
-import net.mcreator.fnaffrights.block.display.Generator8DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator7DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator6DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator5DisplayItem;
@@ -193,6 +196,7 @@ import net.mcreator.fnaffrights.block.display.Generator4DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator3DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator2DisplayItem;
 import net.mcreator.fnaffrights.block.display.Generator1DisplayItem;
+import net.mcreator.fnaffrights.block.display.FullTrashBinDisplayItem;
 import net.mcreator.fnaffrights.block.display.FreddyTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.FreddyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FreddyShowtimeActiveDisplayItem;
@@ -226,7 +230,6 @@ import net.mcreator.fnaffrights.block.display.FoxyShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyRightLegDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyRightArmDisplayItem;
-import net.mcreator.fnaffrights.block.display.FoxyPirateTorsoDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyPirateShowtimeDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyPirateShowtimeActiveDisplayItem;
 import net.mcreator.fnaffrights.block.display.FoxyPirateRightLegDisplayItem;
@@ -1064,6 +1067,14 @@ public class FnafFrightsModItems {
 			() -> new PizzeriaSignDisplayItem(FnafFrightsModBlocks.PIZZERIA_SIGN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
 	public static final RegistryObject<Item> PIZZERIA_SIGN_GLOW = REGISTRY.register(FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.getId().getPath(),
 			() -> new PizzeriaSignGlowDisplayItem(FnafFrightsModBlocks.PIZZERIA_SIGN_GLOW.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TRASH_BIN = REGISTRY.register(FnafFrightsModBlocks.TRASH_BIN.getId().getPath(),
+			() -> new TrashBinDisplayItem(FnafFrightsModBlocks.TRASH_BIN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> FULL_TRASH_BAG = REGISTRY.register("full_trash_bag", () -> new FullTrashBagItem());
+	public static final RegistryObject<Item> TRASH_BIN_BAGGED = REGISTRY.register(FnafFrightsModBlocks.TRASH_BIN_BAGGED.getId().getPath(),
+			() -> new TrashBinBaggedDisplayItem(FnafFrightsModBlocks.TRASH_BIN_BAGGED.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FULL_TRASH_BIN = REGISTRY.register(FnafFrightsModBlocks.FULL_TRASH_BIN.getId().getPath(),
+			() -> new FullTrashBinDisplayItem(FnafFrightsModBlocks.FULL_TRASH_BIN.get(), new Item.Properties().tab(FnafFrightsModTabs.TAB_BITS_AND_PIECES_MISC)));
+	public static final RegistryObject<Item> EMPTY_TRASH_BAG = REGISTRY.register("empty_trash_bag", () -> new EmptyTrashBagItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

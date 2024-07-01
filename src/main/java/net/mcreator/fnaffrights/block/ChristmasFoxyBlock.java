@@ -26,7 +26,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnaffrights.procedures.ChristmasFoxyRedstoneOnProcedure;
 import net.mcreator.fnaffrights.init.FnafFrightsModBlockEntities;
 
 import javax.annotation.Nullable;
